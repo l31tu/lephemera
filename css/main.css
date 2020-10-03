@@ -1,0 +1,162 @@
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+header {
+	margin: 20px 0px 20px 20px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+}
+
+span {
+	white-space: nowrap;
+}
+
+
+/* Home */
+img {
+	max-width: 100%;
+}
+
+.block {
+  /* background-color: #999999; */
+  padding: 10px;
+  margin: 1px;
+}
+
+
+/* Information */
+#information-content {
+	margin: 0px 20px 0px 20px;
+}
+
+#information-image {
+  padding: 10px;
+  margin: 10px;
+}
+
+
+/* Cursors */
+*:hover {
+  cursor: default;
+}
+
+.question:hover {
+  cursor: help;
+}
+
+.mail:hover {
+  cursor: alias;
+}
+
+.back:hover {
+  cursor: w-resize;
+}
+
+.out:hover {
+  cursor: e-resize;
+}
+
+
+/***** LARGER THAN EXTRA SMALL DEVICES *****/
+@media (min-width: 768px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-1 {
+    width: 8.33%
+  }
+  .col-sm-2 {
+    width: 16.66%
+  }
+  .col-sm-3 {
+    width: 25%
+  }
+  .col-sm-4 {
+    width: 33.33%
+  }
+  .col-sm-5 {
+    width: 41.66%
+  }
+  .col-sm-6 {
+    width: 50%
+  }
+  .col-sm-7 {
+    width: 58.33%
+  }
+  .col-sm-8 {
+    width: 66.66%
+  }
+  .col-sm-9 {
+    width: 75%
+  }
+  .col-sm-10 {
+    width: 83.33%
+  }
+  .col-sm-11 {
+    width: 91.66%
+  }
+  .col-sm-12 {
+    width: 100%
+  }
+}
+
+/***** EXTRA SMALL DEVICES *****/
+@media (max-width: 767px) {
+  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+  }
+  .col-xs-1 {
+    width: 8.33%
+  }
+  .col-xs-2 {
+    width: 16.66%
+  }
+  .col-xs-3 {
+    width: 25%
+  }
+  .col-xs-4 {
+    width: 33.33%
+  }
+  .col-xs-5 {
+    width: 41.66%
+  }
+  .col-xs-6 {
+    width: 50%
+  }
+  .col-xs-7 {
+    width: 58.33%
+  }
+  .col-xs-8 {
+    width: 66.66%
+  }
+  .col-xs-9 {
+    width: 75%
+  }
+  .col-xs-10 {
+    width: 83.33%
+  }
+  .col-xs-11 {
+    width: 91.66%
+  }
+  .col-xs-12 {
+    width: 100%
+  }
+}
