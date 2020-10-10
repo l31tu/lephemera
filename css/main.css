@@ -29,6 +29,10 @@ span {
 	white-space: nowrap;
 }
 
+::selection {
+  background: yellow;
+}
+
 
 /* Home */
 img {
