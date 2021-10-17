@@ -141,6 +141,7 @@ a:hover {
 
 .information p {
   margin: 18px 18px 0 18px;
+  max-width: 800px;
 }
 
 .info-exit {
