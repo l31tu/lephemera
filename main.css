@@ -145,10 +145,11 @@ a:hover {
 }
 
 .info-exit {
-  width: 64px;
+  width: 96px;
   position: absolute;
-  bottom: 18px;
-  right: 18px;
+  bottom: 0;
+  right: 0;
+  padding: 18px;
 }
 
 .open {
