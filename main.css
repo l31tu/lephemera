@@ -205,7 +205,7 @@ a:hover {
   
   section {
     background-size: 80%;
-    vertical-align: middle;
+    margin: auto;
   }
 
   .image_2,
