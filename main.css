@@ -182,9 +182,9 @@ a:hover {
 
 @media (max-width: 1000px) {
 
-section {
-  background-size: 60%;
-}
+  section {
+    background-size: 60%;
+  }
 
 }
 
@@ -199,16 +199,20 @@ section {
 
 @media (max-width: 640px) {
 
-section {
-  background-size: 80%;
-}
+  body {
+  overflow: hidden;
+  }
   
-.image_2,
-.image_3,
-.image_4,
-.image_5,
-.image_6 {
-  display: none;
-}
+  section {
+    background-size: 80%;
+  }
+
+  .image_2,
+  .image_3,
+  .image_4,
+  .image_5,
+  .image_6 {
+    display: none;
+  }
 
 }
