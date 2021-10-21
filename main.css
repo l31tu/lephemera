@@ -205,7 +205,9 @@ a:hover {
   
   section {
     background-size: 80%;
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
   }
 
   .image_2,
