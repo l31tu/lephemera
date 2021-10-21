@@ -200,11 +200,13 @@ a:hover {
 @media (max-width: 640px) {
 
   body {
-  overflow: hidden;
+    overflow: hidden;
   }
   
   section {
     background-size: 80%;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .image_2,
