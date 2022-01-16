@@ -104,7 +104,7 @@ footer {
 
 footer a {
   margin-right: 8px;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 a:hover {
@@ -152,6 +152,15 @@ a:hover {
   padding: 18px;
 }
 
+svg path {
+  fill: #000;
+  transition: fill 0.1s;
+}
+
+svg:hover path {
+  fill: magenta;
+}
+
 .open {
   transform: translateX(0);
 }
@@ -182,9 +191,9 @@ a:hover {
 
 @media (max-width: 1000px) {
 
-  section {
-    background-size: 60%;
-  }
+section {
+  background-size: 60%;
+}
 
 }
 
@@ -198,20 +207,24 @@ a:hover {
 }
 
 @media (max-width: 640px) {
-  
-  section {
-    background-size: 80%;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-  }
 
-  .image_2,
-  .image_3,
-  .image_4,
-  .image_5,
-  .image_6 {
-    display: none;
-  }
+body {
+  overflow: hidden;
+}
+
+section {
+  background-size: 80%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.image_2,
+.image_3,
+.image_4,
+.image_5,
+.image_6 {
+  display: none;
+}
 
 }
