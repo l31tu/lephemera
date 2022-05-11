@@ -1,0 +1,46 @@
+
+p.speech {
+  color: white;
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  font-size: 4vw;
+  transition: all .2s linear;
+}
+
+.speech-1 {
+  position: relative;
+  background: blue;
+  width: 28vw;
+  height: 24vw;
+  margin: 4vw 0 0 54vw;
+  transition: .2s linear;
+  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 44% 48%, 48% 61%, 30% 48%, 7% 49%);
+}
+.speech-1:hover {
+  -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+.speech-1:hover p {
+  top: 4vw;
+  left: 4vw;
+  font-size: 4vw;
+}
+
+.speech-2 {
+  position: relative;
+  background: blue;
+  width: 28vw;
+  height: 24vw;
+  margin: -8vw 0 0 20vw;
+  transition: .2s linear;
+  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 44% 48%, 48% 61%, 30% 48%, 7% 49%);
+}
+.speech-2:hover {
+  -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+.speech-2:hover p {
+  top: 4vw;
+  left: 4vw;
+  font-size: 4vw;
+}
