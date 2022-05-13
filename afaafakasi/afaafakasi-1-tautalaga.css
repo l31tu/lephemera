@@ -1,4 +1,3 @@
-
 p.speech {
   color: white;
   position: absolute;
@@ -9,12 +8,14 @@ p.speech {
   transition: all .2s linear;
 }
 
+/*** CONVO 1 ***/
+/* speech bubble 1 */
 .speech-1 {
   position: relative;
   background: blue;
   width: 28vw;
   height: 24vw;
-  margin: 4vw 0 0 54vw;
+  margin: -2vw 0 0 54vw;
   transition: .2s linear;
   -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 44% 48%, 48% 61%, 30% 48%, 7% 49%);
 }
@@ -27,6 +28,7 @@ p.speech {
   font-size: 4vw;
 }
 
+/* speech bubble 2 */
 .speech-2 {
   position: relative;
   background: blue;
@@ -40,6 +42,83 @@ p.speech {
   -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 50% 75%, 25% 100%, 25% 75%, 0% 75%);
 }
 .speech-2:hover p {
+  top: 4vw;
+  left: 4vw;
+  font-size: 4vw;
+}
+
+/*** CONVO 2 ***/
+/* speech bubble 3 */
+.speech-3 {
+  position: relative;
+  background: blue;
+  width: 32vw;
+  height: 18vw;
+  margin: 2vw 0 0 16vw;
+  transition: .2s linear;
+  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 44% 48%, 28% 61%, 30% 48%, 7% 49%);
+}
+.speech-3:hover {
+  -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 50% 75%, 25% 100%, 25% 75%, 0% 75%);
+}
+.speech-3:hover p {
+  top: 4vw;
+  left: 4vw;
+  font-size: 4vw;
+}
+
+/* speech bubble 4 */
+.speech-4 {
+  position: relative;
+  background: blue;
+  width: 38vw;
+  height: 18vw;
+  margin: -12vw 0 0 48vw;
+  transition: .2s linear;
+  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 44% 48%, 48% 61%, 30% 48%, 7% 49%);
+}
+.speech-4:hover {
+  -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 95% 75%, 95% 100%, 80% 75%, 0% 75%);
+}
+.speech-4:hover p {
+  top: 4vw;
+  left: 4vw;
+  font-size: 4vw;
+}
+
+/* speech bubble 5 */
+.speech-5 {
+  position: relative;
+  background: blue;
+  width: 38vw;
+  height: 18vw;
+  margin: -2vw 0 0 52vw;
+  transition: .2s linear;
+  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 44% 48%, 48% 61%, 30% 48%, 7% 49%);
+}
+.speech-5:hover {
+  -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+.speech-5:hover p {
+  top: 4vw;
+  left: 4vw;
+  font-size: 4vw;
+}
+
+/* speech bubble 6 */
+.speech-6 {
+  position: relative;
+  background: blue;
+  width: 38vw;
+  height: 18vw;
+  margin: -12vw 0 0 8vw;
+  transition: .2s linear;
+  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 44% 48%, 28% 61%, 30% 48%, 7% 49%);
+}
+.speech-6:hover {
+  -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 50% 75%, 25% 100%, 25% 75%, 0% 75%);
+}
+.speech-6:hover p {
   top: 4vw;
   left: 4vw;
   font-size: 4vw;
