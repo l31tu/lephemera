@@ -54,9 +54,9 @@ p.speech {
   background: blue;
   width: 32vw;
   height: 18vw;
-  margin: 2vw 0 0 16vw;
+  margin: 1vw 0 0 16vw;
   transition: .2s linear;
-  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 44% 48%, 28% 61%, 30% 48%, 7% 49%);
+  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 41% 48%, 28% 64%, 30% 48%, 7% 49%);
 }
 .speech-3:hover {
   -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 50% 75%, 25% 100%, 25% 75%, 0% 75%);
@@ -73,9 +73,9 @@ p.speech {
   background: blue;
   width: 38vw;
   height: 18vw;
-  margin: -12vw 0 0 48vw;
+  margin: -12vw 0 0 50vw;
   transition: .2s linear;
-  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 44% 48%, 48% 61%, 30% 48%, 7% 49%);
+  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 46% 48%, 48% 64%, 34% 48%, 7% 49%);
 }
 .speech-4:hover {
   -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 95% 75%, 95% 100%, 80% 75%, 0% 75%);
@@ -92,9 +92,9 @@ p.speech {
   background: blue;
   width: 38vw;
   height: 18vw;
-  margin: -2vw 0 0 52vw;
+  margin: -4vw 0 0 52vw;
   transition: .2s linear;
-  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 44% 48%, 48% 61%, 30% 48%, 7% 49%);
+  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 46% 48%, 48% 64%, 34% 48%, 7% 49%);
 }
 .speech-5:hover {
   -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
@@ -111,9 +111,9 @@ p.speech {
   background: blue;
   width: 38vw;
   height: 18vw;
-  margin: -12vw 0 0 8vw;
+  margin: -13vw 0 0 8vw;
   transition: .2s linear;
-  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 44% 48%, 28% 61%, 30% 48%, 7% 49%);
+  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 41% 48%, 28% 64%, 30% 48%, 7% 49%);
 }
 .speech-6:hover {
   -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 50% 75%, 25% 100%, 25% 75%, 0% 75%);
