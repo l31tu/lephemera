@@ -34,10 +34,10 @@ p.speech {
   height: 24vw;
   margin: -8vw 0 0 20vw;
   transition: .2s linear;
-  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 44% 48%, 48% 61%, 30% 48%, 7% 49%);
+  -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 44% 48%, 28% 61%, 30% 48%, 7% 49%);
 }
 .speech-2:hover {
-  -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 50% 75%, 25% 100%, 25% 75%, 0% 75%);
 }
 .speech-2:hover p {
   top: 4vw;
