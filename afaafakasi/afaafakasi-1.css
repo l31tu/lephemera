@@ -223,6 +223,11 @@ img {
   white-space: nowrap;
 }
 
+/* page numbers */
+.pn-solo {
+  margin: -0.5vw 0 0 0;
+}
+
 /* scroll */
 .scroll-to {
   position: absolute;
