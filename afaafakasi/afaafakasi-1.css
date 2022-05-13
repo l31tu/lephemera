@@ -77,6 +77,7 @@ body {
   color: blue;
 
   background-color: gainsboro;
+  /* overflow: hidden; */
 }
 
 header {
@@ -107,27 +108,22 @@ header.scrolled {
   text-align: center;
 }
 
-h1.cover {
-  font-size: 4.5vw;
-  padding: 0 0 0 1vw;
-  margin: 0 0 3vw 0;
+.hover-rotate-left,
+.hover-rotate-right,
+.hover-rotate-left-big {
+  transition: transform 0.5s ease;
 }
 
-h2.cover {
-  font-size: 13.5vw;
-  margin: 1vw 0 0 0;
-  letter-spacing: .1rem;
-  line-height: 13.5vw;
+.hover-rotate-left:hover {
+  transform: rotate(-5deg) scale(1.1);
 }
 
-h3.cover {
-  line-height: 1vw;
-  margin: 2.5vw 0 -2vw 0;
+.hover-rotate-right:hover {
+  transform: rotate(5deg) scale(1.1);
 }
 
-span.lgr {
-  font-size: 16vw;
-  letter-spacing: .5rem;
+.hover-rotate-left-big:hover {
+  transform: rotate(-5deg) scale(2) translateY(0.5vw);
 }
 
 h1 {
@@ -135,6 +131,11 @@ h1 {
   font-family: cursive;
   letter-spacing: .2rem;
   line-height: 1;
+}
+
+h1.cover {
+  font-size: 2.25vw;
+  margin: -1vw .25vw 0 0;
 }
 
 h1.scrolled {
@@ -145,6 +146,10 @@ h2 {
   font-size: 9vw;
   line-height: .9;
   margin: 0 0 2.25vw 0;
+}
+
+h2.cover {
+  margin: 4.5vw 0 0 0;
 }
 
 h3 {
@@ -224,7 +229,7 @@ img {
 }
 
 /* page numbers */
-.pn-solo {
+.pn-top {
   margin: -0.5vw 0 0 0;
 }
 
