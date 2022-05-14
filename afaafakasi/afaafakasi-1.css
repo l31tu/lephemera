@@ -108,24 +108,6 @@ header.scrolled {
   text-align: center;
 }
 
-.hover-rotate-left,
-.hover-rotate-right,
-.hover-rotate-left-big {
-  transition: transform 0.5s ease;
-}
-
-.hover-rotate-left:hover {
-  transform: rotate(-5deg) scale(1.1);
-}
-
-.hover-rotate-right:hover {
-  transform: rotate(5deg) scale(1.1);
-}
-
-.hover-rotate-left-big:hover {
-  transform: rotate(-5deg) scale(2) translateY(0.5vw);
-}
-
 h1 {
   margin: 0 72px 0 0;
   font-family: cursive;
@@ -153,8 +135,7 @@ h2.cover {
 }
 
 h3 {
-  font-size: 2.25vw;
-  font-style: oblique;
+  font-size: 4.5vw;
   line-height: .9;
   margin: 0 0 .6vw 0;
 }
@@ -184,11 +165,6 @@ p:not(:last-child) {
   font-family: cursive;
 }
 
-.curly {
-  font-style: oblique;
-  font-family: cursive;
-}
-
 a {
   text-decoration: none;
 }
@@ -203,7 +179,8 @@ a.link:hover {
 }
 
 svg {
-  width: 50vw;
+  width: 95vw;
+  margin: 4vw 0 0 0;
 }
 
 img {
@@ -226,6 +203,102 @@ img {
 
 .no-wrap {
   white-space: nowrap;
+}
+
+/* hovers */
+.hover-rotate-left,
+.hover-rotate-right,
+.hover-rotate-left-big,
+.hover-rotate-manua {
+  transition: transform 0.5s ease;
+}
+
+.hover-image {
+  transition: transform 1s ease;
+}
+
+.hover-rotate-left:hover {
+  transform: rotate(-5deg) scale(1.1);
+}
+
+.hover-rotate-right:hover {
+  transform: rotate(5deg) scale(1.1);
+}
+
+.hover-rotate-left-big:hover {
+  transform: rotate(-5deg) scale(2) translateY(0.5vw);
+}
+
+.hover-rotate-manua:hover {
+  transform: rotate(-5deg) scale(2) translateY(0.5vw) translateX(-3vw);
+}
+
+.hover-image:hover {
+  transform: rotate(-5deg) scale(3) translateY(-3vw) translateX(6vw);
+}
+
+/* alphabet */
+.column-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.columns {
+  flex: 1;
+}
+
+.columns-two {
+  flex: 2;
+}
+
+.alphabet {
+  display: inline;
+}
+
+.alphabet-title {
+  font-size: 2.25vw;
+  margin: 0 0 2.25vw 0;
+}
+
+/* map */
+p.map-samoa {
+  position: absolute;
+  top: 16vw;
+  left: 24vw;
+}
+
+p.map-americansamoa {
+  position: absolute;
+  top: 28vw;
+  left: 66vw;
+}
+
+p.map-savaii {
+  position: absolute;
+  top: 25vw;
+  left: 8vw;
+  font-family: cursive;
+}
+
+p.map-upolu {
+  position: absolute;
+  top: 32vw;
+  left: 28vw;
+  font-family: cursive;
+}
+
+p.map-tutuila {
+  position: absolute;
+  top: 41vw;
+  left: 57vw;
+  font-family: cursive;
+}
+
+p.map-manuaislands {
+  position: absolute;
+  top: 38vw;
+  left: 82vw;
+  font-family: cursive;
 }
 
 /* page numbers */
