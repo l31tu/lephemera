@@ -187,6 +187,10 @@ a.link:hover {
   border-bottom: solid .2vw magenta;
 }
 
+a.js-scroll:hover {
+  color: red;
+}
+
 svg {
   width: 95vw;
   margin: 4vw 0 0 0;
