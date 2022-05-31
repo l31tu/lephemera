@@ -77,7 +77,7 @@ body {
   color: blue;
 
   background-color: gainsboro;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 header {
