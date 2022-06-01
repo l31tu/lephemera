@@ -256,6 +256,10 @@ div.phone-video-missing {
   margin: 0;
 }
 
+.drawings-mobile svg {
+  display: none;
+}
+
 ::selection {
   background: red;
   color: #fff;
@@ -860,6 +864,12 @@ a.btn-colour {
   .igoa svg {
     max-height: 70vh;
     margin: 4vh 0 0 0;
+  }
+  .drawings svg {
+    display: none;
+  }
+  .drawings-mobile svg {
+    display: block;
   }
   .map1 svg {
     margin: 8vh 0 0 0;
