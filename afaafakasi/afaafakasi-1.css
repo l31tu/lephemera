@@ -140,12 +140,6 @@ h3 {
   margin: 0 0 .6vw 0;
 }
 
-h3.translation {
-  font-style: oblique;
-  font-family: cursive;
-  margin: 0 0 2.25vw 0;
-}
-
 h4 {
   font-size: 4vw;
   margin: 2.25vw 0 0 0;
@@ -396,7 +390,7 @@ div.kakou {
 }
 
 /* map */
-.map svg {
+.map2 svg {
   margin: -1vh 0 0 0;
   max-height: 60vh;
 }
@@ -816,7 +810,145 @@ a.btn-colour {
 
 }
 
+@media (max-width: 1000px) {
+
+}
+
 /* small */
 @media (max-width: 750px) {
-
+  .hidden-mobile {
+    display: none;
+  }
+  h1.cover {
+    font-size: 4vw;
+    margin: 10vh 0.25vh 0 0;
+  }
+  h2.cover {
+    margin: 2vh 0 0 0;
+  }
+  h2 {
+    font-size: 10vw;
+    line-height: .9;
+    margin: 0 0 4vw 0;
+  }
+  h4 {
+    font-size: 8vw;
+    margin: 2.25vw 0 0 0;
+  }
+  p {
+    font-size: 4vw;
+  }
+  p.emoji {
+    font-size: 4vw;
+  }
+  header.scrolled {
+    font-size: 2vw;
+  }
+  .js-scroll {
+    cursor: not-allowed;
+  }
+  .scroll-to {
+    font-size: 6vw;
+  }
+  .bubble {
+    display: none;
+    }
+  .map1 svg {
+    margin: 8vh 0 0 0;
+  }
+  .map2 svg {
+    margin: 8vh 0 0 0;
+  }
+  p.map-faleolo {
+    position: absolute;
+    top: 54vw;
+    left: 48vw;
+    font-family: cursive;
+  }
+  p.map-apia {
+    position: absolute;
+    top: 56vw;
+    left: 76vw;
+    font-family: cursive;
+  }
+  p.map-samoa {
+    position: absolute;
+    top: 34vw;
+    left: 26vw;
+  }
+  p.map-americansamoa {
+    position: absolute;
+    top: 46vw;
+    left: 66vw;
+  }
+  p.map-savaii {
+    position: absolute;
+    top: 50vw;
+    left: 8vw;
+    font-family: cursive;
+  }
+  p.map-upolu {
+    position: absolute;
+    top: 58vw;
+    left: 28vw;
+    font-family: cursive;
+  }
+  p.map-tutuila {
+    position: absolute;
+    top: 66vw;
+    left: 57vw;
+    font-family: cursive;
+  }
+  p.map-manuaislands {
+    position: absolute;
+    top: 62vw;
+    left: 82vw;
+    font-family: cursive;
+  }
+  .btn {
+    width: 44vw;
+    padding: 2vw 0 2.5vw 0;
+    border-radius: 1vw;
+    box-shadow: 1vw 1vw 1vw rgba(255,0,0,0.3);
+  }
+  .btn-dm-1 {
+    top: 20vw;
+    left: 48vw;
+  }
+  .btn-dm-2 {
+    top: 40vw;
+    left: 6vw;
+  }
+  .btn-dm-3 {
+    top: 60vw;
+    left: 50vw;
+  }
+  .btn-dm-4 {
+    top: 80vw;
+    left: 10vw;
+  }
+  .btn-dm-5 {
+    top: 100vw;
+    left: 48vw;
+  }
+  div.talofa {
+    top: 48vw;
+    left: 4vw;
+  }
+  div.tagata {
+    top: 32vw;
+    left: 32vw;
+  }
+  div.kagaka {
+    top: 40vw;
+    left: 44vw;
+  }
+  div.tatou {
+    top: 52vw;
+    left: 56vw;
+  }
+  div.kakou {
+    top: 60vw;
+    left: 40vw;
+  }
 }
