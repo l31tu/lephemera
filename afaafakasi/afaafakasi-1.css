@@ -135,7 +135,7 @@ h2.cover {
 }
 
 h3 {
-  font-size: 4.5vw;
+  font-size: 4vw;
   line-height: .9;
   margin: 0 0 .6vw 0;
 }
@@ -202,7 +202,7 @@ img {
 
 .photo-container {
   position: absolute;
-  top: 30vw;
+  top: 24vw;
   right: 18px;
 }
 
@@ -218,13 +218,13 @@ img {
 }
 
 .video-workshop {
-  max-height: 70vh;
+  max-height: 60vh;
   margin: 2vh 0 0 0;
 }
 
 .video-workshop video {
   position: relative;
-  transform: translateY(-20%);
+  transform: translateY(-25%);
 }
 
 .video-container {
@@ -326,10 +326,6 @@ div.phone-video-missing {
   flex: 1;
 }
 
-.glottal {
-  margin: 1vw 0 0 0;
-}
-
 .alphabet {
   display: inline;
 }
@@ -379,7 +375,7 @@ div.tagata {
 div.kagaka {
   position: absolute;
   top: 10vw;
-  left: 44vw;
+  left: 40vw;
 }
 
 div.tatou {
@@ -395,8 +391,11 @@ div.kakou {
 }
 
 /* map */
+.map1 svg {
+  margin: 2vw 0 0 0;
+}
 .map2 svg {
-  margin: -1vh 0 0 0;
+  margin: 1vh 0 0 0;
   max-height: 60vh;
 }
 
@@ -416,40 +415,40 @@ p.map-apia {
 
 p.map-samoa {
   position: absolute;
-  top: 16vw;
+  top: 14vw;
   left: 24vw;
 }
 
 p.map-americansamoa {
   position: absolute;
-  top: 28vw;
+  top: 26vw;
   left: 66vw;
 }
 
 p.map-savaii {
   position: absolute;
-  top: 25vw;
+  top: 23vw;
   left: 8vw;
   font-family: cursive;
 }
 
 p.map-upolu {
   position: absolute;
-  top: 32vw;
+  top: 30vw;
   left: 28vw;
   font-family: cursive;
 }
 
 p.map-tutuila {
   position: absolute;
-  top: 41vw;
+  top: 39vw;
   left: 57vw;
   font-family: cursive;
 }
 
 p.map-manuaislands {
   position: absolute;
-  top: 38vw;
+  top: 36vw;
   left: 82vw;
   font-family: cursive;
 }
@@ -479,12 +478,12 @@ p.map-manuaislands {
 
   .malu {
     top: 32vw;
-    left: 47vw;
+    left: 54vw;
   }
 
   .lavalava {
     top: 34vw;
-    left: 66vw;
+    left: 68vw;
   }
 
   .pea {
@@ -518,7 +517,7 @@ p.map-manuaislands {
   }
 
   .laei {
-    top: 35vw;
+    top: 33vw;
     left: 34vw;
   }
 
@@ -528,18 +527,18 @@ p.map-manuaislands {
   }
 
   .cindy {
-    top: 40vw;
-    left: 37vw;
+    top: 38vw;
+    left: 35vw;
   }
 
   .sivaafi {
     top: 41vw;
-    left: 52vw;
+    left: 60vw;
   }
 
   .atolauniu {
     top: 40vw;
-    left: 64vw;
+    left: 74vw;
   }
 
   .ulafala {
@@ -584,17 +583,17 @@ p.map-manuaislands {
 
   .igoa1 {
     top: 21vw;
-    left: 3vw;
+    left: 4vw;
   }
 
   .igoa2 {
-    top: 41vw;
-    left: 8vw;
+    top: 38vw;
+    left: 2vw;
   }
 
   .igoa3 {
-    top: 44vw;
-    left: 21vw;
+    top: 40vw;
+    left: 36vw;
   }
 
   .food1 {
@@ -603,32 +602,32 @@ p.map-manuaislands {
   }
 
   .aiga1 {
-    top: 36vw;
+    top: 31vw;
     left: 2vw;
   }
 
   .aiga2 {
-    top: 38vw;
+    top: 33vw;
     left: 16vw;
   }
 
   .aiga3 {
-    top: 40vw;
+    top: 35vw;
     left: 4vw;
   }
 
   .aiga4 {
-    top: 43vw;
+    top: 39vw;
     left: 8vw;
   }
 
   .aiga5 {
-    top: 44vw;
+    top: 40vw;
     left: 22vw;
   }
 
   .aiga6 {
-    top: 43vw;
+    top: 39vw;
     left: 36vw;
   }
 
@@ -663,27 +662,27 @@ p.map-manuaislands {
   }
 
   .farm1 {
-    top: 38vw;
+    top: 36vw;
     left: 70vw;
   }
 
   .lavalava1 {
-    top: 32vw;
+    top: 28vw;
     left: 70vw;
   }
 
   .lavalava2 {
-    top: 37vw;
+    top: 33vw;
     left: 78vw;
   }
 
   .lavalava3 {
-    top: 40vw;
+    top: 36vw;
     left: 62vw;
   }
 
   .lavalava4 {
-    top: 43vw;
+    top: 39vw;
     left: 80vw;
   }
 
@@ -693,17 +692,17 @@ p.map-manuaislands {
   }
 
   .tattoo2 {
-    top: 38vw;
+    top: 33vw;
     left: 42vw;
   }
 
   .tattoo3 {
-    top: 37vw;
+    top: 32vw;
     left: 59vw;
   }
 
   .tattoo4 {
-    top: 41vw;
+    top: 36vw;
     left: 66vw;
   }
 
@@ -717,7 +716,7 @@ a.btn-colour {
   color: white;
 
   position: absolute;
-  width: 32vw;
+  width: 24vw;
   padding: 1vw 0 1.5vw 0;
   border-radius: 1vw;
   border-bottom: 0.5vw solid darkblue;
@@ -768,12 +767,12 @@ a.btn-colour {
 
 .btn-fikamailepesi {
   top: 30vw;
-  left: 62vw;
+  left: 63vw;
 }
 
 .btn-oletaualuga {
-  top: 39vw;
-  left: 40vw;
+  top: 29vw;
+  left: 36vw;
 }
 
 .btn-siva {
@@ -812,7 +811,13 @@ a.btn-colour {
 
 /* extrawide */
 @media (min-width: 1800px) {
-
+  h2 {
+    font-size: 142px;
+    margin: 0 0 4vw 0;
+  }
+  p {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -833,7 +838,6 @@ a.btn-colour {
   }
   h2 {
     font-size: 10vw;
-    line-height: .9;
     margin: 0 0 4vw 0;
   }
   h4 {
@@ -983,7 +987,7 @@ a.btn-colour {
   }
   div.kagaka {
     top: 40vw;
-    left: 44vw;
+    left: 40vw;
   }
   div.tatou {
     top: 52vw;
