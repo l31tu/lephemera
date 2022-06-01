@@ -121,3 +121,21 @@ div.nuanua {
   background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
 }
+
+/*** RESPONSIVE ***/
+
+/* extrawide */
+@media (min-width: 1800px) {
+
+}
+
+@media (max-width: 1000px) {
+
+}
+
+/* small */
+@media (max-width: 750px) {
+  .lanu-container svg {
+    margin: 4vh 0 0 0;
+  }
+}
