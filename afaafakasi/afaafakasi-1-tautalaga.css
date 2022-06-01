@@ -195,10 +195,6 @@ p.speech {
 /* small */
 @media (max-width: 750px) {
   .speech-1-1 {
-    position: relative;
-    background: blue;
-    width: 28vw;
-    height: 24vw;
     margin: 4vw 0 0 64vw;
     -webkit-clip-path: polygon(5% 0%, 92% 0%, 90% 55%, 75% 55%, 75% 74%, 50% 55%, 0% 55%);
   }
@@ -206,5 +202,20 @@ p.speech {
     top: 4vw;
     left: 4vw;
     font-size: 4vw;
+  }
+  .speech-2-1 {
+    margin: 4vw 0 0 16vw;
+    -webkit-clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 50% 75%, 25% 100%, 25% 75%, 0% 75%);
+  }
+  .speech-2-1 p {
+    top: 4vw;
+    left: 4vw;
+    font-size: 4vw;
+  }
+  .speech-2-2 {
+    margin: -16vw 0 0 56vw;
+  }
+  .speech-2-3 {
+    margin: -4vw 0 0 62vw;
   }
 }
