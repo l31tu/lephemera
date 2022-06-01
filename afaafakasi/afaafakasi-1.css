@@ -77,7 +77,7 @@ body {
   color: blue;
 
   background-color: gainsboro;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 header {
@@ -219,6 +219,7 @@ img {
 
 .video-workshop {
   max-height: 70vh;
+  margin: 2vh 0 0 0;
 }
 
 .video-workshop video {
@@ -855,7 +856,11 @@ a.btn-colour {
   }
   .bubble {
     display: none;
-    }
+  }
+  .igoa svg {
+    max-height: 70vh;
+    margin: 4vh 0 0 0;
+  }
   .map1 svg {
     margin: 8vh 0 0 0;
   }
@@ -934,6 +939,30 @@ a.btn-colour {
     top: 100vw;
     left: 48vw;
   }
+  .btn-peaesiva {
+    top: 63vw;
+    left: 3vw;
+  }
+  .btn-fikamailepesi {
+    top: 70vw;
+    left: 52vw;
+  }
+  .btn-oletaualuga {
+    top: 94vw;
+    left: 40vw;
+  }
+  .btn-siva {
+    top: 86vw;
+    left: 42vw;
+  }
+  .btn-hb {
+    top: 63vw;
+    left: 30vw;
+  }
+  .btn-fb {
+    top: 83vw;
+    left: 55vw;
+  }
   div.talofa {
     top: 48vw;
     left: 4vw;
@@ -953,5 +982,8 @@ a.btn-colour {
   div.kakou {
     top: 60vw;
     left: 40vw;
+  }
+  div.phone-video-missing {
+    font-size: 4vw;
   }
 }
