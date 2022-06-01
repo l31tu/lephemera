@@ -91,7 +91,7 @@ p.speech {
   background: blue;
   width: 34vw;
   height: 24vw;
-  margin: -26vw 0 0 4vw;
+  margin: -26vw 0 -8vw 4vw;
   transition: .2s linear;
   -webkit-clip-path: polygon(12% 12%, 80% 10%, 78% 49%, 48% 48%, 33% 61%, 36% 48%, 7% 49%);
 }
@@ -168,7 +168,7 @@ p.speech {
   background: blue;
   width: 38vw;
   height: 18vw;
-  margin: -14vw 0 0 8vw;
+  margin: -14vw 0 -8vw 8vw;
   transition: .2s linear;
   -webkit-clip-path: polygon(12% 12%, 70% 10%, 68% 49%, 41% 48%, 28% 64%, 30% 48%, 7% 49%);
 }
