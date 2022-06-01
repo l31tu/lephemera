@@ -180,3 +180,31 @@ p.speech {
   left: 4vw;
   font-size: 4vw;
 }
+
+/*** RESPONSIVE ***/
+
+/* extrawide */
+@media (min-width: 1800px) {
+
+}
+
+@media (max-width: 1000px) {
+
+}
+
+/* small */
+@media (max-width: 750px) {
+  .speech-1-1 {
+    position: relative;
+    background: blue;
+    width: 28vw;
+    height: 24vw;
+    margin: 4vw 0 0 64vw;
+    -webkit-clip-path: polygon(5% 0%, 92% 0%, 90% 55%, 75% 55%, 75% 74%, 50% 55%, 0% 55%);
+  }
+  .speech-1-1 p {
+    top: 4vw;
+    left: 4vw;
+    font-size: 4vw;
+  }
+}
