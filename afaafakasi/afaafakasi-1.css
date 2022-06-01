@@ -986,4 +986,13 @@ a.btn-colour {
   div.phone-video-missing {
     font-size: 4vw;
   }
+  img {
+    border-radius: 2vw;
+    width: 36vw;
+  }
+  .photo-container {
+    position: relative;
+    top: 0;
+    margin: 4vw 0 0 18px;
+  }
 }
