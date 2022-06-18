@@ -181,8 +181,18 @@ a.link:hover {
   border-bottom: solid .2vw red;
 }
 
-a.js-scroll:hover {
+a.js-scroll:hover,
+button.js-scroll:hover {
   color: red;
+}
+
+button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	outline: inherit;
 }
 
 svg {
