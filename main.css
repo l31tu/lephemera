@@ -108,6 +108,14 @@ a {
   transition: 0.1s;
 }
 
+a.project-link {
+  border-bottom: 1px solid #000;
+}
+
+a.project-link:hover {
+  border-bottom: 1px solid magenta;
+}
+
 header {
   position: fixed;
   top: 0;
