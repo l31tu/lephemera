@@ -116,6 +116,11 @@ a.project-link:hover {
   border-bottom: 1px solid magenta;
 }
 
+a:hover,
+button:hover {
+  color: magenta;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -143,11 +148,6 @@ button {
 	outline: inherit;
 
   text-align: left;
-}
-
-a:hover,
-button:hover {
-  color: magenta;
 }
 
 .para-sep {
@@ -205,12 +205,13 @@ button:hover {
 }
 
 /* tabs */
-.right-container {
+.right-container,
+.left-container {
   padding: 18px;
 }
 
-.left-container {
-  padding: 18px;
+.right-container {
+  margin: 0 0 0 132px;
 }
 
 .left-container img {
@@ -270,34 +271,19 @@ button:hover {
   transition: all 0.9s ease;
 }
 
-.information {
-  width: 20%;
-}
-
-.research {
-  width: 25%;
-}
-
-.archives {
-  width: 30%;
-}
-
+.information,
+.research,
+.archives,
 .publications {
-  width: 35%;
+  width: 40%;
 }
 
 .res-1,
-.res-2 {
-  width: 75%;
-}
-
-.arc-1 {
-  width: 70%;
-}
-
+.res-2,
+.arc-1,
 .pub-aak-1,
 .pub-aak-2 {
-  width: 65%;
+  width: 60%;
 }
 
 .information p,
@@ -315,14 +301,7 @@ button:hover {
 .info-exit,
 .pubs-exit,
 .arch-exit,
-.res-exit {
-  width: 72px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin: 18px;
-}
-
+.res-exit,
 .res-1-exit,
 .res-2-exit,
 .arc-1-exit,
@@ -331,8 +310,22 @@ button:hover {
   width: 72px;
   position: absolute;
   top: 0;
-  right: 0;
   margin: 18px;
+}
+
+.info-exit,
+.pubs-exit,
+.arch-exit,
+.res-exit {
+  left: 0;
+}
+
+.res-1-exit,
+.res-2-exit,
+.arc-1-exit,
+.pub-aak-1-exit,
+.pub-aak-2-exit {
+  right: 0;
 }
 
 svg path {
