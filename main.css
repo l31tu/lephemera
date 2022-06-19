@@ -214,20 +214,16 @@ button {
   margin: 0 0 0 132px;
 }
 
+.left-container {
+  margin: 0 112px 0 0;
+}
+
 .left-container img {
   margin: 18px 0 0 0;
 }
 
 .left-container video {
   margin: 18px 0 -4px 0;
-}
-
-.left-container p,
-.left-container img,
-.left-container video {
-  width: -webkit-calc(100% - 88px);
-  width:    -moz-calc(100% - 88px);
-  width:         calc(100% - 88px);
 }
 
 .information,
