@@ -477,6 +477,7 @@ section {
   .left-container video {
     width: 100%;
   }
+  .right-container,
   .left-container {
     margin: 72px 0 0 0;
   }
