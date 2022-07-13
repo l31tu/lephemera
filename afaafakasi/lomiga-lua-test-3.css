@@ -1,0 +1,14 @@
+body {
+  overflow: hidden;
+  background-color: darkblue;
+}
+
+div {
+  display: inline-block;
+  font-size: 2vw;
+  transition: 1s linear;
+}
+
+div:focus {
+    font-size: 6vw;
+}
