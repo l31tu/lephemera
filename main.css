@@ -222,6 +222,11 @@ button {
   margin: 18px 0 0 0;
 }
 
+.left-container img.img-vert {
+  margin: 18px 12px 0 0;
+  width: calc(50% - 32px);
+}
+
 .left-container video {
   margin: 18px 0 -4px 0;
 }
@@ -233,8 +238,10 @@ button {
 .res-1,
 .res-2,
 .arc-1,
+.pub-aak-0,
 .pub-aak-1,
-.pub-aak-2 {
+.pub-aak-2,
+.pub-aak-3 {
   background-color: #fff;
   position: fixed;
   height: 100%;
@@ -255,8 +262,10 @@ button {
 .res-1,
 .res-2,
 .arc-1,
+.pub-aak-0,
 .pub-aak-1,
-.pub-aak-2 {
+.pub-aak-2,
+.pub-aak-3 {
   height: -webkit-calc(100% - 64px);
   height:    -moz-calc(100% - 64px);
   height:         calc(100% - 64px);
@@ -277,8 +286,10 @@ button {
 .res-1,
 .res-2,
 .arc-1,
+.pub-aak-0,
 .pub-aak-1,
-.pub-aak-2 {
+.pub-aak-2,
+.pub-aak-3 {
   width: 60%;
 }
 
@@ -289,8 +300,10 @@ button {
 .res-1 p,
 .res-2 p,
 .arc-1 p,
+.pub-aak-0 p,
 .pub-aak-1 p,
-.pub-aak-2 p {
+.pub-aak-2 p,
+.pub-aak-3 p {
   max-width: 800px;
 }
 
@@ -301,10 +314,12 @@ button {
 .res-1-exit,
 .res-2-exit,
 .arc-1-exit,
+.pub-aak-0-exit,
 .pub-aak-1-exit,
-.pub-aak-2-exit {
+.pub-aak-2-exit,
+.pub-aak-3-exit {
   width: 72px;
-  position: absolute;
+  position: fixed;
   top: 0;
   margin: 18px;
 }
@@ -319,8 +334,10 @@ button {
 .res-1-exit,
 .res-2-exit,
 .arc-1-exit,
+.pub-aak-0-exit,
 .pub-aak-1-exit,
-.pub-aak-2-exit {
+.pub-aak-2-exit,
+.pub-aak-3-exit {
   right: 0;
 }
 
@@ -424,28 +441,25 @@ svg:hover path {
   .arc-1 {
     width: 60%;
   }
+  .pub-aak-0,
   .pub-aak-1,
-  .pub-aak-2 {
+  .pub-aak-2,
+  .pub-aak-3 {
     width: 50%;
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
 
-section {
-  background-size: 60%;
-}
-.col-container {
-  flex-direction: column;
-}
-.col-three {
-  flex: 1;
-}
-
-}
-
-@media (max-width: 750px) {
-
+  section {
+    background-size: 60%;
+  }
+  .col-container {
+    flex-direction: column;
+  }
+  .col-three {
+    flex: 1;
+  }
   button {
     line-height: 1.5;
   }
@@ -456,16 +470,20 @@ section {
   .res-1,
   .res-2,
   .arc-1,
+  .pub-aak-0,
   .pub-aak-1,
-  .pub-aak-2 {
+  .pub-aak-2,
+  .pub-aak-3 {
     width: 100%;
     left: 0;
   }
   .res-1,
   .res-2,
   .arc-1,
+  .pub-aak-0,
   .pub-aak-1,
-  .pub-aak-2 {
+  .pub-aak-2,
+  .pub-aak-3 {
     height: 100%;
   }
   .left-container p,
