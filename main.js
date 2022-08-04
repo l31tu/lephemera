@@ -103,6 +103,22 @@ exitPubsTag.addEventListener("click", () => {
   pubsTag.classList.remove("open")
 })
 
+// 'Afa'afakasi 0 (overview)
+const toggleAak0Tag = document.querySelector("button.toggle-pub-aak-0")
+const exitAak0Tag = document.querySelector("div.toggle-pub-aak-0")
+const aak0Tag = document.querySelector(".pub-aak-0")
+
+toggleAak0Tag.addEventListener("click", () => {
+  aak0Tag.classList.toggle("open")
+  aak1Tag.classList.remove("open")
+  aak2Tag.classList.remove("open")
+  aak3Tag.classList.remove("open")
+})
+
+exitAak0Tag.addEventListener("click", () => {
+  aak0Tag.classList.remove("open")
+})
+
 // 'Afa'afakasi 1 (online publication)
 const toggleAak1Tag = document.querySelector("button.toggle-pub-aak-1")
 const exitAak1Tag = document.querySelector("div.toggle-pub-aak-1")
@@ -110,7 +126,9 @@ const aak1Tag = document.querySelector(".pub-aak-1")
 
 toggleAak1Tag.addEventListener("click", () => {
   aak1Tag.classList.toggle("open")
+  aak0Tag.classList.remove("open")
   aak2Tag.classList.remove("open")
+  aak3Tag.classList.remove("open")
 })
 
 exitAak1Tag.addEventListener("click", () => {
@@ -124,9 +142,27 @@ const aak2Tag = document.querySelector(".pub-aak-2")
 
 toggleAak2Tag.addEventListener("click", () => {
   aak2Tag.classList.toggle("open")
+  aak0Tag.classList.remove("open")
   aak1Tag.classList.remove("open")
+  aak3Tag.classList.remove("open")
 })
 
 exitAak2Tag.addEventListener("click", () => {
   aak2Tag.classList.remove("open")
+})
+
+// 'Afa'afakasi 3 (RM Gallery)
+const toggleAak3Tag = document.querySelector("button.toggle-pub-aak-3")
+const exitAak3Tag = document.querySelector("div.toggle-pub-aak-3")
+const aak3Tag = document.querySelector(".pub-aak-3")
+
+toggleAak3Tag.addEventListener("click", () => {
+  aak3Tag.classList.toggle("open")
+  aak0Tag.classList.remove("open")
+  aak1Tag.classList.remove("open")
+  aak2Tag.classList.remove("open")
+})
+
+exitAak3Tag.addEventListener("click", () => {
+  aak3Tag.classList.remove("open")
 })
