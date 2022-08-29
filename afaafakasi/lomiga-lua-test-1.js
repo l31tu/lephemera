@@ -8,10 +8,10 @@ function setup() {
 
   graphic.fill("white")
   graphic.textFont("cursive")
-  graphic.textSize(118)
+  graphic.textSize(107)
   graphic.textStyle(ITALIC)
   graphic.textAlign(CENTER, CENTER)
-  graphic.text("(Issue Two: Over the Sea)", width / 2, height / 2)
+  graphic.text("(Issue Two: Over the Ocean)", width / 2, height / 2)
 
   graphic2 = createGraphics(1200, 1200)
 
