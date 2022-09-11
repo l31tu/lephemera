@@ -435,25 +435,13 @@ svg:hover path {
 
 /*** RESPONSIVE ***/
 @media (max-width: 1500px) {
-  .information {
-    width: 20%;
-  }
-  .research {
-    width: 30%;
-  }
-  .archives {
-    width: 40%;
-  }
-  .publications {
-    width: 50%;
-  }
+  .information,
+  .research,
+  .archives,
+  .publications,
   .res-1,
-  .res-2 {
-    width: 70%;
-  }
-  .arc-1 {
-    width: 60%;
-  }
+  .res-2,
+  .arc-1,
   .pub-aak-0,
   .pub-aak-1,
   .pub-aak-2,
