@@ -114,6 +114,8 @@ toggleAak0Tag.addEventListener("click", () => {
   aak2Tag.classList.remove("open")
   aak3Tag.classList.remove("open")
   aak4Tag.classList.remove("open")
+  aak5Tag.classList.remove("open")
+  aak6Tag.classList.remove("open")
 })
 
 exitAak0Tag.addEventListener("click", () => {
@@ -131,6 +133,8 @@ toggleAak1Tag.addEventListener("click", () => {
   aak2Tag.classList.remove("open")
   aak3Tag.classList.remove("open")
   aak4Tag.classList.remove("open")
+  aak5Tag.classList.remove("open")
+  aak6Tag.classList.remove("open")
 })
 
 exitAak1Tag.addEventListener("click", () => {
@@ -148,6 +152,8 @@ toggleAak2Tag.addEventListener("click", () => {
   aak1Tag.classList.remove("open")
   aak3Tag.classList.remove("open")
   aak4Tag.classList.remove("open")
+  aak5Tag.classList.remove("open")
+  aak6Tag.classList.remove("open")
 })
 
 exitAak2Tag.addEventListener("click", () => {
@@ -165,13 +171,15 @@ toggleAak3Tag.addEventListener("click", () => {
   aak1Tag.classList.remove("open")
   aak2Tag.classList.remove("open")
   aak4Tag.classList.remove("open")
+  aak5Tag.classList.remove("open")
+  aak6Tag.classList.remove("open")
 })
 
 exitAak3Tag.addEventListener("click", () => {
   aak3Tag.classList.remove("open")
 })
 
-// 'Afa'afakasi 4 (Testing Grounds / Melbourne Fringe)
+// 'Afa'afakasi 4 (Lomiga Lua)
 const toggleAak4Tag = document.querySelector("button.toggle-pub-aak-4")
 const exitAak4Tag = document.querySelector("div.toggle-pub-aak-4")
 const aak4Tag = document.querySelector(".pub-aak-4")
@@ -182,8 +190,48 @@ toggleAak4Tag.addEventListener("click", () => {
   aak1Tag.classList.remove("open")
   aak2Tag.classList.remove("open")
   aak3Tag.classList.remove("open")
+  aak5Tag.classList.remove("open")
+  aak6Tag.classList.remove("open")
 })
 
 exitAak4Tag.addEventListener("click", () => {
   aak4Tag.classList.remove("open")
+})
+
+// 'Afa'afakasi 5 (Testing Grounds / Melbourne Fringe)
+const toggleAak5Tag = document.querySelector("button.toggle-pub-aak-5")
+const exitAak5Tag = document.querySelector("div.toggle-pub-aak-5")
+const aak5Tag = document.querySelector(".pub-aak-5")
+
+toggleAak5Tag.addEventListener("click", () => {
+  aak5Tag.classList.toggle("open")
+  aak0Tag.classList.remove("open")
+  aak1Tag.classList.remove("open")
+  aak2Tag.classList.remove("open")
+  aak3Tag.classList.remove("open")
+  aak4Tag.classList.remove("open")
+  aak6Tag.classList.remove("open")
+})
+
+exitAak5Tag.addEventListener("click", () => {
+  aak5Tag.classList.remove("open")
+})
+
+// 'Afa'afakasi 6 (West Space Window)
+const toggleAak6Tag = document.querySelector("button.toggle-pub-aak-6")
+const exitAak6Tag = document.querySelector("div.toggle-pub-aak-6")
+const aak6Tag = document.querySelector(".pub-aak-6")
+
+toggleAak6Tag.addEventListener("click", () => {
+  aak6Tag.classList.toggle("open")
+  aak0Tag.classList.remove("open")
+  aak1Tag.classList.remove("open")
+  aak2Tag.classList.remove("open")
+  aak3Tag.classList.remove("open")
+  aak4Tag.classList.remove("open")
+  aak5Tag.classList.remove("open")
+})
+
+exitAak6Tag.addEventListener("click", () => {
+  aak6Tag.classList.remove("open")
 })
