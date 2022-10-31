@@ -89,17 +89,17 @@ p.soon {
   margin: 20px 0 5px 0;
 }
 
-p.dg-heading {
-  margin: 15px 0 0 0;
-}
-
-p.dg-body {
-  margin: -10px 0 20px 0;
-}
-
 figcaption {
   font-size: 10px;
   margin: 6px 0 0 0;
+}
+
+span.title {
+  font-style: italic;
+}
+
+span.title:hover {
+  font-style: normal;
 }
 
 a {
