@@ -30,7 +30,7 @@ exitResTag.addEventListener("click", () => {
   resTag.classList.remove("open")
 })
 
-// Research 1 (Testing Grounds Residency)
+// Research 1 (Hyper-personalised Bookshelves)
 const toggleRes1Tag = document.querySelector("button.toggle-res-1")
 const exitRes1Tag = document.querySelector("div.toggle-res-1")
 const res1Tag = document.querySelector(".res-1")
@@ -38,13 +38,15 @@ const res1Tag = document.querySelector(".res-1")
 toggleRes1Tag.addEventListener("click", () => {
   res1Tag.classList.toggle("open")
   res2Tag.classList.remove("open")
+  res3Tag.classList.remove("open")
+  res4Tag.classList.remove("open")
 })
 
 exitRes1Tag.addEventListener("click", () => {
   res1Tag.classList.remove("open")
 })
 
-// Research 2 (Hyper-personalised Bookshelves)
+// Research 2 (Testing Grounds Residency)
 const toggleRes2Tag = document.querySelector("button.toggle-res-2")
 const exitRes2Tag = document.querySelector("div.toggle-res-2")
 const res2Tag = document.querySelector(".res-2")
@@ -52,10 +54,44 @@ const res2Tag = document.querySelector(".res-2")
 toggleRes2Tag.addEventListener("click", () => {
   res2Tag.classList.toggle("open")
   res1Tag.classList.remove("open")
+  res3Tag.classList.remove("open")
+  res4Tag.classList.remove("open")
 })
 
 exitRes2Tag.addEventListener("click", () => {
   res2Tag.classList.remove("open")
+})
+
+// Research 3 (Tree Paper Gallery Residency)
+const toggleRes3Tag = document.querySelector("button.toggle-res-3")
+const exitRes3Tag = document.querySelector("div.toggle-res-3")
+const res3Tag = document.querySelector(".res-3")
+
+toggleRes3Tag.addEventListener("click", () => {
+  res3Tag.classList.toggle("open")
+  res1Tag.classList.remove("open")
+  res2Tag.classList.remove("open")
+  res4Tag.classList.remove("open")
+})
+
+exitRes3Tag.addEventListener("click", () => {
+  res3Tag.classList.remove("open")
+})
+
+// Research 4 (Centre for Projection Art Residency)
+const toggleRes4Tag = document.querySelector("button.toggle-res-4")
+const exitRes4Tag = document.querySelector("div.toggle-res-4")
+const res4Tag = document.querySelector(".res-4")
+
+toggleRes4Tag.addEventListener("click", () => {
+  res4Tag.classList.toggle("open")
+  res1Tag.classList.remove("open")
+  res2Tag.classList.remove("open")
+  res3Tag.classList.remove("open")
+})
+
+exitRes4Tag.addEventListener("click", () => {
+  res4Tag.classList.remove("open")
 })
 
 // ARCHIVES
@@ -116,6 +152,7 @@ toggleAak0Tag.addEventListener("click", () => {
   aak4Tag.classList.remove("open")
   aak5Tag.classList.remove("open")
   aak6Tag.classList.remove("open")
+  aak7Tag.classList.remove("open")
 })
 
 exitAak0Tag.addEventListener("click", () => {
@@ -135,6 +172,7 @@ toggleAak1Tag.addEventListener("click", () => {
   aak4Tag.classList.remove("open")
   aak5Tag.classList.remove("open")
   aak6Tag.classList.remove("open")
+  aak7Tag.classList.remove("open")
 })
 
 exitAak1Tag.addEventListener("click", () => {
@@ -154,6 +192,7 @@ toggleAak2Tag.addEventListener("click", () => {
   aak4Tag.classList.remove("open")
   aak5Tag.classList.remove("open")
   aak6Tag.classList.remove("open")
+  aak7Tag.classList.remove("open")
 })
 
 exitAak2Tag.addEventListener("click", () => {
@@ -173,6 +212,7 @@ toggleAak3Tag.addEventListener("click", () => {
   aak4Tag.classList.remove("open")
   aak5Tag.classList.remove("open")
   aak6Tag.classList.remove("open")
+  aak7Tag.classList.remove("open")
 })
 
 exitAak3Tag.addEventListener("click", () => {
@@ -192,6 +232,7 @@ toggleAak4Tag.addEventListener("click", () => {
   aak3Tag.classList.remove("open")
   aak5Tag.classList.remove("open")
   aak6Tag.classList.remove("open")
+  aak7Tag.classList.remove("open")
 })
 
 exitAak4Tag.addEventListener("click", () => {
@@ -211,6 +252,7 @@ toggleAak5Tag.addEventListener("click", () => {
   aak3Tag.classList.remove("open")
   aak4Tag.classList.remove("open")
   aak6Tag.classList.remove("open")
+  aak7Tag.classList.remove("open")
 })
 
 exitAak5Tag.addEventListener("click", () => {
@@ -230,8 +272,29 @@ toggleAak6Tag.addEventListener("click", () => {
   aak3Tag.classList.remove("open")
   aak4Tag.classList.remove("open")
   aak5Tag.classList.remove("open")
+  aak7Tag.classList.remove("open")
 })
 
 exitAak6Tag.addEventListener("click", () => {
   aak6Tag.classList.remove("open")
+})
+
+// ‘Afa‘afakasi 7 (Incinerator Gallery Boadle Hall)
+const toggleAak7Tag = document.querySelector("button.toggle-pub-aak-7")
+const exitAak7Tag = document.querySelector("div.toggle-pub-aak-7")
+const aak7Tag = document.querySelector(".pub-aak-7")
+
+toggleAak7Tag.addEventListener("click", () => {
+  aak7Tag.classList.toggle("open")
+  aak0Tag.classList.remove("open")
+  aak1Tag.classList.remove("open")
+  aak2Tag.classList.remove("open")
+  aak3Tag.classList.remove("open")
+  aak4Tag.classList.remove("open")
+  aak5Tag.classList.remove("open")
+  aak6Tag.classList.remove("open")
+})
+
+exitAak7Tag.addEventListener("click", () => {
+  aak7Tag.classList.remove("open")
 })
