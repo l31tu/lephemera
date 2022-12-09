@@ -72,26 +72,25 @@ body {
   font-family: sans-serif;
   font-weight: normal;
   line-height: 1.1;
-  margin: 0.875rem;
   letter-spacing: -0.01rem;
   background: white;
   color: black;
 }
 
-header,
-footer {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+header {
   position: fixed;
   width: 100vw;
-  left: 0;
-  /* background-color: #fff; */
+  top: 0;
   padding: 0.875rem;
   z-index: 2;
 }
 
-header {
-  top: 0;
+header{
+  left: 0;
+}
+
+div.section-title {
+  left: calc(66.666% - 0.875rem);
 }
 
 h1,
@@ -133,7 +132,7 @@ container.journal {
   display: grid;
   grid-template-columns: 1fr;
   left: 0;
-  padding: 16vh 0 0 0;
+  padding: 16vh 0.875rem 0.875rem 0.875rem;
 }
 
 div.fadedown {
@@ -149,18 +148,6 @@ fadedown {
     background-image: linear-gradient(to top,
         rgba(255, 255, 255, 0),
         rgba(255, 255, 255, 1)
-    100%);
-}
-
-fadeup {
-    position: fixed;
-    bottom: 0px;
-    display: block;
-    width: 100%;
-    height: 10vh;
-    background-image: linear-gradient(to bottom,
-        rgba(255, 255, 255, 0),
-        rgba(255, 255, 255, 0.9)
     100%);
 }
 
@@ -203,7 +190,7 @@ div.credits h2 {
 }
 
 div.references {
-  top: 96px;
+  top: 5vh;
   left: 66.666%;
   height: 36vh;
   width: 25vw;
@@ -211,7 +198,7 @@ div.references {
 }
 
 div.mentor {
-  bottom: 192px;
+  bottom: 25vh;
   left: calc(66.666% + 100px);
   height: 36vh;
   width: 25vw;
@@ -219,9 +206,9 @@ div.mentor {
 }
 
 div.credits {
-  bottom: 48px;
+  bottom: 6vh;
   left: calc(66.666% + 0.875rem);
-  height: 16vh;
+  height: 20vh;
   width: 25vw;
   transform: rotate(5deg);
 }
@@ -263,15 +250,9 @@ button:hover {
 #p1 {
   text-indent: 4rem;
 }
-#p2 {
-  text-indent: 8rem;
-}
 
-#show,#content {
-  display:none;
-}
-#show:checked~#content{
-  display:block;
+.no-wrap {
+  white-space: nowrap;
 }
 
 .overflow-y {
@@ -284,36 +265,40 @@ button:hover {
   color: #fff;
 }
 
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 1024px) {
   html {
-    font-size: 10px;
+    font-size: 1rem;
   }
-  p,
-  a,
-  h1,
-  h2 {
-    font-size: 1.8rem;
+  header {
+    position: static;
   }
-  .update {
-    display: none;
+  fadedown {
+      height: 0px;
   }
-  footer {
-    display: block;
-  }
-  footer h2 {
-    margin: 10px 0 0 0;
-  }
-  container:first-of-type {
-    flex: 2;
-  }
-  div.research {
-    position: absolute;
-    height: auto;
+  container.journal {
     width: 100%;
+    padding: 8vh 0.875rem 0.875rem 0.875rem;
+  }
+  container.windows {
+    margin: 200px 0 0 0;
+  }
+  div.window {
     background-color: #000;
+    position: static;
     box-shadow: none;
+    border-radius: 0px;
+    padding: 0.875rem;
+    z-index: 3;
+  }
+  div.references,
+  div.mentor,
+  div.credits {
+    height: auto;
+    left: 0px;
+    width: 100%;
     transform: rotate(0deg);
-    border-radius: 0;
-    padding: 10px;
+  }
+  .overflow-y {
+    overflow-y: auto;
   }
 }
