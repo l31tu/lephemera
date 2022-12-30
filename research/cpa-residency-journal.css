@@ -96,7 +96,8 @@ div.section-title {
 h1,
 p,
 span,
-.window h2 {
+.window h2,
+ul {
   font-size: 1.75rem;
 }
 }
@@ -125,6 +126,18 @@ a {
 
 a:hover {
   color: magenta;
+}
+
+li {
+  margin: 0 0 0 4rem;
+}
+
+li:before {
+  content: "‣ ";
+}
+
+#p1 {
+  text-indent: 4rem;
 }
 
 container.journal {
@@ -184,7 +197,7 @@ div.window {
   text-decoration: underline;
 }
 
-div.mentor h2,
+div.connections h2,
 div.credits h2 {
   margin: 0 0 0.875rem 0;
 }
@@ -197,7 +210,7 @@ div.references {
   transform: rotate(3deg);
 }
 
-div.mentor {
+div.connections {
   bottom: 25vh;
   left: calc(66.666% + 100px);
   height: 36vh;
@@ -247,10 +260,6 @@ button:hover {
   display: none;
 }
 
-#p1 {
-  text-indent: 4rem;
-}
-
 .no-wrap {
   white-space: nowrap;
 }
@@ -291,7 +300,7 @@ button:hover {
     z-index: 3;
   }
   div.references,
-  div.mentor,
+  div.connections,
   div.credits {
     height: auto;
     left: 0px;
