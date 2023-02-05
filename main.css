@@ -255,7 +255,8 @@ button {
 .pub-aak-4,
 .pub-aak-5,
 .pub-aak-6,
-.pub-aak-7 {
+.pub-aak-7,
+.pub-aak-8 {
   background-color: #fff;
   position: fixed;
   height: 100%;
@@ -285,7 +286,8 @@ button {
 .pub-aak-4,
 .pub-aak-5,
 .pub-aak-6,
-.pub-aak-7 {
+.pub-aak-7,
+.pub-aak-8 {
   height: -webkit-calc(100% - 64px);
   height:    -moz-calc(100% - 64px);
   height:         calc(100% - 64px);
@@ -315,7 +317,8 @@ button {
 .pub-aak-4,
 .pub-aak-5,
 .pub-aak-6,
-.pub-aak-7 {
+.pub-aak-7,
+.pub-aak-8 {
   width: 60%;
 }
 
@@ -335,7 +338,8 @@ button {
 .pub-aak-4 p,
 .pub-aak-5 p,
 .pub-aak-6 p,
-.pub-aak-7 p {
+.pub-aak-7 p,
+.pub-aak-8 p {
   max-width: 800px;
 }
 
@@ -355,7 +359,8 @@ button {
 .pub-aak-4-exit,
 .pub-aak-5-exit,
 .pub-aak-6-exit,
-.pub-aak-7-exit {
+.pub-aak-7-exit,
+.pub-aak-8-exit {
   width: 72px;
   position: fixed;
   top: 0;
@@ -381,7 +386,8 @@ button {
 .pub-aak-4-exit,
 .pub-aak-5-exit,
 .pub-aak-6-exit,
-.pub-aak-7-exit {
+.pub-aak-7-exit,
+.pub-aak-8-exit {
   right: 0;
 }
 
@@ -482,7 +488,8 @@ svg:hover path {
   .pub-aak-4,
   .pub-aak-5,
   .pub-aak-6,
-  .pub-aak-7 {
+  .pub-aak-7,
+  .pub-aak-8 {
     width: 50%;
   }
 }
@@ -517,7 +524,8 @@ svg:hover path {
   .pub-aak-4,
   .pub-aak-5,
   .pub-aak-6,
-  .pub-aak-7 {
+  .pub-aak-7,
+  .pub-aak-8 {
     width: 100%;
     left: 0;
   }
@@ -533,7 +541,8 @@ svg:hover path {
   .pub-aak-4,
   .pub-aak-5,
   .pub-aak-6,
-  .pub-aak-7 {
+  .pub-aak-7,
+  .pub-aak-8 {
     height: 100%;
   }
   .left-container p,
