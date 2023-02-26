@@ -40,6 +40,7 @@ toggleRes1Tag.addEventListener("click", () => {
   res2Tag.classList.remove("open")
   res3Tag.classList.remove("open")
   res4Tag.classList.remove("open")
+  res5Tag.classList.remove("open")
 })
 
 exitRes1Tag.addEventListener("click", () => {
@@ -56,6 +57,7 @@ toggleRes2Tag.addEventListener("click", () => {
   res1Tag.classList.remove("open")
   res3Tag.classList.remove("open")
   res4Tag.classList.remove("open")
+  res5Tag.classList.remove("open")
 })
 
 exitRes2Tag.addEventListener("click", () => {
@@ -72,6 +74,7 @@ toggleRes3Tag.addEventListener("click", () => {
   res1Tag.classList.remove("open")
   res2Tag.classList.remove("open")
   res4Tag.classList.remove("open")
+  res5Tag.classList.remove("open")
 })
 
 exitRes3Tag.addEventListener("click", () => {
@@ -88,10 +91,28 @@ toggleRes4Tag.addEventListener("click", () => {
   res1Tag.classList.remove("open")
   res2Tag.classList.remove("open")
   res3Tag.classList.remove("open")
+  res5Tag.classList.remove("open")
 })
 
 exitRes4Tag.addEventListener("click", () => {
   res4Tag.classList.remove("open")
+})
+
+// Research 5 (Quarry Pedagogies Camp)
+const toggleRes5Tag = document.querySelector("button.toggle-res-5")
+const exitRes5Tag = document.querySelector("div.toggle-res-5")
+const res5Tag = document.querySelector(".res-5")
+
+toggleRes5Tag.addEventListener("click", () => {
+  res5Tag.classList.toggle("open")
+  res1Tag.classList.remove("open")
+  res2Tag.classList.remove("open")
+  res3Tag.classList.remove("open")
+  res4Tag.classList.remove("open")
+})
+
+exitRes5Tag.addEventListener("click", () => {
+  res5Tag.classList.remove("open")
 })
 
 // ARCHIVES
@@ -117,10 +138,25 @@ const arc1Tag = document.querySelector(".arc-1")
 
 toggleArc1Tag.addEventListener("click", () => {
   arc1Tag.classList.toggle("open")
+  arc2Tag.classList.remove("open")
 })
 
 exitArc1Tag.addEventListener("click", () => {
   arc1Tag.classList.remove("open")
+})
+
+// Archive 2 (Quarry Pedagogies 2023)
+const toggleArc2Tag = document.querySelector("button.toggle-arc-2")
+const exitArc2Tag = document.querySelector("div.toggle-arc-2")
+const arc2Tag = document.querySelector(".arc-2")
+
+toggleArc2Tag.addEventListener("click", () => {
+  arc2Tag.classList.toggle("open")
+  arc1Tag.classList.remove("open")
+})
+
+exitArc2Tag.addEventListener("click", () => {
+  arc2Tag.classList.remove("open")
 })
 
 // PUBLICATIONS
