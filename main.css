@@ -153,6 +153,7 @@ button {
 
 .para-sep {
   width: 36px;
+  height: auto;
   margin: -8px 0 22px 0;
 }
 
@@ -239,7 +240,8 @@ button {
 .pub-aak-5,
 .pub-aak-6,
 .pub-aak-7,
-.pub-aak-8 {
+.pub-aak-8,
+.pub-aak-9 {
   background-color: #fff;
   position: fixed;
   height: 100%;
@@ -272,7 +274,8 @@ button {
 .pub-aak-5,
 .pub-aak-6,
 .pub-aak-7,
-.pub-aak-8 {
+.pub-aak-8,
+.pub-aak-9 {
   height: -webkit-calc(100% - 64px);
   height:    -moz-calc(100% - 64px);
   height:         calc(100% - 64px);
@@ -305,7 +308,8 @@ button {
 .pub-aak-5,
 .pub-aak-6,
 .pub-aak-7,
-.pub-aak-8 {
+.pub-aak-8,
+.pub-aak-9 {
   width: 60%;
 }
 
@@ -328,7 +332,8 @@ button {
 .pub-aak-5 p,
 .pub-aak-6 p,
 .pub-aak-7 p,
-.pub-aak-8 p {
+.pub-aak-8 p,
+.pub-aak-9 p {
   max-width: 800px;
 }
 
@@ -351,7 +356,8 @@ button {
 .pub-aak-5-exit,
 .pub-aak-6-exit,
 .pub-aak-7-exit,
-.pub-aak-8-exit {
+.pub-aak-8-exit,
+.pub-aak-9-exit {
   width: 72px;
   position: fixed;
   top: 0;
@@ -380,7 +386,8 @@ button {
 .pub-aak-5-exit,
 .pub-aak-6-exit,
 .pub-aak-7-exit,
-.pub-aak-8-exit {
+.pub-aak-8-exit,
+.pub-aak-9-exit {
   right: 0;
 }
 
@@ -400,6 +407,7 @@ svg:hover path {
 
 .col-container {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
@@ -508,7 +516,8 @@ svg:hover path {
   .pub-aak-5,
   .pub-aak-6,
   .pub-aak-7,
-  .pub-aak-8 {
+  .pub-aak-8,
+  .pub-aak-9 {
     width: 50%;
   }
 }
@@ -518,11 +527,8 @@ svg:hover path {
   section {
     background-size: 60%;
   }
-  .col-container {
-    flex-direction: column;
-  }
   .col-three {
-    flex: 1;
+    flex: 2;
   }
   button {
     line-height: 1.5;
@@ -546,7 +552,8 @@ svg:hover path {
   .pub-aak-5,
   .pub-aak-6,
   .pub-aak-7,
-  .pub-aak-8 {
+  .pub-aak-8,
+  .pub-aak-9 {
     width: 100%;
     left: 0;
   }
@@ -565,7 +572,8 @@ svg:hover path {
   .pub-aak-5,
   .pub-aak-6,
   .pub-aak-7,
-  .pub-aak-8 {
+  .pub-aak-8,
+  .pub-aak-9 {
     height: 100%;
   }
   .left-container p,
