@@ -190,6 +190,7 @@ toggleAak0Tag.addEventListener("click", () => {
   aak6Tag.classList.remove("open")
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
+  aak9Tag.classList.remove("open")
 })
 
 exitAak0Tag.addEventListener("click", () => {
@@ -211,6 +212,7 @@ toggleAak1Tag.addEventListener("click", () => {
   aak6Tag.classList.remove("open")
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
+  aak9Tag.classList.remove("open")
 })
 
 exitAak1Tag.addEventListener("click", () => {
@@ -232,6 +234,7 @@ toggleAak2Tag.addEventListener("click", () => {
   aak6Tag.classList.remove("open")
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
+  aak9Tag.classList.remove("open")
 })
 
 exitAak2Tag.addEventListener("click", () => {
@@ -253,6 +256,7 @@ toggleAak3Tag.addEventListener("click", () => {
   aak6Tag.classList.remove("open")
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
+  aak9Tag.classList.remove("open")
 })
 
 exitAak3Tag.addEventListener("click", () => {
@@ -274,6 +278,7 @@ toggleAak4Tag.addEventListener("click", () => {
   aak6Tag.classList.remove("open")
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
+  aak9Tag.classList.remove("open")
 })
 
 exitAak4Tag.addEventListener("click", () => {
@@ -295,6 +300,7 @@ toggleAak5Tag.addEventListener("click", () => {
   aak6Tag.classList.remove("open")
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
+  aak9Tag.classList.remove("open")
 })
 
 exitAak5Tag.addEventListener("click", () => {
@@ -316,6 +322,7 @@ toggleAak6Tag.addEventListener("click", () => {
   aak5Tag.classList.remove("open")
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
+  aak9Tag.classList.remove("open")
 })
 
 exitAak6Tag.addEventListener("click", () => {
@@ -337,13 +344,14 @@ toggleAak7Tag.addEventListener("click", () => {
   aak5Tag.classList.remove("open")
   aak6Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
+  aak9Tag.classList.remove("open")
 })
 
 exitAak7Tag.addEventListener("click", () => {
   aak7Tag.classList.remove("open")
 })
 
-// ‘Afa‘afakasi 8 (Incinerator Gallery Boadle Hall)
+// ‘Afa‘afakasi 8 (Sāmoan Language Week Event at Collingwood Yards)
 const toggleAak8Tag = document.querySelector("button.toggle-pub-aak-8")
 const exitAak8Tag = document.querySelector("div.toggle-pub-aak-8")
 const aak8Tag = document.querySelector(".pub-aak-8")
@@ -358,8 +366,31 @@ toggleAak8Tag.addEventListener("click", () => {
   aak5Tag.classList.remove("open")
   aak6Tag.classList.remove("open")
   aak7Tag.classList.remove("open")
+  aak9Tag.classList.remove("open")
 })
 
 exitAak8Tag.addEventListener("click", () => {
   aak8Tag.classList.remove("open")
+})
+
+// ‘Afa‘afakasi 9 (Incinerator Gallery Boadle Hall)
+const toggleAak9Tag = document.querySelector("button.toggle-pub-aak-9")
+const exitAak9Tag = document.querySelector("div.toggle-pub-aak-9")
+const aak9Tag = document.querySelector(".pub-aak-9")
+
+toggleAak9Tag.addEventListener("click", () => {
+  aak8Tag.classList.toggle("open")
+  aak0Tag.classList.remove("open")
+  aak1Tag.classList.remove("open")
+  aak2Tag.classList.remove("open")
+  aak3Tag.classList.remove("open")
+  aak4Tag.classList.remove("open")
+  aak5Tag.classList.remove("open")
+  aak6Tag.classList.remove("open")
+  aak7Tag.classList.remove("open")
+  aak8Tag.classList.remove("open")
+})
+
+exitAak9Tag.addEventListener("click", () => {
+  aak9Tag.classList.remove("open")
 })
