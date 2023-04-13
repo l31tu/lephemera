@@ -379,7 +379,7 @@ const exitAak9Tag = document.querySelector("div.toggle-pub-aak-9")
 const aak9Tag = document.querySelector(".pub-aak-9")
 
 toggleAak9Tag.addEventListener("click", () => {
-  aak8Tag.classList.toggle("open")
+  aak9Tag.classList.toggle("open")
   aak0Tag.classList.remove("open")
   aak1Tag.classList.remove("open")
   aak2Tag.classList.remove("open")
