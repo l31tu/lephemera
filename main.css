@@ -153,8 +153,9 @@ button {
 
 .para-sep {
   width: 36px;
-  height: auto;
+  min-height: auto;
   margin: -8px 0 22px 0;
+  flex: 0 0 auto;
 }
 
 ::selection {
@@ -241,7 +242,8 @@ button {
 .pub-aak-6,
 .pub-aak-7,
 .pub-aak-8,
-.pub-aak-9 {
+.pub-aak-9,
+.pub-lap-1 {
   background-color: #fff;
   position: fixed;
   height: 100%;
@@ -275,7 +277,8 @@ button {
 .pub-aak-6,
 .pub-aak-7,
 .pub-aak-8,
-.pub-aak-9 {
+.pub-aak-9,
+.pub-lap-1 {
   height: -webkit-calc(100% - 64px);
   height:    -moz-calc(100% - 64px);
   height:         calc(100% - 64px);
@@ -309,7 +312,8 @@ button {
 .pub-aak-6,
 .pub-aak-7,
 .pub-aak-8,
-.pub-aak-9 {
+.pub-aak-9,
+.pub-lap-1 {
   width: 60%;
 }
 
@@ -333,7 +337,8 @@ button {
 .pub-aak-6 p,
 .pub-aak-7 p,
 .pub-aak-8 p,
-.pub-aak-9 p {
+.pub-aak-9 p,
+.pub-lap-1 p {
   max-width: 800px;
 }
 
@@ -357,7 +362,8 @@ button {
 .pub-aak-6-exit,
 .pub-aak-7-exit,
 .pub-aak-8-exit,
-.pub-aak-9-exit {
+.pub-aak-9-exit,
+.pub-lap-1-exit {
   width: 72px;
   position: fixed;
   top: 0;
@@ -387,7 +393,8 @@ button {
 .pub-aak-6-exit,
 .pub-aak-7-exit,
 .pub-aak-8-exit,
-.pub-aak-9-exit {
+.pub-aak-9-exit,
+.pub-lap-1-exit {
   right: 0;
 }
 
@@ -525,7 +532,8 @@ svg:hover path {
   .pub-aak-6,
   .pub-aak-7,
   .pub-aak-8,
-  .pub-aak-9 {
+  .pub-aak-9,
+  .pub-lap-1 {
     width: 50%;
   }
 }
@@ -561,7 +569,8 @@ svg:hover path {
   .pub-aak-6,
   .pub-aak-7,
   .pub-aak-8,
-  .pub-aak-9 {
+  .pub-aak-9,
+  .pub-lap-1 {
     width: 100%;
     left: 0;
   }
@@ -581,7 +590,8 @@ svg:hover path {
   .pub-aak-6,
   .pub-aak-7,
   .pub-aak-8,
-  .pub-aak-9 {
+  .pub-aak-9,
+  .pub-lap-1 {
     height: 100%;
   }
   .left-container p,
