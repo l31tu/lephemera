@@ -191,6 +191,7 @@ toggleAak0Tag.addEventListener("click", () => {
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
   aak9Tag.classList.remove("open")
+  laP1Tag.classList.remove("open")
 })
 
 exitAak0Tag.addEventListener("click", () => {
@@ -213,6 +214,7 @@ toggleAak1Tag.addEventListener("click", () => {
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
   aak9Tag.classList.remove("open")
+  laP1Tag.classList.remove("open")
 })
 
 exitAak1Tag.addEventListener("click", () => {
@@ -235,6 +237,7 @@ toggleAak2Tag.addEventListener("click", () => {
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
   aak9Tag.classList.remove("open")
+  laP1Tag.classList.remove("open")
 })
 
 exitAak2Tag.addEventListener("click", () => {
@@ -257,6 +260,7 @@ toggleAak3Tag.addEventListener("click", () => {
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
   aak9Tag.classList.remove("open")
+  laP1Tag.classList.remove("open")
 })
 
 exitAak3Tag.addEventListener("click", () => {
@@ -279,6 +283,7 @@ toggleAak4Tag.addEventListener("click", () => {
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
   aak9Tag.classList.remove("open")
+  laP1Tag.classList.remove("open")
 })
 
 exitAak4Tag.addEventListener("click", () => {
@@ -301,6 +306,7 @@ toggleAak5Tag.addEventListener("click", () => {
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
   aak9Tag.classList.remove("open")
+  laP1Tag.classList.remove("open")
 })
 
 exitAak5Tag.addEventListener("click", () => {
@@ -323,6 +329,7 @@ toggleAak6Tag.addEventListener("click", () => {
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
   aak9Tag.classList.remove("open")
+  laP1Tag.classList.remove("open")
 })
 
 exitAak6Tag.addEventListener("click", () => {
@@ -345,6 +352,7 @@ toggleAak7Tag.addEventListener("click", () => {
   aak6Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
   aak9Tag.classList.remove("open")
+  laP1Tag.classList.remove("open")
 })
 
 exitAak7Tag.addEventListener("click", () => {
@@ -367,6 +375,7 @@ toggleAak8Tag.addEventListener("click", () => {
   aak6Tag.classList.remove("open")
   aak7Tag.classList.remove("open")
   aak9Tag.classList.remove("open")
+  laP1Tag.classList.remove("open")
 })
 
 exitAak8Tag.addEventListener("click", () => {
@@ -389,8 +398,32 @@ toggleAak9Tag.addEventListener("click", () => {
   aak6Tag.classList.remove("open")
   aak7Tag.classList.remove("open")
   aak8Tag.classList.remove("open")
+  laP1Tag.classList.remove("open")
 })
 
 exitAak9Tag.addEventListener("click", () => {
   aak9Tag.classList.remove("open")
+})
+
+// Letters at Play (Gertrude Street Projection Festival)
+const toggleLaP1Tag = document.querySelector("button.toggle-pub-lap-1")
+const exitLaP1Tag = document.querySelector("div.toggle-pub-lap-1")
+const laP1Tag = document.querySelector(".pub-lap-1")
+
+toggleLaP1Tag.addEventListener("click", () => {
+  laP1Tag.classList.toggle("open")
+  aak0Tag.classList.remove("open")
+  aak1Tag.classList.remove("open")
+  aak2Tag.classList.remove("open")
+  aak3Tag.classList.remove("open")
+  aak4Tag.classList.remove("open")
+  aak5Tag.classList.remove("open")
+  aak6Tag.classList.remove("open")
+  aak7Tag.classList.remove("open")
+  aak8Tag.classList.remove("open")
+  aak9Tag.classList.remove("open")
+})
+
+exitLaP1Tag.addEventListener("click", () => {
+  laP1Tag.classList.remove("open")
 })
