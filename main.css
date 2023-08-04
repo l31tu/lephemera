@@ -231,6 +231,8 @@ button {
 .res-3,
 .res-4,
 .res-5,
+.res-6,
+.res-7,
 .arc-1,
 .arc-2,
 .pub-aak-0,
@@ -266,6 +268,8 @@ button {
 .res-3,
 .res-4,
 .res-5,
+.res-6,
+.res-7,
 .arc-1,
 .arc-2,
 .pub-aak-0,
@@ -301,6 +305,8 @@ button {
 .res-3,
 .res-4,
 .res-5,
+.res-6,
+.res-7,
 .arc-1,
 .arc-2,
 .pub-aak-0,
@@ -326,6 +332,8 @@ button {
 .res-3 p,
 .res-4 p,
 .res-5 p,
+.res-6 p,
+.res-7 p,
 .arc-1 p,
 .arc-2 p,
 .pub-aak-0 p,
@@ -351,6 +359,8 @@ button {
 .res-3-exit,
 .res-4-exit,
 .res-5-exit,
+.res-6-exit,
+.res-7-exit,
 .arc-1-exit,
 .arc-2-exit,
 .pub-aak-0-exit,
@@ -382,6 +392,8 @@ button {
 .res-3-exit,
 .res-4-exit,
 .res-5-exit,
+.res-6-exit,
+.res-7-exit,
 .arc-1-exit,
 .arc-2-exit,
 .pub-aak-0-exit,
@@ -450,62 +462,54 @@ svg:hover path {
 }
 
 .image_3 {
-  background-image: url(assets/LPE_pub_AAK_1-2_1.webp);
-}
-
-.image_4 {
   background-image: url(assets/LPE_pub_AAK_2-3_15.webp);
 }
 
-.image_5 {
+.image_4 {
   background-image: url(assets/LPE_res_TG_1.webp);
 }
 
-.image_6 {
+.image_5 {
   background-image: url(assets/LPE_res_TG_5.webp);
 }
 
-.image_7 {
-  background-image: url(assets/LPE_res_TG_3.webp);
-}
-
-.image_8 {
+.image_6 {
   background-image: url(assets/LPE_pub_AAK_2-3_21.webp);
 }
 
-.image_9 {
+.image_7 {
   background-image: url(assets/LPE_pub_AAK_2-1_1.webp);
 }
 
-.image_10 {
+.image_8 {
   background-image: url(assets/LPE_pub_AAK_2-1_4.webp);
 }
 
-.image_11 {
+.image_9 {
   background-image: url(assets/LPE_res_HB_3.webp);
 }
 
-.image_12 {
+.image_10 {
   background-image: url(assets/LPE_8.webp);
 }
 
-.image_13 {
+.image_11 {
   background-image: url(assets/LPE_res_HB_5.webp);
 }
 
-.image_14 {
+.image_12 {
   background-image: url(assets/LPE_pub_AAK_1-3_1.webp);
 }
 
-.image_15 {
+.image_13 {
   background-image: url(assets/LPE_pub_AAK_1-3_3.webp);
 }
 
-.image_16 {
+.image_14 {
   background-image: url(assets/LPE_arc_QP_1.webp);
 }
 
-.image_17 {
+.image_15 {
   background-image: url(assets/LPE_arc_QP_5.webp);
 }
 
@@ -521,6 +525,8 @@ svg:hover path {
   .res-3,
   .res-4,
   .res-5,
+  .res-6,
+  .res-7,
   .arc-1,
   .arc-2,
   .pub-aak-0,
@@ -558,6 +564,8 @@ svg:hover path {
   .res-3,
   .res-4,
   .res-5,
+  .res-6,
+  .res-7,
   .arc-1,
   .arc-2,
   .pub-aak-0,
@@ -579,6 +587,8 @@ svg:hover path {
   .res-3,
   .res-4,
   .res-5,
+  .res-6,
+  .res-7,
   .arc-1,
   .arc-2,
   .pub-aak-0,
