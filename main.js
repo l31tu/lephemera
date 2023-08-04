@@ -41,6 +41,8 @@ toggleRes1Tag.addEventListener("click", () => {
   res3Tag.classList.remove("open")
   res4Tag.classList.remove("open")
   res5Tag.classList.remove("open")
+  res6Tag.classList.remove("open")
+  res7Tag.classList.remove("open")
 })
 
 exitRes1Tag.addEventListener("click", () => {
@@ -58,13 +60,15 @@ toggleRes2Tag.addEventListener("click", () => {
   res3Tag.classList.remove("open")
   res4Tag.classList.remove("open")
   res5Tag.classList.remove("open")
+  res6Tag.classList.remove("open")
+  res7Tag.classList.remove("open")
 })
 
 exitRes2Tag.addEventListener("click", () => {
   res2Tag.classList.remove("open")
 })
 
-// Research 3 (Tree Paper Gallery Residency)
+// Research 3 (48 Hours to Premier Residency)
 const toggleRes3Tag = document.querySelector("button.toggle-res-3")
 const exitRes3Tag = document.querySelector("div.toggle-res-3")
 const res3Tag = document.querySelector(".res-3")
@@ -75,13 +79,15 @@ toggleRes3Tag.addEventListener("click", () => {
   res2Tag.classList.remove("open")
   res4Tag.classList.remove("open")
   res5Tag.classList.remove("open")
+  res6Tag.classList.remove("open")
+  res7Tag.classList.remove("open")
 })
 
 exitRes3Tag.addEventListener("click", () => {
   res3Tag.classList.remove("open")
 })
 
-// Research 4 (Centre for Projection Art Residency)
+// Research 4 (Tree Paper Gallery Residency)
 const toggleRes4Tag = document.querySelector("button.toggle-res-4")
 const exitRes4Tag = document.querySelector("div.toggle-res-4")
 const res4Tag = document.querySelector(".res-4")
@@ -92,13 +98,15 @@ toggleRes4Tag.addEventListener("click", () => {
   res2Tag.classList.remove("open")
   res3Tag.classList.remove("open")
   res5Tag.classList.remove("open")
+  res6Tag.classList.remove("open")
+  res7Tag.classList.remove("open")
 })
 
 exitRes4Tag.addEventListener("click", () => {
   res4Tag.classList.remove("open")
 })
 
-// Research 5 (Quarry Pedagogies Camp)
+// Research 5 (Centre for Projection Art Residency)
 const toggleRes5Tag = document.querySelector("button.toggle-res-5")
 const exitRes5Tag = document.querySelector("div.toggle-res-5")
 const res5Tag = document.querySelector(".res-5")
@@ -109,10 +117,50 @@ toggleRes5Tag.addEventListener("click", () => {
   res2Tag.classList.remove("open")
   res3Tag.classList.remove("open")
   res4Tag.classList.remove("open")
+  res6Tag.classList.remove("open")
+  res7Tag.classList.remove("open")
 })
 
 exitRes5Tag.addEventListener("click", () => {
   res5Tag.classList.remove("open")
+})
+
+// Research 6 (Quarry Pedagogies Camp)
+const toggleRes6Tag = document.querySelector("button.toggle-res-6")
+const exitRes6Tag = document.querySelector("div.toggle-res-6")
+const res6Tag = document.querySelector(".res-6")
+
+toggleRes6Tag.addEventListener("click", () => {
+  res6Tag.classList.toggle("open")
+  res1Tag.classList.remove("open")
+  res2Tag.classList.remove("open")
+  res3Tag.classList.remove("open")
+  res4Tag.classList.remove("open")
+  res5Tag.classList.remove("open")
+  res7Tag.classList.remove("open")
+})
+
+exitRes6Tag.addEventListener("click", () => {
+  res6Tag.classList.remove("open")
+})
+
+// Research 7 (Werkplaats Typografie)
+const toggleRes7Tag = document.querySelector("button.toggle-res-7")
+const exitRes7Tag = document.querySelector("div.toggle-res-7")
+const res7Tag = document.querySelector(".res-7")
+
+toggleRes7Tag.addEventListener("click", () => {
+  res7Tag.classList.toggle("open")
+  res1Tag.classList.remove("open")
+  res2Tag.classList.remove("open")
+  res3Tag.classList.remove("open")
+  res4Tag.classList.remove("open")
+  res5Tag.classList.remove("open")
+  res6Tag.classList.remove("open")
+})
+
+exitRes7Tag.addEventListener("click", () => {
+  res7Tag.classList.remove("open")
 })
 
 // ARCHIVES
