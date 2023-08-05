@@ -634,6 +634,7 @@ section {
 .image_6 {
   display: none;
 }
+.archives,
 .publications {
   overflow-x: hidden;
   overflow-y: scroll;
