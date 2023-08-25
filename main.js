@@ -473,7 +473,7 @@ exitAak9Tag.addEventListener("click", () => {
   aak9Tag.classList.remove("open")
 })
 
-// ‘Afa‘afakasi 10 (Incinerator Gallery Public Program)
+// ‘Afa‘afakasi 10 (Federation Square Big Screen)
 const toggleAak10Tag = document.querySelector("button.toggle-pub-aak-10")
 const exitAak10Tag = document.querySelector("div.toggle-pub-aak-10")
 const aak10Tag = document.querySelector(".pub-aak-10")
@@ -498,7 +498,7 @@ exitAak10Tag.addEventListener("click", () => {
   aak10Tag.classList.remove("open")
 })
 
-// ‘Afa‘afakasi 11 (Federation Square Big Screen)
+// ‘Afa‘afakasi 11 (Incinerator Gallery Public Program)
 const toggleAak11Tag = document.querySelector("button.toggle-pub-aak-11")
 const exitAak11Tag = document.querySelector("div.toggle-pub-aak-11")
 const aak11Tag = document.querySelector(".pub-aak-11")
