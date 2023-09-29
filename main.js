@@ -43,6 +43,7 @@ toggleRes1Tag.addEventListener("click", () => {
   res5Tag.classList.remove("open")
   res6Tag.classList.remove("open")
   res7Tag.classList.remove("open")
+  res8Tag.classList.remove("open")
 })
 
 exitRes1Tag.addEventListener("click", () => {
@@ -62,6 +63,7 @@ toggleRes2Tag.addEventListener("click", () => {
   res5Tag.classList.remove("open")
   res6Tag.classList.remove("open")
   res7Tag.classList.remove("open")
+  res8Tag.classList.remove("open")
 })
 
 exitRes2Tag.addEventListener("click", () => {
@@ -81,6 +83,7 @@ toggleRes3Tag.addEventListener("click", () => {
   res5Tag.classList.remove("open")
   res6Tag.classList.remove("open")
   res7Tag.classList.remove("open")
+  res8Tag.classList.remove("open")
 })
 
 exitRes3Tag.addEventListener("click", () => {
@@ -100,6 +103,7 @@ toggleRes4Tag.addEventListener("click", () => {
   res5Tag.classList.remove("open")
   res6Tag.classList.remove("open")
   res7Tag.classList.remove("open")
+  res8Tag.classList.remove("open")
 })
 
 exitRes4Tag.addEventListener("click", () => {
@@ -119,6 +123,7 @@ toggleRes5Tag.addEventListener("click", () => {
   res4Tag.classList.remove("open")
   res6Tag.classList.remove("open")
   res7Tag.classList.remove("open")
+  res8Tag.classList.remove("open")
 })
 
 exitRes5Tag.addEventListener("click", () => {
@@ -138,13 +143,14 @@ toggleRes6Tag.addEventListener("click", () => {
   res4Tag.classList.remove("open")
   res5Tag.classList.remove("open")
   res7Tag.classList.remove("open")
+  res8Tag.classList.remove("open")
 })
 
 exitRes6Tag.addEventListener("click", () => {
   res6Tag.classList.remove("open")
 })
 
-// Research 7 (Werkplaats Typografie)
+// Research 7 (Tautai Pacific Arts Trust Fale-ship Residency)
 const toggleRes7Tag = document.querySelector("button.toggle-res-7")
 const exitRes7Tag = document.querySelector("div.toggle-res-7")
 const res7Tag = document.querySelector(".res-7")
@@ -157,10 +163,31 @@ toggleRes7Tag.addEventListener("click", () => {
   res4Tag.classList.remove("open")
   res5Tag.classList.remove("open")
   res6Tag.classList.remove("open")
+  res8Tag.classList.remove("open")
 })
 
 exitRes7Tag.addEventListener("click", () => {
   res7Tag.classList.remove("open")
+})
+
+// Research 8 (Werkplaats Typografie)
+const toggleRes8Tag = document.querySelector("button.toggle-res-8")
+const exitRes8Tag = document.querySelector("div.toggle-res-8")
+const res8Tag = document.querySelector(".res-8")
+
+toggleRes8Tag.addEventListener("click", () => {
+  res8Tag.classList.toggle("open")
+  res1Tag.classList.remove("open")
+  res2Tag.classList.remove("open")
+  res3Tag.classList.remove("open")
+  res4Tag.classList.remove("open")
+  res5Tag.classList.remove("open")
+  res6Tag.classList.remove("open")
+  res7Tag.classList.remove("open")
+})
+
+exitRes8Tag.addEventListener("click", () => {
+  res8Tag.classList.remove("open")
 })
 
 // ARCHIVES
