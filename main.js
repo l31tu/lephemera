@@ -206,32 +206,17 @@ exitArchTag.addEventListener("click", () => {
   archTag.classList.remove("open")
 })
 
-// Archive 1 (Distributed Goods)
+// Archive 1 (Quarry Pedagogies Camp: B-roll)
 const toggleArc1Tag = document.querySelector("button.toggle-arc-1")
 const exitArc1Tag = document.querySelector("div.toggle-arc-1")
 const arc1Tag = document.querySelector(".arc-1")
 
 toggleArc1Tag.addEventListener("click", () => {
   arc1Tag.classList.toggle("open")
-  arc2Tag.classList.remove("open")
 })
 
 exitArc1Tag.addEventListener("click", () => {
   arc1Tag.classList.remove("open")
-})
-
-// Archive 2 (Quarry Pedagogies 2023)
-const toggleArc2Tag = document.querySelector("button.toggle-arc-2")
-const exitArc2Tag = document.querySelector("div.toggle-arc-2")
-const arc2Tag = document.querySelector(".arc-2")
-
-toggleArc2Tag.addEventListener("click", () => {
-  arc2Tag.classList.toggle("open")
-  arc1Tag.classList.remove("open")
-})
-
-exitArc2Tag.addEventListener("click", () => {
-  arc2Tag.classList.remove("open")
 })
 
 // PUBLICATIONS
