@@ -206,10 +206,25 @@ const arc1Tag = document.querySelector(".arc-1")
 
 toggleArc1Tag.addEventListener("click", () => {
   arc1Tag.classList.toggle("open")
+  arc2Tag.classList.remove("open")
 })
 
 exitArc1Tag.addEventListener("click", () => {
   arc1Tag.classList.remove("open")
+})
+
+// Archive 2 (Kefe o'e Siamani)
+const toggleArc2Tag = document.querySelector("button.toggle-arc-2")
+const exitArc2Tag = document.querySelector("div.toggle-arc-2")
+const arc2Tag = document.querySelector(".arc-2")
+
+toggleArc2Tag.addEventListener("click", () => {
+  arc2Tag.classList.toggle("open")
+  arc1Tag.classList.remove("open")
+})
+
+exitArc2Tag.addEventListener("click", () => {
+  arc2Tag.classList.remove("open")
 })
 
 // PUBLICATIONS
@@ -246,6 +261,7 @@ toggleAak0Tag.addEventListener("click", () => {
   aak9Tag.classList.remove("open")
   aak10Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
 })
 
@@ -271,6 +287,7 @@ toggleAak1Tag.addEventListener("click", () => {
   aak9Tag.classList.remove("open")
   aak10Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
 })
 
@@ -296,6 +313,7 @@ toggleAak2Tag.addEventListener("click", () => {
   aak9Tag.classList.remove("open")
   aak10Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
 })
 
@@ -321,6 +339,7 @@ toggleAak3Tag.addEventListener("click", () => {
   aak9Tag.classList.remove("open")
   aak10Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
 })
 
@@ -346,6 +365,7 @@ toggleAak4Tag.addEventListener("click", () => {
   aak9Tag.classList.remove("open")
   aak10Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
 })
 
@@ -371,6 +391,7 @@ toggleAak5Tag.addEventListener("click", () => {
   aak9Tag.classList.remove("open")
   aak10Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
 })
 
@@ -396,6 +417,7 @@ toggleAak6Tag.addEventListener("click", () => {
   aak9Tag.classList.remove("open")
   aak10Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
 })
 
@@ -421,6 +443,7 @@ toggleAak7Tag.addEventListener("click", () => {
   aak9Tag.classList.remove("open")
   aak10Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
 })
 
@@ -446,6 +469,7 @@ toggleAak8Tag.addEventListener("click", () => {
   aak9Tag.classList.remove("open")
   aak10Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
 })
 
@@ -471,6 +495,7 @@ toggleAak9Tag.addEventListener("click", () => {
   aak8Tag.classList.remove("open")
   aak10Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
 })
 
@@ -496,6 +521,7 @@ toggleAak10Tag.addEventListener("click", () => {
   aak8Tag.classList.remove("open")
   aak9Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
 })
 
@@ -521,11 +547,38 @@ toggleAak11Tag.addEventListener("click", () => {
   aak8Tag.classList.remove("open")
   aak9Tag.classList.remove("open")
   aak10Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
 })
 
 exitAak11Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open")
+})
+
+// ‘Afa‘afakasi 12 (Lomiga Tolu)
+const toggleAak12Tag = document.querySelector("button.toggle-pub-aak-12")
+const exitAak12Tag = document.querySelector("div.toggle-pub-aak-12")
+const aak12Tag = document.querySelector(".pub-aak-12")
+
+toggleAak12Tag.addEventListener("click", () => {
+  aak12Tag.classList.toggle("open")
+  aak0Tag.classList.remove("open")
+  aak1Tag.classList.remove("open")
+  aak2Tag.classList.remove("open")
+  aak3Tag.classList.remove("open")
+  aak4Tag.classList.remove("open")
+  aak5Tag.classList.remove("open")
+  aak6Tag.classList.remove("open")
+  aak7Tag.classList.remove("open")
+  aak8Tag.classList.remove("open")
+  aak9Tag.classList.remove("open")
+  aak10Tag.classList.remove("open")
+  aak11Tag.classList.remove("open")
+  laP1Tag.classList.remove("open")
+})
+
+exitAak12Tag.addEventListener("click", () => {
+  aak12Tag.classList.remove("open")
 })
 
 // Letters at Play (Gertrude Street Projection Festival)
