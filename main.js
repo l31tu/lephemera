@@ -600,6 +600,7 @@ toggleLaP1Tag.addEventListener("click", () => {
   aak9Tag.classList.remove("open")
   aak10Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
 })
 
 exitLaP1Tag.addEventListener("click", () => {
