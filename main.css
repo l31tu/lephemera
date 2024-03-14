@@ -248,6 +248,7 @@ button {
 .pub-aak-9,
 .pub-aak-10,
 .pub-aak-11,
+.pub-aak-12,
 .pub-lap-1 {
   background-color: #fff;
   position: fixed;
@@ -288,6 +289,7 @@ button {
 .pub-aak-9,
 .pub-aak-10,
 .pub-aak-11,
+.pub-aak-12,
 .pub-lap-1 {
   height: -webkit-calc(100% - 64px);
   height:    -moz-calc(100% - 64px);
@@ -328,6 +330,7 @@ button {
 .pub-aak-9,
 .pub-aak-10,
 .pub-aak-11,
+.pub-aak-12,
 .pub-lap-1 {
   width: 60%;
 }
@@ -358,6 +361,7 @@ button {
 .pub-aak-9 p,
 .pub-aak-10 p,
 .pub-aak-11 p,
+.pub-aak-12 p,
 .pub-lap-1 p {
   max-width: 800px;
 }
@@ -388,6 +392,7 @@ button {
 .pub-aak-9-exit,
 .pub-aak-10-exit,
 .pub-aak-11-exit,
+.pub-aak-12-exit,
 .pub-lap-1-exit {
   width: 72px;
   position: fixed;
@@ -424,6 +429,7 @@ button {
 .pub-aak-9-exit,
 .pub-aak-10-exit,
 .pub-aak-11-exit,
+.pub-aak-12-exit,
 .pub-lap-1-exit {
   right: 0;
 }
@@ -532,6 +538,10 @@ svg:hover path {
 }
 
 .image_16 {
+  background-image: url(assets/LPE_arc_KoS_1.webp);
+}
+
+.image_17 {
   background-image: url(assets/LPE_arc_QP_1.webp);
 }
 
@@ -564,6 +574,7 @@ svg:hover path {
   .pub-aak-9,
   .pub-aak-10,
   .pub-aak-11,
+  .pub-aak-12,
   .pub-lap-1 {
     width: 50%;
   }
@@ -606,6 +617,7 @@ svg:hover path {
   .pub-aak-9,
   .pub-aak-10,
   .pub-aak-11,
+  .pub-aak-12,
   .pub-lap-1 {
     width: 100%;
     left: 0;
@@ -631,7 +643,8 @@ svg:hover path {
   .pub-aak-8,
   .pub-aak-9,
   .pub-aak-10,
-  .pub-aak-11,
+  .pub-aak-11
+  .pub-aak-12,
   .pub-lap-1 {
     height: 100%;
   }
@@ -665,6 +678,7 @@ section {
 .image_6 {
   display: none;
 }
+.information,
 .research,
 .archives,
 .publications {
