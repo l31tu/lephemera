@@ -625,37 +625,39 @@ svg:hover path {
     width: 100%;
     left: 0;
   }
-.info-exit,
-.pubs-exit,
-.arch-exit,
-.res-exit,
-.res-1-exit,
-.res-2-exit,
-.res-3-exit,
-.res-4-exit,
-.res-5-exit,
-.res-6-exit,
-.res-7-exit,
-.res-8-exit,
-.arc-1-exit,
-.arc-2-exit,
-.pub-aak-0-exit,
-.pub-aak-1-exit,
-.pub-aak-2-exit,
-.pub-aak-3-exit,
-.pub-aak-4-exit,
-.pub-aak-5-exit,
-.pub-aak-6-exit,
-.pub-aak-7-exit,
-.pub-aak-8-exit,
-.pub-aak-9-exit,
-.pub-aak-10-exit,
-.pub-aak-11-exit,
-.pub-aak-12-exit,
-.pub-lap-1-exit {
-  position: fixed;
-  top: 0;
-}
+  .info-exit,
+  .pubs-exit,
+  .arch-exit,
+  .res-exit,
+  .res-1-exit,
+  .res-2-exit,
+  .res-3-exit,
+  .res-4-exit,
+  .res-5-exit,
+  .res-6-exit,
+  .res-7-exit,
+  .res-8-exit,
+  .arc-1-exit,
+  .arc-2-exit,
+  .pub-aak-0-exit,
+  .pub-aak-1-exit,
+  .pub-aak-2-exit,
+  .pub-aak-3-exit,
+  .pub-aak-4-exit,
+  .pub-aak-5-exit,
+  .pub-aak-6-exit,
+  .pub-aak-7-exit,
+  .pub-aak-8-exit,
+  .pub-aak-9-exit,
+  .pub-aak-10-exit,
+  .pub-aak-11-exit,
+  .pub-aak-12-exit,
+  .pub-lap-1-exit {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
   .left-container p,
   .left-container img,
   .left-container video {
