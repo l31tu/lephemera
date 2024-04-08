@@ -263,6 +263,7 @@ toggleAak0Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open")
   aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitAak0Tag.addEventListener("click", () => {
@@ -289,6 +290,7 @@ toggleAak1Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open")
   aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitAak1Tag.addEventListener("click", () => {
@@ -315,6 +317,7 @@ toggleAak2Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open")
   aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitAak2Tag.addEventListener("click", () => {
@@ -341,6 +344,7 @@ toggleAak3Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open")
   aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitAak3Tag.addEventListener("click", () => {
@@ -367,6 +371,7 @@ toggleAak4Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open")
   aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitAak4Tag.addEventListener("click", () => {
@@ -393,6 +398,7 @@ toggleAak5Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open")
   aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitAak5Tag.addEventListener("click", () => {
@@ -419,6 +425,7 @@ toggleAak6Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open")
   aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitAak6Tag.addEventListener("click", () => {
@@ -445,6 +452,7 @@ toggleAak7Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open")
   aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitAak7Tag.addEventListener("click", () => {
@@ -471,6 +479,7 @@ toggleAak8Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open")
   aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitAak8Tag.addEventListener("click", () => {
@@ -497,6 +506,7 @@ toggleAak9Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open")
   aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitAak9Tag.addEventListener("click", () => {
@@ -523,6 +533,7 @@ toggleAak10Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open")
   aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitAak10Tag.addEventListener("click", () => {
@@ -549,6 +560,7 @@ toggleAak11Tag.addEventListener("click", () => {
   aak10Tag.classList.remove("open")
   aak12Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitAak11Tag.addEventListener("click", () => {
@@ -575,6 +587,7 @@ toggleAak12Tag.addEventListener("click", () => {
   aak10Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
   laP1Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitAak12Tag.addEventListener("click", () => {
@@ -601,8 +614,36 @@ toggleLaP1Tag.addEventListener("click", () => {
   aak10Tag.classList.remove("open")
   aak11Tag.classList.remove("open")
   aak12Tag.classList.remove("open")
+  rep1Tag.classList.remove("open")
 })
 
 exitLaP1Tag.addEventListener("click", () => {
   laP1Tag.classList.remove("open")
+})
+
+// Reproduction: Valuing, Growing & Retaining Pacific Leaders & Teachers
+const toggleRep1Tag = document.querySelector("button.toggle-pub-rep-1")
+const exitRep1Tag = document.querySelector("div.toggle-pub-rep-1")
+const rep1Tag = document.querySelector(".pub-rep-1")
+
+toggleRep1Tag.addEventListener("click", () => {
+  rep1Tag.classList.toggle("open")
+  aak0Tag.classList.remove("open")
+  aak1Tag.classList.remove("open")
+  aak2Tag.classList.remove("open")
+  aak3Tag.classList.remove("open")
+  aak4Tag.classList.remove("open")
+  aak5Tag.classList.remove("open")
+  aak6Tag.classList.remove("open")
+  aak7Tag.classList.remove("open")
+  aak8Tag.classList.remove("open")
+  aak9Tag.classList.remove("open")
+  aak10Tag.classList.remove("open")
+  aak11Tag.classList.remove("open")
+  aak12Tag.classList.remove("open")
+  laP1Tag.classList.remove("open")
+})
+
+exitRep1Tag.addEventListener("click", () => {
+  rep1Tag.classList.remove("open")
 })
