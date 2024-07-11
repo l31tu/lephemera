@@ -244,6 +244,7 @@ toggleArc1Tag.addEventListener("click", () => {
   arc1Tag.classList.toggle("open")
   arc2Tag.classList.remove("open")
   arc3Tag.classList.remove("open")
+  arc4Tag.classList.remove("open")
 })
 
 exitArc1Tag.addEventListener("click", () => {
@@ -259,6 +260,7 @@ toggleArc2Tag.addEventListener("click", () => {
   arc2Tag.classList.toggle("open")
   arc1Tag.classList.remove("open")
   arc3Tag.classList.remove("open")
+  arc4Tag.classList.remove("open")
 })
 
 exitArc2Tag.addEventListener("click", () => {
@@ -274,10 +276,27 @@ toggleArc3Tag.addEventListener("click", () => {
   arc3Tag.classList.toggle("open")
   arc1Tag.classList.remove("open")
   arc2Tag.classList.remove("open")
+  arc4Tag.classList.remove("open")
 })
 
 exitArc3Tag.addEventListener("click", () => {
   arc3Tag.classList.remove("open")
+})
+
+// Archive 4 (Home Patterns at Habitat)
+const toggleArc4Tag = document.querySelector("button.toggle-arc-4")
+const exitArc4Tag = document.querySelector("div.toggle-arc-4")
+const arc4Tag = document.querySelector(".arc-4")
+
+toggleArc4Tag.addEventListener("click", () => {
+  arc4Tag.classList.toggle("open")
+  arc1Tag.classList.remove("open")
+  arc2Tag.classList.remove("open")
+  arc3Tag.classList.remove("open")
+})
+
+exitArc4Tag.addEventListener("click", () => {
+  arc4Tag.classList.remove("open")
 })
 
 // PUBLICATIONS
