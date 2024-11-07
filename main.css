@@ -1,675 +1,742 @@
-/*** STYLES ***/
-body {
-  font-family: sans-serif;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: -0.01rem;
-  color: #000;
-
-  background-color: #fff;
-}
-
-h4 {
-  margin: 0 0 10px 0;
-}
-
-.right-container h4 {
-  margin: 0 0 24px 0;
-}
-
-p {
-  margin: 0 0 20px 0;
-}
-
-p.soon {
-  margin: 20px 0 5px 0;
-}
-
-figcaption {
-  font-size: 10px;
-  margin: 6px 0 0 0;
-}
-
-span.title,
-span.italic {
-  font-style: italic;
-}
-
-span.title:hover {
-  font-style: normal;
-}
-
-a {
-  color: #000;
-  text-decoration: none;
-  transition: 0.1s;
-}
-
-a.project-link {
-  border-bottom: 1px solid #000;
-}
-
-a.project-link:hover {
-  border-bottom: 1px solid magenta;
-}
-
-a:hover,
-button:hover {
-  color: magenta;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 18px 0 0 18px;
-}
-
-footer {
-  position: fixed;
-  bottom: 18px;
-  left: 18px;
-}
-
-footer button {
-  margin-right: 18px;
-  transition: 0.1s;
-}
-
-button {
-  background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	outline: inherit;
-
-  text-align: left;
-}
-
-.para-sep {
-  width: 36px;
-  min-height: auto;
-  margin: -8px 0 22px 0;
-  flex: 0 0 auto;
-}
-
-::selection {
-  background: magenta;
-  color: #fff;
-}
-
-.csr-pointer:hover {
-  cursor: pointer;
-}
-
-.csr-alias:hover {
-  cursor: alias;
-}
-
-.csr-right:hover {
-  cursor: ne-resize;
-}
-
-.csr-left:hover {
-  cursor: w-resize;
-}
-
-.no-wrap {
-  white-space: nowrap;
-}
-
-.overflow-y {
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-/* tabs */
-.right-container,
-.left-container {
-  padding: 18px;
-}
-
-.right-container {
-  margin: 0 0 0 132px;
-}
-
-.left-container {
-  margin: 0 112px 0 0;
-}
-
-.left-container img {
-  margin: 18px 0 0 0;
-}
-
-.left-container img.img-vert {
-  width: calc(50% - 9px);
-}
-
-.left-container img.img-vert:nth-child(odd) {
-  margin: 18px 12px 0 0;
-}
-
-.left-container img.img-vert:nth-child(even) {
-  margin: 18px 0 0 0;
-}
-
-.left-container video {
-  margin: 18px 0 -4px 0;
-}
-
-.information,
-.publications,
-.archives,
-.research,
-.res-1,
-.res-2,
-.res-3,
-.res-4,
-.res-5,
-.res-6,
-.res-7,
-.res-8,
-.res-9,
-.arc-1,
-.arc-2,
-.arc-3,
-.arc-4,
-.pub-aak-0,
-.pub-aak-1,
-.pub-aak-2,
-.pub-aak-3,
-.pub-aak-4,
-.pub-aak-5,
-.pub-aak-6,
-.pub-aak-7,
-.pub-aak-8,
-.pub-aak-9,
-.pub-aak-10,
-.pub-aak-11,
-.pub-aak-12,
-.pub-lap-1,
-.pub-rep-1 {
-  background-color: #fff;
-  position: fixed;
-  height: 100%;
-  box-shadow: 0;
-}
-
-.information,
-.publications,
-.archives,
-.research {
-  top: 0;
-  right: 0;
-  transform: translateX(101%);
-  z-index: 2;
-  transition: all 0.6s ease;
-}
-
-.res-1,
-.res-2,
-.res-3,
-.res-4,
-.res-5,
-.res-6,
-.res-7,
-.res-8,
-.res-9,
-.arc-1,
-.arc-2,
-.arc-3,
-.arc-4,
-.pub-aak-0,
-.pub-aak-1,
-.pub-aak-2,
-.pub-aak-3,
-.pub-aak-4,
-.pub-aak-5,
-.pub-aak-6,
-.pub-aak-7,
-.pub-aak-8,
-.pub-aak-9,
-.pub-aak-10,
-.pub-aak-11,
-.pub-aak-12,
-.pub-lap-1,
-.pub-rep-1 {
-  height: -webkit-calc(100% - 64px);
-  height:    -moz-calc(100% - 64px);
-  height:         calc(100% - 64px);
-  bottom: 0;
-  left: 0;
-  transform: translateX(-101%);
-  z-index: 3;
-  transition: all 0.9s ease;
-}
-
-.information,
-.research,
-.archives,
-.publications {
-  width: 40%;
-}
-
-.res-1,
-.res-2,
-.res-3,
-.res-4,
-.res-5,
-.res-6,
-.res-7,
-.res-8,
-.res-9,
-.arc-1,
-.arc-2,
-.arc-3,
-.arc-4,
-.pub-aak-0,
-.pub-aak-1,
-.pub-aak-2,
-.pub-aak-3,
-.pub-aak-4,
-.pub-aak-5,
-.pub-aak-6,
-.pub-aak-7,
-.pub-aak-8,
-.pub-aak-9,
-.pub-aak-10,
-.pub-aak-11,
-.pub-aak-12,
-.pub-lap-1,
-.pub-rep-1 {
-  width: 60%;
-}
-
-.information p,
-.publications p,
-.archives p,
-.research p,
-.res-1 p,
-.res-2 p,
-.res-3 p,
-.res-4 p,
-.res-5 p,
-.res-6 p,
-.res-7 p,
-.res-8 p,
-.res-9 p,
-.arc-1 p,
-.arc-2 p,
-.arc-3 p,
-.arc-4 p,
-.pub-aak-0 p,
-.pub-aak-1 p,
-.pub-aak-2 p,
-.pub-aak-3 p,
-.pub-aak-4 p,
-.pub-aak-5 p,
-.pub-aak-6 p,
-.pub-aak-7 p,
-.pub-aak-8 p,
-.pub-aak-9 p,
-.pub-aak-10 p,
-.pub-aak-11 p,
-.pub-aak-12 p,
-.pub-lap-1 p,
-.pub-rep-1 p {
-  max-width: 800px;
-}
-
-.info-exit,
-.pubs-exit,
-.arch-exit,
-.res-exit,
-.res-1-exit,
-.res-2-exit,
-.res-3-exit,
-.res-4-exit,
-.res-5-exit,
-.res-6-exit,
-.res-7-exit,
-.res-8-exit,
-.res-9-exit,
-.arc-1-exit,
-.arc-2-exit,
-.arc-3-exit,
-.arc-4-exit,
-.pub-aak-0-exit,
-.pub-aak-1-exit,
-.pub-aak-2-exit,
-.pub-aak-3-exit,
-.pub-aak-4-exit,
-.pub-aak-5-exit,
-.pub-aak-6-exit,
-.pub-aak-7-exit,
-.pub-aak-8-exit,
-.pub-aak-9-exit,
-.pub-aak-10-exit,
-.pub-aak-11-exit,
-.pub-aak-12-exit,
-.pub-lap-1-exit,
-.pub-rep-1-exit {
-  width: 72px;
-  position: sticky;
-  top: 18px;
-  margin: 18px;
-  display: inline-block;
-}
-
-.info-exit,
-.pubs-exit,
-.arch-exit,
-.res-exit {
-  left: 18px;
-  float: left;
-}
-
-.res-1-exit,
-.res-2-exit,
-.res-3-exit,
-.res-4-exit,
-.res-5-exit,
-.res-6-exit,
-.res-7-exit,
-.res-8-exit,
-.res-9-exit,
-.arc-1-exit,
-.arc-2-exit,
-.arc-3-exit,
-.arc-4-exit,
-.pub-aak-0-exit,
-.pub-aak-1-exit,
-.pub-aak-2-exit,
-.pub-aak-3-exit,
-.pub-aak-4-exit,
-.pub-aak-5-exit,
-.pub-aak-6-exit,
-.pub-aak-7-exit,
-.pub-aak-8-exit,
-.pub-aak-9-exit,
-.pub-aak-10-exit,
-.pub-aak-11-exit,
-.pub-aak-12-exit,
-.pub-lap-1-exit,
-.pub-rep-1-exit {
-  right: 18px;
-  float: right;
-}
-
-svg path {
-  fill: #000;
-  transition: fill 0.1s;
-}
-
-svg:hover path {
-  fill: magenta;
-}
-
-.open {
-  transform: translateX(0);
-  box-shadow: rgba(255, 0, 255, 0.4) 0 0 18px 0;
-}
-
-.col-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
-.col-one {
-  flex: 1;
-}
-
-.col-three {
-  flex: 3;
-}
-
-.break {
-  flex-basis: 100%;
-  height: 0;
-}
-
-/* slideshow */
-.parallax_slideshow {
-  height: 100vh;
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  background-attachment: fixed;
-}
-
-.image_1 {
-  background-image: url(assets/LPE_pub_AAK_1-2_3.webp);
-}
-
-.image_2 {
-  background-image: url(assets/LPE_pub_AAK_1-2_5.webp);
-}
-
-.image_3 {
-  background-image: url(assets/LPE_pub_AAK_2-3_15.webp);
-}
-
-.image_4 {
-  background-image: url(assets/LPE_pub_AAK_2-5_1.webp);
-}
-
-.image_5 {
-  background-image: url(assets/LPE_res_TG_1.webp);
-}
-
-.image_6 {
-  background-image: url(assets/LPE_res_TG_5.webp);
-}
-
-.image_7 {
-  background-image: url(assets/LPE_pub_AAK_2-4_1.webp);
-}
-
-.image_8 {
-  background-image: url(assets/LPE_arc_HP_1.webp);
-}
-
-.image_9 {
-  background-image: url(assets/LPE_pub_AAK_2-3_21.webp);
-}
-
-.image_10 {
-  background-image: url(assets/LPE_pub_AAK_2-1_1.webp);
-}
-
-.image_11 {
-  background-image: url(assets/LPE_pub_AAK_2-1_4.webp);
-}
-
-.image_12 {
-  background-image: url(assets/LPE_res_HB_3.webp);
-}
-
-.image_13 {
-  background-image: url(assets/LPE_8.webp);
-}
-
-.image_14 {
-  background-image: url(assets/LPE_res_HB_5.webp);
-}
-
-.image_15 {
-  background-image: url(assets/LPE_pub_AAK_1-3_1.webp);
-}
-
-.image_16 {
-  background-image: url(assets/LPE_pub_AAK_1-3_3.webp);
-}
-
-.image_17 {
-  background-image: url(assets/LPE_arc_KoS_1.webp);
-}
-
-.image_18 {
-  background-image: url(assets/LPE_arc_QP_1.webp);
-}
-
-
-/*** RESPONSIVE ***/
-@media (max-width: 1500px) {
-  .information,
-  .research,
-  .archives,
-  .publications,
-  .res-1,
-  .res-2,
-  .res-3,
-  .res-4,
-  .res-5,
-  .res-6,
-  .res-7,
-  .res-8,
-  .res-9,
-  .arc-1,
-  .arc-2,
-  .arc-3,
-  .arc-4,
-  .pub-aak-0,
-  .pub-aak-1,
-  .pub-aak-2,
-  .pub-aak-3,
-  .pub-aak-4,
-  .pub-aak-5,
-  .pub-aak-6,
-  .pub-aak-7,
-  .pub-aak-8,
-  .pub-aak-9,
-  .pub-aak-10,
-  .pub-aak-11,
-  .pub-aak-12,
-  .pub-lap-1,
-  .pub-rep-1 {
-    width: 50%;
-  }
-}
-
-@media (max-width: 1200px) {
-
-  section {
-    background-size: 60%;
-  }
-  .col-three {
-    flex: 2;
-  }
-  button {
-    line-height: 1.5;
-  }
-  .information,
-  .publications,
-  .archives,
-  .research,
-  .res-1,
-  .res-2,
-  .res-3,
-  .res-4,
-  .res-5,
-  .res-6,
-  .res-7,
-  .res-8,
-  .res-9,
-  .arc-1,
-  .arc-2,
-  .arc-3,
-  .arc-4,
-  .pub-aak-0,
-  .pub-aak-1,
-  .pub-aak-2,
-  .pub-aak-3,
-  .pub-aak-4,
-  .pub-aak-5,
-  .pub-aak-6,
-  .pub-aak-7,
-  .pub-aak-8,
-  .pub-aak-9,
-  .pub-aak-10,
-  .pub-aak-11,
-  .pub-aak-12,
-  .pub-lap-1,
-  .pub-rep-1 {
-    width: 100%;
-    left: 0;
-  }
-  .info-exit,
-  .pubs-exit,
-  .arch-exit,
-  .res-exit,
-  .res-1-exit,
-  .res-2-exit,
-  .res-3-exit,
-  .res-4-exit,
-  .res-5-exit,
-  .res-6-exit,
-  .res-7-exit,
-  .res-8-exit,
-  .res-9-exit,
-  .arc-1-exit,
-  .arc-2-exit,
-  .arc-3-exit,
-  .arc-4-exit,
-  .pub-aak-0-exit,
-  .pub-aak-1-exit,
-  .pub-aak-2-exit,
-  .pub-aak-3-exit,
-  .pub-aak-4-exit,
-  .pub-aak-5-exit,
-  .pub-aak-6-exit,
-  .pub-aak-7-exit,
-  .pub-aak-8-exit,
-  .pub-aak-9-exit,
-  .pub-aak-10-exit,
-  .pub-aak-11-exit,
-  .pub-aak-12-exit,
-  .pub-lap-1-exit,
-  .pub-rep-1-exit {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  .left-container p,
-  .left-container img,
-  .left-container video {
-    width: 100%;
-  }
-  .right-container,
-  .left-container {
-    margin: 72px 0 0 0;
-  }
-
-}
-
-@media (max-width: 640px) {
-
-body {
-  overflow: hidden;
-}
-section {
-  background-size: 80%;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-}
-.image_2,
-.image_3,
-.image_4,
-.image_5,
-.image_6 {
-  display: none;
-}
-.information,
-.research,
-.archives,
-.publications {
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-
-}
+// INFORMATION
+const toggleInfoTag = document.querySelector("button.toggle-info");
+const exitTag = document.querySelector("div.toggle-info");
+const infoTag = document.querySelector(".information");
+
+toggleInfoTag.addEventListener("click", () => {
+  infoTag.classList.toggle("open");
+  pubsTag.classList.remove("open");
+  archTag.classList.remove("open");
+  resTag.classList.remove("open");
+});
+
+exitTag.addEventListener("click", () => {
+  infoTag.classList.remove("open");
+});
+
+// RESEARCH
+const toggleResTag = document.querySelector("button.toggle-res");
+const exitResTag = document.querySelector("div.toggle-res");
+const resTag = document.querySelector(".research");
+
+toggleResTag.addEventListener("click", () => {
+  resTag.classList.toggle("open");
+  infoTag.classList.remove("open");
+  pubsTag.classList.remove("open");
+  archTag.classList.remove("open");
+});
+
+exitResTag.addEventListener("click", () => {
+  resTag.classList.remove("open");
+});
+
+// Research 1 (Hyper-personalised Bookshelves)
+const toggleRes1Tag = document.querySelector("button.toggle-res-1");
+const exitRes1Tag = document.querySelector("div.toggle-res-1");
+const res1Tag = document.querySelector(".res-1");
+
+toggleRes1Tag.addEventListener("click", () => {
+  res1Tag.classList.toggle("open");
+  res2Tag.classList.remove("open");
+  res3Tag.classList.remove("open");
+  res4Tag.classList.remove("open");
+  res5Tag.classList.remove("open");
+  res6Tag.classList.remove("open");
+  res7Tag.classList.remove("open");
+  res8Tag.classList.remove("open");
+  res9Tag.classList.remove("open");
+});
+
+exitRes1Tag.addEventListener("click", () => {
+  res1Tag.classList.remove("open");
+});
+
+// Research 2 (Testing Grounds Residency)
+const toggleRes2Tag = document.querySelector("button.toggle-res-2");
+const exitRes2Tag = document.querySelector("div.toggle-res-2");
+const res2Tag = document.querySelector(".res-2");
+
+toggleRes2Tag.addEventListener("click", () => {
+  res2Tag.classList.toggle("open");
+  res1Tag.classList.remove("open");
+  res3Tag.classList.remove("open");
+  res4Tag.classList.remove("open");
+  res5Tag.classList.remove("open");
+  res6Tag.classList.remove("open");
+  res7Tag.classList.remove("open");
+  res8Tag.classList.remove("open");
+  res9Tag.classList.remove("open");
+});
+
+exitRes2Tag.addEventListener("click", () => {
+  res2Tag.classList.remove("open");
+});
+
+// Research 3 (48 Hours to Premier Residency)
+const toggleRes3Tag = document.querySelector("button.toggle-res-3");
+const exitRes3Tag = document.querySelector("div.toggle-res-3");
+const res3Tag = document.querySelector(".res-3");
+
+toggleRes3Tag.addEventListener("click", () => {
+  res3Tag.classList.toggle("open");
+  res1Tag.classList.remove("open");
+  res2Tag.classList.remove("open");
+  res4Tag.classList.remove("open");
+  res5Tag.classList.remove("open");
+  res6Tag.classList.remove("open");
+  res7Tag.classList.remove("open");
+  res8Tag.classList.remove("open");
+  res9Tag.classList.remove("open");
+});
+
+exitRes3Tag.addEventListener("click", () => {
+  res3Tag.classList.remove("open");
+});
+
+// Research 4 (Tree Paper Gallery Residency)
+const toggleRes4Tag = document.querySelector("button.toggle-res-4");
+const exitRes4Tag = document.querySelector("div.toggle-res-4");
+const res4Tag = document.querySelector(".res-4");
+
+toggleRes4Tag.addEventListener("click", () => {
+  res4Tag.classList.toggle("open");
+  res1Tag.classList.remove("open");
+  res2Tag.classList.remove("open");
+  res3Tag.classList.remove("open");
+  res5Tag.classList.remove("open");
+  res6Tag.classList.remove("open");
+  res7Tag.classList.remove("open");
+  res8Tag.classList.remove("open");
+  res9Tag.classList.remove("open");
+});
+
+exitRes4Tag.addEventListener("click", () => {
+  res4Tag.classList.remove("open");
+});
+
+// Research 5 (Centre for Projection Art Residency)
+const toggleRes5Tag = document.querySelector("button.toggle-res-5");
+const exitRes5Tag = document.querySelector("div.toggle-res-5");
+const res5Tag = document.querySelector(".res-5");
+
+toggleRes5Tag.addEventListener("click", () => {
+  res5Tag.classList.toggle("open");
+  res1Tag.classList.remove("open");
+  res2Tag.classList.remove("open");
+  res3Tag.classList.remove("open");
+  res4Tag.classList.remove("open");
+  res6Tag.classList.remove("open");
+  res7Tag.classList.remove("open");
+  res8Tag.classList.remove("open");
+  res9Tag.classList.remove("open");
+});
+
+exitRes5Tag.addEventListener("click", () => {
+  res5Tag.classList.remove("open");
+});
+
+// Research 6 (Quarry Pedagogies Camp)
+const toggleRes6Tag = document.querySelector("button.toggle-res-6");
+const exitRes6Tag = document.querySelector("div.toggle-res-6");
+const res6Tag = document.querySelector(".res-6");
+
+toggleRes6Tag.addEventListener("click", () => {
+  res6Tag.classList.toggle("open");
+  res1Tag.classList.remove("open");
+  res2Tag.classList.remove("open");
+  res3Tag.classList.remove("open");
+  res4Tag.classList.remove("open");
+  res5Tag.classList.remove("open");
+  res7Tag.classList.remove("open");
+  res8Tag.classList.remove("open");
+  res9Tag.classList.remove("open");
+});
+
+exitRes6Tag.addEventListener("click", () => {
+  res6Tag.classList.remove("open");
+});
+
+// Research 7 (Tautai Pacific Arts Trust Fale-ship Residency)
+const toggleRes7Tag = document.querySelector("button.toggle-res-7");
+const exitRes7Tag = document.querySelector("div.toggle-res-7");
+const res7Tag = document.querySelector(".res-7");
+
+toggleRes7Tag.addEventListener("click", () => {
+  res7Tag.classList.toggle("open");
+  res1Tag.classList.remove("open");
+  res2Tag.classList.remove("open");
+  res3Tag.classList.remove("open");
+  res4Tag.classList.remove("open");
+  res5Tag.classList.remove("open");
+  res6Tag.classList.remove("open");
+  res8Tag.classList.remove("open");
+  res9Tag.classList.remove("open");
+});
+
+exitRes7Tag.addEventListener("click", () => {
+  res7Tag.classList.remove("open");
+});
+
+// Research 8 (Werkplaats Typografie)
+const toggleRes8Tag = document.querySelector("button.toggle-res-8");
+const exitRes8Tag = document.querySelector("div.toggle-res-8");
+const res8Tag = document.querySelector(".res-8");
+
+toggleRes8Tag.addEventListener("click", () => {
+  res8Tag.classList.toggle("open");
+  res1Tag.classList.remove("open");
+  res2Tag.classList.remove("open");
+  res3Tag.classList.remove("open");
+  res4Tag.classList.remove("open");
+  res5Tag.classList.remove("open");
+  res6Tag.classList.remove("open");
+  res7Tag.classList.remove("open");
+  res9Tag.classList.remove("open");
+});
+
+exitRes8Tag.addEventListener("click", () => {
+  res8Tag.classList.remove("open");
+});
+
+// Research 9 (Habitat)
+const toggleRes9Tag = document.querySelector("button.toggle-res-9");
+const exitRes9Tag = document.querySelector("div.toggle-res-9");
+const res9Tag = document.querySelector(".res-9");
+
+toggleRes9Tag.addEventListener("click", () => {
+  res9Tag.classList.toggle("open");
+  res1Tag.classList.remove("open");
+  res2Tag.classList.remove("open");
+  res3Tag.classList.remove("open");
+  res4Tag.classList.remove("open");
+  res5Tag.classList.remove("open");
+  res6Tag.classList.remove("open");
+  res7Tag.classList.remove("open");
+  res8Tag.classList.remove("open");
+});
+
+exitRes9Tag.addEventListener("click", () => {
+  res9Tag.classList.remove("open");
+});
+
+// ARCHIVES
+const toggleArchTag = document.querySelector("button.toggle-arch");
+const exitArchTag = document.querySelector("div.toggle-arch");
+const archTag = document.querySelector(".archives");
+
+toggleArchTag.addEventListener("click", () => {
+  archTag.classList.toggle("open");
+  infoTag.classList.remove("open");
+  pubsTag.classList.remove("open");
+  resTag.classList.remove("open");
+});
+
+exitArchTag.addEventListener("click", () => {
+  archTag.classList.remove("open");
+});
+
+// Archive 1 (Quarry Pedagogies Camp: B-roll)
+const toggleArc1Tag = document.querySelector("button.toggle-arc-1");
+const exitArc1Tag = document.querySelector("div.toggle-arc-1");
+const arc1Tag = document.querySelector(".arc-1");
+
+toggleArc1Tag.addEventListener("click", () => {
+  arc1Tag.classList.toggle("open");
+  arc2Tag.classList.remove("open");
+  arc3Tag.classList.remove("open");
+  arc4Tag.classList.remove("open");
+  arc5Tag.classList.remove("open");
+});
+
+exitArc1Tag.addEventListener("click", () => {
+  arc1Tag.classList.remove("open");
+});
+
+// Archive 2 (Kefe o'e Siamani)
+const toggleArc2Tag = document.querySelector("button.toggle-arc-2");
+const exitArc2Tag = document.querySelector("div.toggle-arc-2");
+const arc2Tag = document.querySelector(".arc-2");
+
+toggleArc2Tag.addEventListener("click", () => {
+  arc2Tag.classList.toggle("open");
+  arc1Tag.classList.remove("open");
+  arc3Tag.classList.remove("open");
+  arc4Tag.classList.remove("open");
+  arc5Tag.classList.remove("open");
+});
+
+exitArc2Tag.addEventListener("click", () => {
+  arc2Tag.classList.remove("open");
+});
+
+// Archive 3 (Forms of (ex-)Change)
+const toggleArc3Tag = document.querySelector("button.toggle-arc-3");
+const exitArc3Tag = document.querySelector("div.toggle-arc-3");
+const arc3Tag = document.querySelector(".arc-3");
+
+toggleArc3Tag.addEventListener("click", () => {
+  arc3Tag.classList.toggle("open");
+  arc1Tag.classList.remove("open");
+  arc2Tag.classList.remove("open");
+  arc4Tag.classList.remove("open");
+  arc5Tag.classList.remove("open");
+});
+
+exitArc3Tag.addEventListener("click", () => {
+  arc3Tag.classList.remove("open");
+});
+
+// Archive 4 (Home Patterns at Habitat)
+const toggleArc4Tag = document.querySelector("button.toggle-arc-4");
+const exitArc4Tag = document.querySelector("div.toggle-arc-4");
+const arc4Tag = document.querySelector(".arc-4");
+
+toggleArc4Tag.addEventListener("click", () => {
+  arc4Tag.classList.toggle("open");
+  arc1Tag.classList.remove("open");
+  arc2Tag.classList.remove("open");
+  arc3Tag.classList.remove("open");
+  arc5Tag.classList.remove("open");
+});
+
+exitArc4Tag.addEventListener("click", () => {
+  arc4Tag.classList.remove("open");
+});
+
+// Archive 5 (The Assembly, R Gallery)
+const toggleArc5Tag = document.querySelector("button.toggle-arc-5");
+const exitArc5Tag = document.querySelector("div.toggle-arc-5");
+const arc5Tag = document.querySelector(".arc-5");
+
+toggleArc5Tag.addEventListener("click", () => {
+  arc5Tag.classList.toggle("open");
+  arc1Tag.classList.remove("open");
+  arc2Tag.classList.remove("open");
+  arc3Tag.classList.remove("open");
+  arc4Tag.classList.remove("open");
+});
+
+exitArc5Tag.addEventListener("click", () => {
+  arc5Tag.classList.remove("open");
+});
+
+// PUBLICATIONS
+const togglePubsTag = document.querySelector("button.toggle-pubs");
+const exitPubsTag = document.querySelector("div.toggle-pubs");
+const pubsTag = document.querySelector(".publications");
+
+togglePubsTag.addEventListener("click", () => {
+  pubsTag.classList.toggle("open");
+  infoTag.classList.remove("open");
+  archTag.classList.remove("open");
+  resTag.classList.remove("open");
+});
+
+exitPubsTag.addEventListener("click", () => {
+  pubsTag.classList.remove("open");
+});
+
+// 'Afa'afakasi 0 (overview)
+const toggleAak0Tag = document.querySelector("button.toggle-pub-aak-0");
+const exitAak0Tag = document.querySelector("div.toggle-pub-aak-0");
+const aak0Tag = document.querySelector(".pub-aak-0");
+
+toggleAak0Tag.addEventListener("click", () => {
+  aak0Tag.classList.toggle("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitAak0Tag.addEventListener("click", () => {
+  aak0Tag.classList.remove("open");
+});
+
+// 'Afa'afakasi 1 (online publication)
+const toggleAak1Tag = document.querySelector("button.toggle-pub-aak-1");
+const exitAak1Tag = document.querySelector("div.toggle-pub-aak-1");
+const aak1Tag = document.querySelector(".pub-aak-1");
+
+toggleAak1Tag.addEventListener("click", () => {
+  aak1Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitAak1Tag.addEventListener("click", () => {
+  aak1Tag.classList.remove("open");
+});
+
+// 'Afa'afakasi 2 (Twosixty install)
+const toggleAak2Tag = document.querySelector("button.toggle-pub-aak-2");
+const exitAak2Tag = document.querySelector("div.toggle-pub-aak-2");
+const aak2Tag = document.querySelector(".pub-aak-2");
+
+toggleAak2Tag.addEventListener("click", () => {
+  aak2Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitAak2Tag.addEventListener("click", () => {
+  aak2Tag.classList.remove("open");
+});
+
+// 'Afa'afakasi 3 (Mission to Seafarers)
+const toggleAak3Tag = document.querySelector("button.toggle-pub-aak-3");
+const exitAak3Tag = document.querySelector("div.toggle-pub-aak-3");
+const aak3Tag = document.querySelector(".pub-aak-3");
+
+toggleAak3Tag.addEventListener("click", () => {
+  aak3Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitAak3Tag.addEventListener("click", () => {
+  aak3Tag.classList.remove("open");
+});
+
+// 'Afa'afakasi 4 (RM Gallery)
+const toggleAak4Tag = document.querySelector("button.toggle-pub-aak-4");
+const exitAak4Tag = document.querySelector("div.toggle-pub-aak-4");
+const aak4Tag = document.querySelector(".pub-aak-4");
+
+toggleAak4Tag.addEventListener("click", () => {
+  aak4Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitAak4Tag.addEventListener("click", () => {
+  aak4Tag.classList.remove("open");
+});
+
+// 'Afa'afakasi 5 (Lomiga Lua)
+const toggleAak5Tag = document.querySelector("button.toggle-pub-aak-5");
+const exitAak5Tag = document.querySelector("div.toggle-pub-aak-5");
+const aak5Tag = document.querySelector(".pub-aak-5");
+
+toggleAak5Tag.addEventListener("click", () => {
+  aak5Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitAak5Tag.addEventListener("click", () => {
+  aak5Tag.classList.remove("open");
+});
+
+// 'Afa'afakasi 6 (Testing Grounds / Melbourne Fringe)
+const toggleAak6Tag = document.querySelector("button.toggle-pub-aak-6");
+const exitAak6Tag = document.querySelector("div.toggle-pub-aak-6");
+const aak6Tag = document.querySelector(".pub-aak-6");
+
+toggleAak6Tag.addEventListener("click", () => {
+  aak6Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitAak6Tag.addEventListener("click", () => {
+  aak6Tag.classList.remove("open");
+});
+
+// ‘Afa‘afakasi 7 (West Space Window)
+const toggleAak7Tag = document.querySelector("button.toggle-pub-aak-7");
+const exitAak7Tag = document.querySelector("div.toggle-pub-aak-7");
+const aak7Tag = document.querySelector(".pub-aak-7");
+
+toggleAak7Tag.addEventListener("click", () => {
+  aak7Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitAak7Tag.addEventListener("click", () => {
+  aak7Tag.classList.remove("open");
+});
+
+// ‘Afa‘afakasi 8 (Sāmoan Language Week Event at Collingwood Yards)
+const toggleAak8Tag = document.querySelector("button.toggle-pub-aak-8");
+const exitAak8Tag = document.querySelector("div.toggle-pub-aak-8");
+const aak8Tag = document.querySelector(".pub-aak-8");
+
+toggleAak8Tag.addEventListener("click", () => {
+  aak8Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitAak8Tag.addEventListener("click", () => {
+  aak8Tag.classList.remove("open");
+});
+
+// ‘Afa‘afakasi 9 (Incinerator Gallery Boadle Hall)
+const toggleAak9Tag = document.querySelector("button.toggle-pub-aak-9");
+const exitAak9Tag = document.querySelector("div.toggle-pub-aak-9");
+const aak9Tag = document.querySelector(".pub-aak-9");
+
+toggleAak9Tag.addEventListener("click", () => {
+  aak9Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitAak9Tag.addEventListener("click", () => {
+  aak9Tag.classList.remove("open");
+});
+
+// ‘Afa‘afakasi 10 (Federation Square Big Screen)
+const toggleAak10Tag = document.querySelector("button.toggle-pub-aak-10");
+const exitAak10Tag = document.querySelector("div.toggle-pub-aak-10");
+const aak10Tag = document.querySelector(".pub-aak-10");
+
+toggleAak10Tag.addEventListener("click", () => {
+  aak10Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitAak10Tag.addEventListener("click", () => {
+  aak10Tag.classList.remove("open");
+});
+
+// ‘Afa‘afakasi 11 (Incinerator Gallery Public Program)
+const toggleAak11Tag = document.querySelector("button.toggle-pub-aak-11");
+const exitAak11Tag = document.querySelector("div.toggle-pub-aak-11");
+const aak11Tag = document.querySelector(".pub-aak-11");
+
+toggleAak11Tag.addEventListener("click", () => {
+  aak11Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitAak11Tag.addEventListener("click", () => {
+  aak11Tag.classList.remove("open");
+});
+
+// ‘Afa‘afakasi 12 (Lomiga Tolu)
+const toggleAak12Tag = document.querySelector("button.toggle-pub-aak-12");
+const exitAak12Tag = document.querySelector("div.toggle-pub-aak-12");
+const aak12Tag = document.querySelector(".pub-aak-12");
+
+toggleAak12Tag.addEventListener("click", () => {
+  aak12Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitAak12Tag.addEventListener("click", () => {
+  aak12Tag.classList.remove("open");
+});
+
+// Letters at Play (Gertrude Street Projection Festival)
+const toggleLaP1Tag = document.querySelector("button.toggle-pub-lap-1");
+const exitLaP1Tag = document.querySelector("div.toggle-pub-lap-1");
+const laP1Tag = document.querySelector(".pub-lap-1");
+
+toggleLaP1Tag.addEventListener("click", () => {
+  laP1Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+});
+
+exitLaP1Tag.addEventListener("click", () => {
+  laP1Tag.classList.remove("open");
+});
+
+// Reproduction: Valuing, Growing & Retaining Pacific Leaders & Teachers
+const toggleRep1Tag = document.querySelector("button.toggle-pub-rep-1");
+const exitRep1Tag = document.querySelector("div.toggle-pub-rep-1");
+const rep1Tag = document.querySelector(".pub-rep-1");
+
+toggleRep1Tag.addEventListener("click", () => {
+  rep1Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+});
+
+exitRep1Tag.addEventListener("click", () => {
+  rep1Tag.classList.remove("open");
+});
