@@ -740,3 +740,61 @@ toggleRep1Tag.addEventListener("click", () => {
 exitRep1Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
 });
+
+// First Nations and Latin Characters: Overview
+const toggleFnl1Tag = document.querySelector("button.toggle-pub-fnl-1");
+const exitFnl1Tag = document.querySelector("div.toggle-pub-fnl-1");
+const fnl1Tag = document.querySelector(".pub-fnl-1");
+
+toggleFnl1Tag.addEventListener("click", () => {
+  fnl1Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+  fnl2Tag.classList.remove("open");
+});
+
+exitFnl1Tag.addEventListener("click", () => {
+  fnl1Tag.classList.remove("open");
+});
+
+// First Nations and Latin Characters: Storyweaving with Oceanic Sisters
+const toggleFnl2Tag = document.querySelector("button.toggle-pub-fnl-2");
+const exitFnl2Tag = document.querySelector("div.toggle-pub-fnl-2");
+const fnl2Tag = document.querySelector(".pub-fnl-2");
+
+toggleFnl2Tag.addEventListener("click", () => {
+  fnl2Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+  fnl1Tag.classList.remove("open");
+});
+
+exitFnl2Tag.addEventListener("click", () => {
+  fnl2Tag.classList.remove("open");
+});
