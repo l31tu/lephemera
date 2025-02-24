@@ -246,13 +246,15 @@ toggleArc1Tag.addEventListener("click", () => {
   arc3Tag.classList.remove("open");
   arc4Tag.classList.remove("open");
   arc5Tag.classList.remove("open");
+  // arc6Tag.classList.remove("open");
+  arc7Tag.classList.remove("open");
 });
 
 exitArc1Tag.addEventListener("click", () => {
   arc1Tag.classList.remove("open");
 });
 
-// Archive 2 (Kefe o'e Siamani)
+// Archive 2 (Kefe o'e Europa overview)
 const toggleArc2Tag = document.querySelector("button.toggle-arc-2");
 const exitArc2Tag = document.querySelector("div.toggle-arc-2");
 const arc2Tag = document.querySelector(".arc-2");
@@ -263,13 +265,15 @@ toggleArc2Tag.addEventListener("click", () => {
   arc3Tag.classList.remove("open");
   arc4Tag.classList.remove("open");
   arc5Tag.classList.remove("open");
+  // arc6Tag.classList.remove("open");
+  arc7Tag.classList.remove("open");
 });
 
 exitArc2Tag.addEventListener("click", () => {
   arc2Tag.classList.remove("open");
 });
 
-// Archive 3 (Forms of (ex-)Change)
+// Archive 3 (Kefe o'e Siamani)
 const toggleArc3Tag = document.querySelector("button.toggle-arc-3");
 const exitArc3Tag = document.querySelector("div.toggle-arc-3");
 const arc3Tag = document.querySelector(".arc-3");
@@ -280,13 +284,15 @@ toggleArc3Tag.addEventListener("click", () => {
   arc2Tag.classList.remove("open");
   arc4Tag.classList.remove("open");
   arc5Tag.classList.remove("open");
+  // arc6Tag.classList.remove("open");
+  arc7Tag.classList.remove("open");
 });
 
 exitArc3Tag.addEventListener("click", () => {
   arc3Tag.classList.remove("open");
 });
 
-// Archive 4 (Home Patterns at Habitat)
+// Archive 4 (Forms of (ex-)Change)
 const toggleArc4Tag = document.querySelector("button.toggle-arc-4");
 const exitArc4Tag = document.querySelector("div.toggle-arc-4");
 const arc4Tag = document.querySelector(".arc-4");
@@ -297,13 +303,15 @@ toggleArc4Tag.addEventListener("click", () => {
   arc2Tag.classList.remove("open");
   arc3Tag.classList.remove("open");
   arc5Tag.classList.remove("open");
+  // arc6Tag.classList.remove("open");
+  arc7Tag.classList.remove("open");
 });
 
 exitArc4Tag.addEventListener("click", () => {
   arc4Tag.classList.remove("open");
 });
 
-// Archive 5 (The Assembly, R Gallery)
+// Archive 5 (Home Patterns at Habitat)
 const toggleArc5Tag = document.querySelector("button.toggle-arc-5");
 const exitArc5Tag = document.querySelector("div.toggle-arc-5");
 const arc5Tag = document.querySelector(".arc-5");
@@ -314,10 +322,50 @@ toggleArc5Tag.addEventListener("click", () => {
   arc2Tag.classList.remove("open");
   arc3Tag.classList.remove("open");
   arc4Tag.classList.remove("open");
+  // arc6Tag.classList.remove("open");
+  arc7Tag.classList.remove("open");
 });
 
 exitArc5Tag.addEventListener("click", () => {
   arc5Tag.classList.remove("open");
+});
+
+// // Archive 6 (Palazzo Bronzo)
+// const toggleArc6Tag = document.querySelector("button.toggle-arc-6");
+// const exitArc6Tag = document.querySelector("div.toggle-arc-6");
+// const arc6Tag = document.querySelector(".arc-6");
+
+// toggleArc6Tag.addEventListener("click", () => {
+//   arc6Tag.classList.toggle("open");
+//   arc1Tag.classList.remove("open");
+//   arc2Tag.classList.remove("open");
+//   arc3Tag.classList.remove("open");
+//   arc4Tag.classList.remove("open");
+//   arc5Tag.classList.remove("open");
+//   arc7Tag.classList.remove("open");
+// });
+
+// exitArc6Tag.addEventListener("click", () => {
+//   arc6Tag.classList.remove("open");
+// });
+
+// Archive 7 (The Assembly, R Gallery)
+const toggleArc7Tag = document.querySelector("button.toggle-arc-7");
+const exitArc7Tag = document.querySelector("div.toggle-arc-7");
+const arc7Tag = document.querySelector(".arc-7");
+
+toggleArc7Tag.addEventListener("click", () => {
+  arc7Tag.classList.toggle("open");
+  arc1Tag.classList.remove("open");
+  arc2Tag.classList.remove("open");
+  arc3Tag.classList.remove("open");
+  arc4Tag.classList.remove("open");
+  arc5Tag.classList.remove("open");
+  // arc6Tag.classList.remove("open");
+});
+
+exitArc7Tag.addEventListener("click", () => {
+  arc7Tag.classList.remove("open");
 });
 
 // PUBLICATIONS
@@ -357,6 +405,8 @@ toggleAak0Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitAak0Tag.addEventListener("click", () => {
@@ -384,6 +434,8 @@ toggleAak1Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitAak1Tag.addEventListener("click", () => {
@@ -411,6 +463,8 @@ toggleAak2Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitAak2Tag.addEventListener("click", () => {
@@ -438,6 +492,8 @@ toggleAak3Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitAak3Tag.addEventListener("click", () => {
@@ -465,6 +521,8 @@ toggleAak4Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitAak4Tag.addEventListener("click", () => {
@@ -492,6 +550,8 @@ toggleAak5Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitAak5Tag.addEventListener("click", () => {
@@ -519,6 +579,8 @@ toggleAak6Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitAak6Tag.addEventListener("click", () => {
@@ -546,6 +608,8 @@ toggleAak7Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitAak7Tag.addEventListener("click", () => {
@@ -573,6 +637,8 @@ toggleAak8Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitAak8Tag.addEventListener("click", () => {
@@ -600,6 +666,8 @@ toggleAak9Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitAak9Tag.addEventListener("click", () => {
@@ -627,6 +695,8 @@ toggleAak10Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitAak10Tag.addEventListener("click", () => {
@@ -654,6 +724,8 @@ toggleAak11Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitAak11Tag.addEventListener("click", () => {
@@ -681,6 +753,8 @@ toggleAak12Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitAak12Tag.addEventListener("click", () => {
@@ -708,6 +782,8 @@ toggleLaP1Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open");
   aak12Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitLaP1Tag.addEventListener("click", () => {
@@ -735,19 +811,21 @@ toggleRep1Tag.addEventListener("click", () => {
   aak11Tag.classList.remove("open");
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
 exitRep1Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
 });
 
-// First Nations and Latin Characters: Overview
-const toggleFnl1Tag = document.querySelector("button.toggle-pub-fnl-1");
-const exitFnl1Tag = document.querySelector("div.toggle-pub-fnl-1");
-const fnl1Tag = document.querySelector(".pub-fnl-1");
+// Indigenous Autonomy and Latin Characters: Overview
+const toggleIalc1Tag = document.querySelector("button.toggle-pub-ialc-1");
+const exitIalc1Tag = document.querySelector("div.toggle-pub-ialc-1");
+const ialc1Tag = document.querySelector(".pub-ialc-1");
 
-toggleFnl1Tag.addEventListener("click", () => {
-  fnl1Tag.classList.toggle("open");
+toggleIalc1Tag.addEventListener("click", () => {
+  ialc1Tag.classList.toggle("open");
   aak0Tag.classList.remove("open");
   aak1Tag.classList.remove("open");
   aak2Tag.classList.remove("open");
@@ -763,20 +841,20 @@ toggleFnl1Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
-  fnl2Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
 });
 
-exitFnl1Tag.addEventListener("click", () => {
-  fnl1Tag.classList.remove("open");
+exitIalc1Tag.addEventListener("click", () => {
+  ialc1Tag.classList.remove("open");
 });
 
-// First Nations and Latin Characters: Storyweaving with Oceanic Sisters
-const toggleFnl2Tag = document.querySelector("button.toggle-pub-fnl-2");
-const exitFnl2Tag = document.querySelector("div.toggle-pub-fnl-2");
-const fnl2Tag = document.querySelector(".pub-fnl-2");
+// Indigenous Autonomy and Latin Characters: Storyweaving with Oceanic Sisters
+const toggleIalc2Tag = document.querySelector("button.toggle-pub-ialc-2");
+const exitIalc2Tag = document.querySelector("div.toggle-pub-ialc-2");
+const ialc2Tag = document.querySelector(".pub-ialc-2");
 
-toggleFnl2Tag.addEventListener("click", () => {
-  fnl2Tag.classList.toggle("open");
+toggleIalc2Tag.addEventListener("click", () => {
+  ialc2Tag.classList.toggle("open");
   aak0Tag.classList.remove("open");
   aak1Tag.classList.remove("open");
   aak2Tag.classList.remove("open");
@@ -792,9 +870,9 @@ toggleFnl2Tag.addEventListener("click", () => {
   aak12Tag.classList.remove("open");
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
-  fnl1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
 });
 
-exitFnl2Tag.addEventListener("click", () => {
-  fnl2Tag.classList.remove("open");
+exitIalc2Tag.addEventListener("click", () => {
+  ialc2Tag.classList.remove("open");
 });
