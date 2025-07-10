@@ -1,5 +1,10 @@
+@font-face {
+  font-family: Rep-Ak-Gro-Uni;
+  src: url(Rep-Ak-Gro-Uni_Light.woff);
+}
+
 body {
-  font-family: sans-serif;
+  font-family: Rep-Ak-Gro-Uni, sans-serif;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -0.01rem;
@@ -177,6 +182,7 @@ button {
 .arc-5,
 .arc-6,
 .arc-7,
+.arc-8,
 .pub-aak-0,
 .pub-aak-1,
 .pub-aak-2,
@@ -193,7 +199,11 @@ button {
 .pub-lap-1,
 .pub-rep-1,
 .pub-ialc-1,
-.pub-ialc-2 {
+.pub-ialc-2,
+.pub-ialc-3,
+.pub-cor-1,
+.pub-cor-2,
+.pub-cor-3 {
   background-color: #fff;
   position: fixed;
   height: 100%;
@@ -227,6 +237,7 @@ button {
 .arc-5,
 .arc-6,
 .arc-7,
+.arc-8,
 .pub-aak-0,
 .pub-aak-1,
 .pub-aak-2,
@@ -243,7 +254,11 @@ button {
 .pub-lap-1,
 .pub-rep-1,
 .pub-ialc-1,
-.pub-ialc-2 {
+.pub-ialc-2,
+.pub-ialc-3,
+.pub-cor-1,
+.pub-cor-2,
+.pub-cor-3 {
   height: -webkit-calc(100% - 64px);
   height: -moz-calc(100% - 64px);
   height: calc(100% - 64px);
@@ -277,6 +292,7 @@ button {
 .arc-5,
 .arc-6,
 .arc-7,
+.arc-8,
 .pub-aak-0,
 .pub-aak-1,
 .pub-aak-2,
@@ -293,7 +309,11 @@ button {
 .pub-lap-1,
 .pub-rep-1,
 .pub-ialc-1,
-.pub-ialc-2 {
+.pub-ialc-2,
+.pub-ialc-3,
+.pub-cor-1,
+.pub-cor-2,
+.pub-cor-3 {
   width: 60%;
 }
 
@@ -317,6 +337,7 @@ button {
 .arc-5 p,
 .arc-6 p,
 .arc-7 p,
+.arc-8 p,
 .pub-aak-0 p,
 .pub-aak-1 p,
 .pub-aak-2 p,
@@ -333,7 +354,11 @@ button {
 .pub-lap-1 p,
 .pub-rep-1 p,
 .pub-ialc-1 p,
-.pub-ialc-2 p {
+.pub-ialc-2 p,
+.pub-ialc-3 p,
+.pub-cor-1 p,
+.pub-cor-2 p,
+.pub-cor-3 p {
   max-width: 800px;
 }
 
@@ -357,6 +382,7 @@ button {
 .arc-5-exit,
 .arc-6-exit,
 .arc-7-exit,
+.arc-8-exit,
 .pub-aak-0-exit,
 .pub-aak-1-exit,
 .pub-aak-2-exit,
@@ -373,7 +399,11 @@ button {
 .pub-lap-1-exit,
 .pub-rep-1-exit,
 .pub-ialc-1-exit,
-.pub-ialc-2-exit {
+.pub-ialc-2-exit,
+.pub-ialc-3-exit,
+.pub-cor-1-exit,
+.pub-cor-2-exit,
+.pub-cor-3-exit {
   width: 72px;
   position: sticky;
   top: 18px;
@@ -405,6 +435,7 @@ button {
 .arc-5-exit,
 .arc-6-exit,
 .arc-7-exit,
+.arc-8-exit,
 .pub-aak-0-exit,
 .pub-aak-1-exit,
 .pub-aak-2-exit,
@@ -421,7 +452,11 @@ button {
 .pub-lap-1-exit,
 .pub-rep-1-exit,
 .pub-ialc-1-exit,
-.pub-ialc-2-exit {
+.pub-ialc-2-exit,
+.pub-ialc-3-exit,
+.pub-cor-1-exit,
+.pub-cor-2-exit,
+.pub-cor-3-exit {
   right: 18px;
   float: right;
 }
@@ -567,6 +602,7 @@ svg:hover path {
   .arc-5,
   .arc-6,
   .arc-7,
+  .arc-8,
   .pub-aak-0,
   .pub-aak-1,
   .pub-aak-2,
@@ -583,7 +619,11 @@ svg:hover path {
   .pub-lap-1,
   .pub-rep-1,
   .pub-ialc-1,
-  .pub-ialc-2 {
+  .pub-ialc-2,
+  .pub-ialc-3,
+  .pub-cor-1,
+  .pub-cor-2,
+  .pub-cor-3 {
     width: 50%;
   }
 }
@@ -618,6 +658,7 @@ svg:hover path {
   .arc-5,
   .arc-6,
   .arc-7,
+  .arc-8,
   .pub-aak-0,
   .pub-aak-1,
   .pub-aak-2,
@@ -634,7 +675,11 @@ svg:hover path {
   .pub-lap-1,
   .pub-rep-1,
   .pub-ialc-1,
-  .pub-ialc-2 {
+  .pub-ialc-2,
+  .pub-ialc-3,
+  .pub-cor-1,
+  .pub-cor-2,
+  .pub-cor-3 {
     width: 100%;
     left: 0;
   }
@@ -658,6 +703,7 @@ svg:hover path {
   .arc-5-exit,
   .arc-6-exit,
   .arc-7-exit,
+  .arc-8-exit,
   .pub-aak-0-exit,
   .pub-aak-1-exit,
   .pub-aak-2-exit,
@@ -674,7 +720,11 @@ svg:hover path {
   .pub-lap-1-exit,
   .pub-rep-1-exit,
   .pub-ialc-1-exit,
-  .pub-ialc-2-exit {
+  .pub-ialc-2-exit,
+  .pub-ialc-3-exit,
+  .pub-cor-1-exit,
+  .pub-cor-2-exit,
+  .pub-cor-3-exit {
     position: fixed;
     top: 0;
     left: 0;
