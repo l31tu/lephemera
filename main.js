@@ -246,7 +246,7 @@ toggleArc1Tag.addEventListener("click", () => {
   arc3Tag.classList.remove("open");
   arc4Tag.classList.remove("open");
   arc5Tag.classList.remove("open");
-  // arc6Tag.classList.remove("open");
+  arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
 });
 
@@ -265,7 +265,7 @@ toggleArc2Tag.addEventListener("click", () => {
   arc3Tag.classList.remove("open");
   arc4Tag.classList.remove("open");
   arc5Tag.classList.remove("open");
-  // arc6Tag.classList.remove("open");
+  arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
 });
 
@@ -284,7 +284,7 @@ toggleArc3Tag.addEventListener("click", () => {
   arc2Tag.classList.remove("open");
   arc4Tag.classList.remove("open");
   arc5Tag.classList.remove("open");
-  // arc6Tag.classList.remove("open");
+  arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
 });
 
@@ -303,7 +303,7 @@ toggleArc4Tag.addEventListener("click", () => {
   arc2Tag.classList.remove("open");
   arc3Tag.classList.remove("open");
   arc5Tag.classList.remove("open");
-  // arc6Tag.classList.remove("open");
+  arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
 });
 
@@ -311,7 +311,7 @@ exitArc4Tag.addEventListener("click", () => {
   arc4Tag.classList.remove("open");
 });
 
-// Archive 5 (Home Patterns at Habitat)
+// Archive 5 (Home Patterns Overview)
 const toggleArc5Tag = document.querySelector("button.toggle-arc-5");
 const exitArc5Tag = document.querySelector("div.toggle-arc-5");
 const arc5Tag = document.querySelector(".arc-5");
@@ -322,34 +322,36 @@ toggleArc5Tag.addEventListener("click", () => {
   arc2Tag.classList.remove("open");
   arc3Tag.classList.remove("open");
   arc4Tag.classList.remove("open");
-  // arc6Tag.classList.remove("open");
+  arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
+  arc8Tag.classList.remove("open");
 });
 
 exitArc5Tag.addEventListener("click", () => {
   arc5Tag.classList.remove("open");
 });
 
-// // Archive 6 (Palazzo Bronzo)
-// const toggleArc6Tag = document.querySelector("button.toggle-arc-6");
-// const exitArc6Tag = document.querySelector("div.toggle-arc-6");
-// const arc6Tag = document.querySelector(".arc-6");
+// Archive 6 (Home Patterns at Habitat)
+const toggleArc6Tag = document.querySelector("button.toggle-arc-6");
+const exitArc6Tag = document.querySelector("div.toggle-arc-6");
+const arc6Tag = document.querySelector(".arc-6");
 
-// toggleArc6Tag.addEventListener("click", () => {
-//   arc6Tag.classList.toggle("open");
-//   arc1Tag.classList.remove("open");
-//   arc2Tag.classList.remove("open");
-//   arc3Tag.classList.remove("open");
-//   arc4Tag.classList.remove("open");
-//   arc5Tag.classList.remove("open");
-//   arc7Tag.classList.remove("open");
-// });
+toggleArc6Tag.addEventListener("click", () => {
+  arc6Tag.classList.toggle("open");
+  arc1Tag.classList.remove("open");
+  arc2Tag.classList.remove("open");
+  arc3Tag.classList.remove("open");
+  arc4Tag.classList.remove("open");
+  arc5Tag.classList.remove("open");
+  arc7Tag.classList.remove("open");
+  arc8Tag.classList.remove("open");
+});
 
-// exitArc6Tag.addEventListener("click", () => {
-//   arc6Tag.classList.remove("open");
-// });
+exitArc6Tag.addEventListener("click", () => {
+  arc6Tag.classList.remove("open");
+});
 
-// Archive 7 (The Assembly, R Gallery)
+// Archive 7 (Palazzo Bronzo)
 const toggleArc7Tag = document.querySelector("button.toggle-arc-7");
 const exitArc7Tag = document.querySelector("div.toggle-arc-7");
 const arc7Tag = document.querySelector(".arc-7");
@@ -361,11 +363,32 @@ toggleArc7Tag.addEventListener("click", () => {
   arc3Tag.classList.remove("open");
   arc4Tag.classList.remove("open");
   arc5Tag.classList.remove("open");
-  // arc6Tag.classList.remove("open");
+  arc6Tag.classList.remove("open");
+  arc8Tag.classList.remove("open");
 });
 
 exitArc7Tag.addEventListener("click", () => {
   arc7Tag.classList.remove("open");
+});
+
+// Archive 8 (The Assembly, R Gallery)
+const toggleArc8Tag = document.querySelector("button.toggle-arc-8");
+const exitArc8Tag = document.querySelector("div.toggle-arc-8");
+const arc8Tag = document.querySelector(".arc-8");
+
+toggleArc8Tag.addEventListener("click", () => {
+  arc8Tag.classList.toggle("open");
+  arc1Tag.classList.remove("open");
+  arc2Tag.classList.remove("open");
+  arc3Tag.classList.remove("open");
+  arc4Tag.classList.remove("open");
+  arc5Tag.classList.remove("open");
+  arc6Tag.classList.remove("open");
+  arc7Tag.classList.remove("open");
+});
+
+exitArc8Tag.addEventListener("click", () => {
+  arc8Tag.classList.remove("open");
 });
 
 // PUBLICATIONS
@@ -407,6 +430,10 @@ toggleAak0Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitAak0Tag.addEventListener("click", () => {
@@ -436,6 +463,10 @@ toggleAak1Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitAak1Tag.addEventListener("click", () => {
@@ -465,6 +496,10 @@ toggleAak2Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitAak2Tag.addEventListener("click", () => {
@@ -494,6 +529,10 @@ toggleAak3Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitAak3Tag.addEventListener("click", () => {
@@ -523,6 +562,10 @@ toggleAak4Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitAak4Tag.addEventListener("click", () => {
@@ -552,6 +595,10 @@ toggleAak5Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitAak5Tag.addEventListener("click", () => {
@@ -581,6 +628,10 @@ toggleAak6Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitAak6Tag.addEventListener("click", () => {
@@ -610,6 +661,10 @@ toggleAak7Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitAak7Tag.addEventListener("click", () => {
@@ -639,6 +694,10 @@ toggleAak8Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitAak8Tag.addEventListener("click", () => {
@@ -668,6 +727,10 @@ toggleAak9Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitAak9Tag.addEventListener("click", () => {
@@ -697,6 +760,10 @@ toggleAak10Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitAak10Tag.addEventListener("click", () => {
@@ -726,6 +793,10 @@ toggleAak11Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitAak11Tag.addEventListener("click", () => {
@@ -755,6 +826,10 @@ toggleAak12Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitAak12Tag.addEventListener("click", () => {
@@ -784,6 +859,10 @@ toggleLaP1Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitLaP1Tag.addEventListener("click", () => {
@@ -813,6 +892,10 @@ toggleRep1Tag.addEventListener("click", () => {
   laP1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitRep1Tag.addEventListener("click", () => {
@@ -842,6 +925,10 @@ toggleIalc1Tag.addEventListener("click", () => {
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitIalc1Tag.addEventListener("click", () => {
@@ -871,8 +958,142 @@ toggleIalc2Tag.addEventListener("click", () => {
   laP1Tag.classList.remove("open");
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
 });
 
 exitIalc2Tag.addEventListener("click", () => {
   ialc2Tag.classList.remove("open");
+});
+
+// Indigenous Autonomy and Latin Characters: presentation at Letterspace Amsterdam
+const toggleIalc3Tag = document.querySelector("button.toggle-pub-ialc-3");
+const exitIalc3Tag = document.querySelector("div.toggle-pub-ialc-3");
+const ialc3Tag = document.querySelector(".pub-ialc-3");
+
+toggleIalc3Tag.addEventListener("click", () => {
+  ialc3Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
+});
+
+exitIalc3Tag.addEventListener("click", () => {
+  ialc3Tag.classList.remove("open");
+});
+
+// (Non-Institutional) Correspondence: Overview
+const toggleCor1Tag = document.querySelector("button.toggle-pub-cor-1");
+const exitCor1Tag = document.querySelector("div.toggle-pub-cor-1");
+const cor1Tag = document.querySelector(".pub-cor-1");
+
+toggleCor1Tag.addEventListener("click", () => {
+  cor1Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
+});
+
+exitCor1Tag.addEventListener("click", () => {
+  cor1Tag.classList.remove("open");
+});
+
+// (Non-Institutional) Correspondence: Time Wasting at Werkplaats Typografie
+const toggleCor2Tag = document.querySelector("button.toggle-pub-cor-2");
+const exitCor2Tag = document.querySelector("div.toggle-pub-cor-2");
+const cor2Tag = document.querySelector(".pub-cor-2");
+
+toggleCor2Tag.addEventListener("click", () => {
+  cor2Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
+});
+
+exitCor2Tag.addEventListener("click", () => {
+  cor2Tag.classList.remove("open");
+});
+
+// (Non-Institutional) Correspondence: publication launch
+const toggleCor3Tag = document.querySelector("button.toggle-pub-cor-3");
+const exitCor3Tag = document.querySelector("div.toggle-pub-cor-3");
+const cor3Tag = document.querySelector(".pub-cor-3");
+
+toggleCor3Tag.addEventListener("click", () => {
+  cor3Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+});
+
+exitCor3Tag.addEventListener("click", () => {
+  cor3Tag.classList.remove("open");
 });
