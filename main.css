@@ -175,6 +175,7 @@ button {
 .res-7,
 .res-8,
 .res-9,
+.res-10,
 .arc-1,
 .arc-2,
 .arc-3,
@@ -203,7 +204,8 @@ button {
 .pub-ialc-3,
 .pub-cor-1,
 .pub-cor-2,
-.pub-cor-3 {
+.pub-cor-3,
+.pub-mal-1 {
   background-color: #fff;
   position: fixed;
   height: 100%;
@@ -230,6 +232,7 @@ button {
 .res-7,
 .res-8,
 .res-9,
+.res-10,
 .arc-1,
 .arc-2,
 .arc-3,
@@ -258,7 +261,8 @@ button {
 .pub-ialc-3,
 .pub-cor-1,
 .pub-cor-2,
-.pub-cor-3 {
+.pub-cor-3,
+.pub-mal-1 {
   height: -webkit-calc(100% - 64px);
   height: -moz-calc(100% - 64px);
   height: calc(100% - 64px);
@@ -285,6 +289,7 @@ button {
 .res-7,
 .res-8,
 .res-9,
+.res-10,
 .arc-1,
 .arc-2,
 .arc-3,
@@ -313,7 +318,8 @@ button {
 .pub-ialc-3,
 .pub-cor-1,
 .pub-cor-2,
-.pub-cor-3 {
+.pub-cor-3,
+.pub-mal-1 {
   width: 60%;
 }
 
@@ -330,6 +336,7 @@ button {
 .res-7 p,
 .res-8 p,
 .res-9 p,
+.res-10 p,
 .arc-1 p,
 .arc-2 p,
 .arc-3 p,
@@ -358,7 +365,8 @@ button {
 .pub-ialc-3 p,
 .pub-cor-1 p,
 .pub-cor-2 p,
-.pub-cor-3 p {
+.pub-cor-3 p,
+.pub-mal-1 p {
   max-width: 800px;
 }
 
@@ -375,6 +383,7 @@ button {
 .res-7-exit,
 .res-8-exit,
 .res-9-exit,
+.res-10-exit,
 .arc-1-exit,
 .arc-2-exit,
 .arc-3-exit,
@@ -403,7 +412,8 @@ button {
 .pub-ialc-3-exit,
 .pub-cor-1-exit,
 .pub-cor-2-exit,
-.pub-cor-3-exit {
+.pub-cor-3-exit,
+.pub-mal-1-exit {
   width: 72px;
   position: sticky;
   top: 18px;
@@ -428,6 +438,7 @@ button {
 .res-7-exit,
 .res-8-exit,
 .res-9-exit,
+.res-10-exit,
 .arc-1-exit,
 .arc-2-exit,
 .arc-3-exit,
@@ -456,7 +467,8 @@ button {
 .pub-ialc-3-exit,
 .pub-cor-1-exit,
 .pub-cor-2-exit,
-.pub-cor-3-exit {
+.pub-cor-3-exit,
+.pub-mal-1-exit {
   right: 18px;
   float: right;
 }
@@ -595,6 +607,7 @@ svg:hover path {
   .res-7,
   .res-8,
   .res-9,
+  .res-10,
   .arc-1,
   .arc-2,
   .arc-3,
@@ -623,7 +636,8 @@ svg:hover path {
   .pub-ialc-3,
   .pub-cor-1,
   .pub-cor-2,
-  .pub-cor-3 {
+  .pub-cor-3,
+  .pub-mal-1 {
     width: 50%;
   }
 }
@@ -651,6 +665,7 @@ svg:hover path {
   .res-7,
   .res-8,
   .res-9,
+  .res-10,
   .arc-1,
   .arc-2,
   .arc-3,
@@ -679,7 +694,8 @@ svg:hover path {
   .pub-ialc-3,
   .pub-cor-1,
   .pub-cor-2,
-  .pub-cor-3 {
+  .pub-cor-3,
+  .pub-mal-1 {
     width: 100%;
     left: 0;
   }
@@ -696,6 +712,7 @@ svg:hover path {
   .res-7-exit,
   .res-8-exit,
   .res-9-exit,
+  .res-10-exit,
   .arc-1-exit,
   .arc-2-exit,
   .arc-3-exit,
@@ -724,7 +741,8 @@ svg:hover path {
   .pub-ialc-3-exit,
   .pub-cor-1-exit,
   .pub-cor-2-exit,
-  .pub-cor-3-exit {
+  .pub-cor-3-exit,
+  .pub-mal-1-exit {
     position: fixed;
     top: 0;
     left: 0;
