@@ -557,38 +557,42 @@ svg:hover path {
 }
 
 .image_11 {
-  background-image: url(assets/LPE_pub_AAK_2-1_1.webp);
+  background-image: url(assets/LPE_arc_HP_2-3.webp);
 }
 
 .image_12 {
-  background-image: url(assets/LPE_pub_AAK_2-1_4.webp);
+  background-image: url(assets/LPE_arc_HP_2-4.webp);
 }
 
 .image_13 {
-  background-image: url(assets/LPE_res_HB_3.webp);
+  background-image: url(assets/LPE_pub_AAK_2-1_4.webp);
 }
 
 .image_14 {
-  background-image: url(assets/LPE_8.webp);
+  background-image: url(assets/LPE_res_HB_3.webp);
 }
 
 .image_15 {
-  background-image: url(assets/LPE_res_HB_5.webp);
+  background-image: url(assets/LPE_8.webp);
 }
 
 .image_16 {
-  background-image: url(assets/LPE_pub_AAK_1-3_1.webp);
+  background-image: url(assets/LPE_res_HB_5.webp);
 }
 
 .image_17 {
-  background-image: url(assets/LPE_pub_AAK_1-3_3.webp);
+  background-image: url(assets/LPE_pub_AAK_1-3_1.webp);
 }
 
 .image_18 {
-  background-image: url(assets/LPE_arc_KoS_1.webp);
+  background-image: url(assets/LPE_pub_AAK_1-3_3.webp);
 }
 
 .image_19 {
+  background-image: url(assets/LPE_arc_KoS_1.webp);
+}
+
+.image_20 {
   background-image: url(assets/LPE_arc_QP_1.webp);
 }
 
