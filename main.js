@@ -279,6 +279,7 @@ toggleArc1Tag.addEventListener("click", () => {
   arc5Tag.classList.remove("open");
   arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
+  arc8Tag.classList.remove("open");
 });
 
 exitArc1Tag.addEventListener("click", () => {
@@ -298,6 +299,7 @@ toggleArc2Tag.addEventListener("click", () => {
   arc5Tag.classList.remove("open");
   arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
+  arc8Tag.classList.remove("open");
 });
 
 exitArc2Tag.addEventListener("click", () => {
@@ -317,6 +319,7 @@ toggleArc3Tag.addEventListener("click", () => {
   arc5Tag.classList.remove("open");
   arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
+  arc8Tag.classList.remove("open");
 });
 
 exitArc3Tag.addEventListener("click", () => {
@@ -336,6 +339,7 @@ toggleArc4Tag.addEventListener("click", () => {
   arc5Tag.classList.remove("open");
   arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
+  arc8Tag.classList.remove("open");
 });
 
 exitArc4Tag.addEventListener("click", () => {
