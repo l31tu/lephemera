@@ -46,6 +46,7 @@ toggleRes1Tag.addEventListener("click", () => {
   res8Tag.classList.remove("open");
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
+  res11Tag.classList.remove("open");
 });
 
 exitRes1Tag.addEventListener("click", () => {
@@ -68,6 +69,7 @@ toggleRes2Tag.addEventListener("click", () => {
   res8Tag.classList.remove("open");
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
+  res11Tag.classList.remove("open");
 });
 
 exitRes2Tag.addEventListener("click", () => {
@@ -90,6 +92,7 @@ toggleRes3Tag.addEventListener("click", () => {
   res8Tag.classList.remove("open");
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
+  res11Tag.classList.remove("open");
 });
 
 exitRes3Tag.addEventListener("click", () => {
@@ -112,6 +115,7 @@ toggleRes4Tag.addEventListener("click", () => {
   res8Tag.classList.remove("open");
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
+  res11Tag.classList.remove("open");
 });
 
 exitRes4Tag.addEventListener("click", () => {
@@ -134,6 +138,7 @@ toggleRes5Tag.addEventListener("click", () => {
   res8Tag.classList.remove("open");
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
+  res11Tag.classList.remove("open");
 });
 
 exitRes5Tag.addEventListener("click", () => {
@@ -156,6 +161,7 @@ toggleRes6Tag.addEventListener("click", () => {
   res8Tag.classList.remove("open");
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
+  res11Tag.classList.remove("open");
 });
 
 exitRes6Tag.addEventListener("click", () => {
@@ -178,6 +184,7 @@ toggleRes7Tag.addEventListener("click", () => {
   res8Tag.classList.remove("open");
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
+  res11Tag.classList.remove("open");
 });
 
 exitRes7Tag.addEventListener("click", () => {
@@ -200,6 +207,7 @@ toggleRes8Tag.addEventListener("click", () => {
   res7Tag.classList.remove("open");
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
+  res11Tag.classList.remove("open");
 });
 
 exitRes8Tag.addEventListener("click", () => {
@@ -222,6 +230,7 @@ toggleRes9Tag.addEventListener("click", () => {
   res7Tag.classList.remove("open");
   res8Tag.classList.remove("open");
   res10Tag.classList.remove("open");
+  res11Tag.classList.remove("open");
 });
 
 exitRes9Tag.addEventListener("click", () => {
@@ -244,10 +253,34 @@ toggleRes10Tag.addEventListener("click", () => {
   res7Tag.classList.remove("open");
   res8Tag.classList.remove("open");
   res9Tag.classList.remove("open");
+  res11Tag.classList.remove("open");
 });
 
 exitRes10Tag.addEventListener("click", () => {
   res10Tag.classList.remove("open");
+});
+
+// Research 11 (Confluence: International Indigenous Art Criticism Residency)
+const toggleRes11Tag = document.querySelector("button.toggle-res-11");
+const exitRes11Tag = document.querySelector("div.toggle-res-11");
+const res11Tag = document.querySelector(".res-11");
+
+toggleRes11Tag.addEventListener("click", () => {
+  res11Tag.classList.toggle("open");
+  res1Tag.classList.remove("open");
+  res2Tag.classList.remove("open");
+  res3Tag.classList.remove("open");
+  res4Tag.classList.remove("open");
+  res5Tag.classList.remove("open");
+  res6Tag.classList.remove("open");
+  res7Tag.classList.remove("open");
+  res8Tag.classList.remove("open");
+  res9Tag.classList.remove("open");
+  res10Tag.classList.remove("open");
+});
+
+exitRes11Tag.addEventListener("click", () => {
+  res11Tag.classList.remove("open");
 });
 
 // ARCHIVES
