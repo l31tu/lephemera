@@ -503,6 +503,7 @@ toggleAak0Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitAak0Tag.addEventListener("click", () => {
@@ -537,6 +538,7 @@ toggleAak1Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitAak1Tag.addEventListener("click", () => {
@@ -571,6 +573,7 @@ toggleAak2Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitAak2Tag.addEventListener("click", () => {
@@ -605,6 +608,7 @@ toggleAak3Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitAak3Tag.addEventListener("click", () => {
@@ -639,6 +643,7 @@ toggleAak4Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitAak4Tag.addEventListener("click", () => {
@@ -673,6 +678,7 @@ toggleAak5Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitAak5Tag.addEventListener("click", () => {
@@ -707,6 +713,7 @@ toggleAak6Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitAak6Tag.addEventListener("click", () => {
@@ -741,6 +748,7 @@ toggleAak7Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitAak7Tag.addEventListener("click", () => {
@@ -775,6 +783,7 @@ toggleAak8Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitAak8Tag.addEventListener("click", () => {
@@ -809,6 +818,7 @@ toggleAak9Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitAak9Tag.addEventListener("click", () => {
@@ -843,6 +853,7 @@ toggleAak10Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitAak10Tag.addEventListener("click", () => {
@@ -877,6 +888,7 @@ toggleAak11Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitAak11Tag.addEventListener("click", () => {
@@ -911,6 +923,7 @@ toggleAak12Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitAak12Tag.addEventListener("click", () => {
@@ -945,6 +958,7 @@ toggleLaP1Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitLaP1Tag.addEventListener("click", () => {
@@ -979,6 +993,7 @@ toggleRep1Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitRep1Tag.addEventListener("click", () => {
@@ -1013,6 +1028,7 @@ toggleIalc1Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitIalc1Tag.addEventListener("click", () => {
@@ -1047,6 +1063,7 @@ toggleIalc2Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitIalc2Tag.addEventListener("click", () => {
@@ -1081,6 +1098,7 @@ toggleIalc3Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitIalc3Tag.addEventListener("click", () => {
@@ -1115,6 +1133,7 @@ toggleCor1Tag.addEventListener("click", () => {
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitCor1Tag.addEventListener("click", () => {
@@ -1148,6 +1167,7 @@ toggleCor2Tag.addEventListener("click", () => {
   cor1Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitCor2Tag.addEventListener("click", () => {
@@ -1181,6 +1201,7 @@ toggleCor3Tag.addEventListener("click", () => {
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitCor3Tag.addEventListener("click", () => {
@@ -1214,8 +1235,43 @@ toggleMal1Tag.addEventListener("click", () => {
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
+  pul1Tag.classList.remove("open");
 });
 
 exitMal1Tag.addEventListener("click", () => {
   mal1Tag.classList.remove("open");
+});
+
+// Pule: overview
+const togglePul1Tag = document.querySelector("button.toggle-pub-pul-1");
+const exitPul1Tag = document.querySelector("div.toggle-pub-pul-1");
+const pul1Tag = document.querySelector(".pub-pul-1");
+
+togglePul1Tag.addEventListener("click", () => {
+  pul1Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
+  mal1Tag.classList.remove("open");
+});
+
+exitPul1Tag.addEventListener("click", () => {
+  pul1Tag.classList.remove("open");
 });
