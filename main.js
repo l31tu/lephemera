@@ -313,6 +313,7 @@ toggleArc1Tag.addEventListener("click", () => {
   arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
   arc8Tag.classList.remove("open");
+  arc9Tag.classList.remove("open");
 });
 
 exitArc1Tag.addEventListener("click", () => {
@@ -333,6 +334,7 @@ toggleArc2Tag.addEventListener("click", () => {
   arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
   arc8Tag.classList.remove("open");
+  arc9Tag.classList.remove("open");
 });
 
 exitArc2Tag.addEventListener("click", () => {
@@ -353,6 +355,7 @@ toggleArc3Tag.addEventListener("click", () => {
   arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
   arc8Tag.classList.remove("open");
+  arc9Tag.classList.remove("open");
 });
 
 exitArc3Tag.addEventListener("click", () => {
@@ -373,13 +376,14 @@ toggleArc4Tag.addEventListener("click", () => {
   arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
   arc8Tag.classList.remove("open");
+  arc9Tag.classList.remove("open");
 });
 
 exitArc4Tag.addEventListener("click", () => {
   arc4Tag.classList.remove("open");
 });
 
-// Archive 5 (Home Patterns Overview)
+// Archive 5 (Pari Ari)
 const toggleArc5Tag = document.querySelector("button.toggle-arc-5");
 const exitArc5Tag = document.querySelector("div.toggle-arc-5");
 const arc5Tag = document.querySelector(".arc-5");
@@ -393,13 +397,14 @@ toggleArc5Tag.addEventListener("click", () => {
   arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
   arc8Tag.classList.remove("open");
+  arc9Tag.classList.remove("open");
 });
 
 exitArc5Tag.addEventListener("click", () => {
   arc5Tag.classList.remove("open");
 });
 
-// Archive 6 (Home Patterns at Habitat)
+// Archive 6 (Home Patterns Overview)
 const toggleArc6Tag = document.querySelector("button.toggle-arc-6");
 const exitArc6Tag = document.querySelector("div.toggle-arc-6");
 const arc6Tag = document.querySelector(".arc-6");
@@ -413,13 +418,14 @@ toggleArc6Tag.addEventListener("click", () => {
   arc5Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
   arc8Tag.classList.remove("open");
+  arc9Tag.classList.remove("open");
 });
 
 exitArc6Tag.addEventListener("click", () => {
   arc6Tag.classList.remove("open");
 });
 
-// Archive 7 (Palazzo Bronzo)
+// Archive 7 (Home Patterns at Habitat)
 const toggleArc7Tag = document.querySelector("button.toggle-arc-7");
 const exitArc7Tag = document.querySelector("div.toggle-arc-7");
 const arc7Tag = document.querySelector(".arc-7");
@@ -433,13 +439,14 @@ toggleArc7Tag.addEventListener("click", () => {
   arc5Tag.classList.remove("open");
   arc6Tag.classList.remove("open");
   arc8Tag.classList.remove("open");
+  arc9Tag.classList.remove("open");
 });
 
 exitArc7Tag.addEventListener("click", () => {
   arc7Tag.classList.remove("open");
 });
 
-// Archive 8 (The Assembly, R Gallery)
+// Archive 8 (Group exhibition in Genova)
 const toggleArc8Tag = document.querySelector("button.toggle-arc-8");
 const exitArc8Tag = document.querySelector("div.toggle-arc-8");
 const arc8Tag = document.querySelector(".arc-8");
@@ -453,10 +460,32 @@ toggleArc8Tag.addEventListener("click", () => {
   arc5Tag.classList.remove("open");
   arc6Tag.classList.remove("open");
   arc7Tag.classList.remove("open");
+  arc9Tag.classList.remove("open");
 });
 
 exitArc8Tag.addEventListener("click", () => {
   arc8Tag.classList.remove("open");
+});
+
+// Archive 10 (The Assembly, R Gallery)
+const toggleArc9Tag = document.querySelector("button.toggle-arc-9");
+const exitArc9Tag = document.querySelector("div.toggle-arc-9");
+const arc9Tag = document.querySelector(".arc-9");
+
+toggleArc9Tag.addEventListener("click", () => {
+  arc9Tag.classList.toggle("open");
+  arc1Tag.classList.remove("open");
+  arc2Tag.classList.remove("open");
+  arc3Tag.classList.remove("open");
+  arc4Tag.classList.remove("open");
+  arc5Tag.classList.remove("open");
+  arc6Tag.classList.remove("open");
+  arc7Tag.classList.remove("open");
+  arc8Tag.classList.remove("open");
+});
+
+exitArc9Tag.addEventListener("click", () => {
+  arc9Tag.classList.remove("open");
 });
 
 // PUBLICATIONS
