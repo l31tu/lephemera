@@ -186,6 +186,9 @@ button {
 .arc-7,
 .arc-8,
 .arc-9,
+.arc-10,
+.arc-11,
+.arc-12,
 .pub-aak-0,
 .pub-aak-1,
 .pub-aak-2,
@@ -207,8 +210,7 @@ button {
 .pub-cor-1,
 .pub-cor-2,
 .pub-cor-3,
-.pub-mal-1,
-.pub-pul-1 {
+.pub-mal-1 {
   background-color: #fff;
   position: fixed;
   height: 100%;
@@ -246,6 +248,9 @@ button {
 .arc-7,
 .arc-8,
 .arc-9,
+.arc-10,
+.arc-11,
+.arc-12,
 .pub-aak-0,
 .pub-aak-1,
 .pub-aak-2,
@@ -267,8 +272,7 @@ button {
 .pub-cor-1,
 .pub-cor-2,
 .pub-cor-3,
-.pub-mal-1,
-.pub-pul-1 {
+.pub-mal-1 {
   height: -webkit-calc(100% - 64px);
   height: -moz-calc(100% - 64px);
   height: calc(100% - 64px);
@@ -306,6 +310,9 @@ button {
 .arc-7,
 .arc-8,
 .arc-9,
+.arc-10,
+.arc-11,
+.arc-12,
 .pub-aak-0,
 .pub-aak-1,
 .pub-aak-2,
@@ -327,8 +334,7 @@ button {
 .pub-cor-1,
 .pub-cor-2,
 .pub-cor-3,
-.pub-mal-1,
-.pub-pul-1 {
+.pub-mal-1 {
   width: 60%;
 }
 
@@ -356,6 +362,9 @@ button {
 .arc-7 p,
 .arc-8 p,
 .arc-9 p,
+.arc-10 p,
+.arc-11 p,
+.arc-12 p,
 .pub-aak-0 p,
 .pub-aak-1 p,
 .pub-aak-2 p,
@@ -377,8 +386,7 @@ button {
 .pub-cor-1 p,
 .pub-cor-2 p,
 .pub-cor-3 p,
-.pub-mal-1 p,
-.pub-pul-1 p {
+.pub-mal-1 p {
   max-width: 800px;
 }
 
@@ -406,6 +414,9 @@ button {
 .arc-7-exit,
 .arc-8-exit,
 .arc-9-exit,
+.arc-10-exit,
+.arc-11-exit,
+.arc-12-exit,
 .pub-aak-0-exit,
 .pub-aak-1-exit,
 .pub-aak-2-exit,
@@ -427,8 +438,7 @@ button {
 .pub-cor-1-exit,
 .pub-cor-2-exit,
 .pub-cor-3-exit,
-.pub-mal-1-exit,
-.pub-pul-1-exit {
+.pub-mal-1-exit {
   width: 72px;
   position: sticky;
   top: 18px;
@@ -464,6 +474,9 @@ button {
 .arc-7-exit,
 .arc-8-exit,
 .arc-9-exit,
+.arc-10-exit,
+.arc-11-exit,
+.arc-12-exit,
 .pub-aak-0-exit,
 .pub-aak-1-exit,
 .pub-aak-2-exit,
@@ -485,8 +498,7 @@ button {
 .pub-cor-1-exit,
 .pub-cor-2-exit,
 .pub-cor-3-exit,
-.pub-mal-1-exit,
-.pub-pul-1-exit {
+.pub-mal-1-exit {
   right: 18px;
   float: right;
 }
@@ -624,6 +636,9 @@ svg:hover path {
   .arc-7,
   .arc-8,
   .arc-9,
+  .arc-10,
+  .arc-11,
+  .arc-12,
   .pub-aak-0,
   .pub-aak-1,
   .pub-aak-2,
@@ -645,8 +660,7 @@ svg:hover path {
   .pub-cor-1,
   .pub-cor-2,
   .pub-cor-3,
-  .pub-mal-1,
-  .pub-pul-1 {
+  .pub-mal-1 {
     width: 50%;
   }
 }
@@ -685,6 +699,9 @@ svg:hover path {
   .arc-7,
   .arc-8,
   .arc-9,
+  .arc-10,
+  .arc-11,
+  .arc-12,
   .pub-aak-0,
   .pub-aak-1,
   .pub-aak-2,
@@ -706,8 +723,7 @@ svg:hover path {
   .pub-cor-1,
   .pub-cor-2,
   .pub-cor-3,
-  .pub-mal-1,
-  .pub-pul-1 {
+  .pub-mal-1 {
     width: 100%;
     left: 0;
   }
@@ -735,6 +751,9 @@ svg:hover path {
   .arc-7-exit,
   .arc-8-exit,
   .arc-9-exit,
+  .arc-10-exit,
+  .arc-11-exit,
+  .arc-12-exit,
   .pub-aak-0-exit,
   .pub-aak-1-exit,
   .pub-aak-2-exit,
@@ -756,8 +775,7 @@ svg:hover path {
   .pub-cor-1-exit,
   .pub-cor-2-exit,
   .pub-cor-3-exit,
-  .pub-mal-1-exit,
-  .pub-pul-1-exit {
+  .pub-mal-1-exit {
     position: fixed;
     top: 0;
     left: 0;
