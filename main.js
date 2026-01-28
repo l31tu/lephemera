@@ -317,6 +317,7 @@ toggleArc1Tag.addEventListener("click", () => {
   arc9Tag.classList.remove("open");
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
+  arc12Tag.classList.remove("open");
 });
 
 exitArc1Tag.addEventListener("click", () => {
@@ -341,6 +342,7 @@ toggleArc2Tag.addEventListener("click", () => {
   arc9Tag.classList.remove("open");
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
+  arc12Tag.classList.remove("open");
 });
 
 exitArc2Tag.addEventListener("click", () => {
@@ -365,6 +367,7 @@ toggleArc3Tag.addEventListener("click", () => {
   arc9Tag.classList.remove("open");
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
+  arc12Tag.classList.remove("open");
 });
 
 exitArc3Tag.addEventListener("click", () => {
@@ -389,6 +392,7 @@ toggleArc4Tag.addEventListener("click", () => {
   arc9Tag.classList.remove("open");
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
+  arc12Tag.classList.remove("open");
 });
 
 exitArc4Tag.addEventListener("click", () => {
@@ -413,6 +417,7 @@ toggleArc5Tag.addEventListener("click", () => {
   arc9Tag.classList.remove("open");
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
+  arc12Tag.classList.remove("open");
 });
 
 exitArc5Tag.addEventListener("click", () => {
@@ -437,6 +442,7 @@ toggleArc6Tag.addEventListener("click", () => {
   arc9Tag.classList.remove("open");
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
+  arc12Tag.classList.remove("open");
 });
 
 exitArc6Tag.addEventListener("click", () => {
@@ -461,6 +467,7 @@ toggleArc7Tag.addEventListener("click", () => {
   arc9Tag.classList.remove("open");
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
+  arc12Tag.classList.remove("open");
 });
 
 exitArc7Tag.addEventListener("click", () => {
@@ -485,6 +492,7 @@ toggleArc8Tag.addEventListener("click", () => {
   arc9Tag.classList.remove("open");
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
+  arc12Tag.classList.remove("open");
 });
 
 exitArc8Tag.addEventListener("click", () => {
