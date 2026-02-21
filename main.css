@@ -207,6 +207,7 @@ button {
 .pub-ialc-1,
 .pub-ialc-2,
 .pub-ialc-3,
+.pub-ialc-4,
 .pub-cor-1,
 .pub-cor-2,
 .pub-cor-3,
@@ -269,6 +270,7 @@ button {
 .pub-ialc-1,
 .pub-ialc-2,
 .pub-ialc-3,
+.pub-ialc-4,
 .pub-cor-1,
 .pub-cor-2,
 .pub-cor-3,
@@ -331,6 +333,7 @@ button {
 .pub-ialc-1,
 .pub-ialc-2,
 .pub-ialc-3,
+.pub-ialc-4,
 .pub-cor-1,
 .pub-cor-2,
 .pub-cor-3,
@@ -383,6 +386,7 @@ button {
 .pub-ialc-1 p,
 .pub-ialc-2 p,
 .pub-ialc-3 p,
+.pub-ialc-4 p,
 .pub-cor-1 p,
 .pub-cor-2 p,
 .pub-cor-3 p,
@@ -435,6 +439,7 @@ button {
 .pub-ialc-1-exit,
 .pub-ialc-2-exit,
 .pub-ialc-3-exit,
+.pub-ialc-4-exit,
 .pub-cor-1-exit,
 .pub-cor-2-exit,
 .pub-cor-3-exit,
@@ -495,6 +500,7 @@ button {
 .pub-ialc-1-exit,
 .pub-ialc-2-exit,
 .pub-ialc-3-exit,
+.pub-ialc-4-exit,
 .pub-cor-1-exit,
 .pub-cor-2-exit,
 .pub-cor-3-exit,
@@ -607,6 +613,10 @@ svg:hover path {
 }
 
 .image_16 {
+  background-image: url(assets/LPE_arc_KoE_3.webp);
+}
+
+.image_17 {
   background-image: url(assets/LPE_arc_QP_1.webp);
 }
 
@@ -657,6 +667,7 @@ svg:hover path {
   .pub-ialc-1,
   .pub-ialc-2,
   .pub-ialc-3,
+  .pub-ialc-4,
   .pub-cor-1,
   .pub-cor-2,
   .pub-cor-3,
@@ -720,6 +731,7 @@ svg:hover path {
   .pub-ialc-1,
   .pub-ialc-2,
   .pub-ialc-3,
+  .pub-ialc-4,
   .pub-cor-1,
   .pub-cor-2,
   .pub-cor-3,
@@ -772,6 +784,7 @@ svg:hover path {
   .pub-ialc-1-exit,
   .pub-ialc-2-exit,
   .pub-ialc-3-exit,
+  .pub-ialc-4-exit,
   .pub-cor-1-exit,
   .pub-cor-2-exit,
   .pub-cor-3-exit,
