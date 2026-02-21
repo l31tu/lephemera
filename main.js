@@ -635,6 +635,7 @@ toggleAak0Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -669,6 +670,7 @@ toggleAak1Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -703,6 +705,7 @@ toggleAak2Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -737,6 +740,7 @@ toggleAak3Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -771,6 +775,7 @@ toggleAak4Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -805,6 +810,7 @@ toggleAak5Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -839,6 +845,7 @@ toggleAak6Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -873,6 +880,7 @@ toggleAak7Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -907,6 +915,7 @@ toggleAak8Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -941,6 +950,7 @@ toggleAak9Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -975,6 +985,7 @@ toggleAak10Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -1009,6 +1020,7 @@ toggleAak11Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -1043,6 +1055,7 @@ toggleAak12Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -1077,6 +1090,7 @@ toggleLaP1Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -1111,6 +1125,7 @@ toggleRep1Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -1145,6 +1160,7 @@ toggleIalc1Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -1179,6 +1195,7 @@ toggleIalc2Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -1213,6 +1230,7 @@ toggleIalc3Tag.addEventListener("click", () => {
   rep1Tag.classList.remove("open");
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
@@ -1221,6 +1239,41 @@ toggleIalc3Tag.addEventListener("click", () => {
 
 exitIalc3Tag.addEventListener("click", () => {
   ialc3Tag.classList.remove("open");
+});
+
+// Indigenous Autonomy and Latin Characters: essay for Blue Art Journal
+const toggleIalc4Tag = document.querySelector("button.toggle-pub-ialc-4");
+const exitIalc4Tag = document.querySelector("div.toggle-pub-ialc-4");
+const ialc4Tag = document.querySelector(".pub-ialc-4");
+
+toggleIalc4Tag.addEventListener("click", () => {
+  ialc4Tag.classList.toggle("open");
+  aak0Tag.classList.remove("open");
+  aak1Tag.classList.remove("open");
+  aak2Tag.classList.remove("open");
+  aak3Tag.classList.remove("open");
+  aak4Tag.classList.remove("open");
+  aak5Tag.classList.remove("open");
+  aak6Tag.classList.remove("open");
+  aak7Tag.classList.remove("open");
+  aak8Tag.classList.remove("open");
+  aak9Tag.classList.remove("open");
+  aak10Tag.classList.remove("open");
+  aak11Tag.classList.remove("open");
+  aak12Tag.classList.remove("open");
+  laP1Tag.classList.remove("open");
+  rep1Tag.classList.remove("open");
+  ialc1Tag.classList.remove("open");
+  ialc2Tag.classList.remove("open");
+  ialc3Tag.classList.remove("open");
+  cor1Tag.classList.remove("open");
+  cor2Tag.classList.remove("open");
+  cor3Tag.classList.remove("open");
+  mal1Tag.classList.remove("open");
+});
+
+exitIalc4Tag.addEventListener("click", () => {
+  ialc4Tag.classList.remove("open");
 });
 
 // (Non-Institutional) Correspondence: Overview
@@ -1248,6 +1301,7 @@ toggleCor1Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
@@ -1281,6 +1335,7 @@ toggleCor2Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
@@ -1314,6 +1369,7 @@ toggleCor3Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   mal1Tag.classList.remove("open");
@@ -1347,6 +1403,7 @@ toggleMal1Tag.addEventListener("click", () => {
   ialc1Tag.classList.remove("open");
   ialc2Tag.classList.remove("open");
   ialc3Tag.classList.remove("open");
+  ialc4Tag.classList.remove("open");
   cor1Tag.classList.remove("open");
   cor2Tag.classList.remove("open");
   cor3Tag.classList.remove("open");
