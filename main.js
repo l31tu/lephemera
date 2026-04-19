@@ -47,6 +47,7 @@ toggleRes1Tag.addEventListener("click", () => {
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
+  res12Tag.classList.remove("open");
 });
 
 exitRes1Tag.addEventListener("click", () => {
@@ -70,6 +71,7 @@ toggleRes2Tag.addEventListener("click", () => {
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
+  res12Tag.classList.remove("open");
 });
 
 exitRes2Tag.addEventListener("click", () => {
@@ -93,6 +95,7 @@ toggleRes3Tag.addEventListener("click", () => {
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
+  res12Tag.classList.remove("open");
 });
 
 exitRes3Tag.addEventListener("click", () => {
@@ -116,6 +119,7 @@ toggleRes4Tag.addEventListener("click", () => {
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
+  res12Tag.classList.remove("open");
 });
 
 exitRes4Tag.addEventListener("click", () => {
@@ -139,6 +143,7 @@ toggleRes5Tag.addEventListener("click", () => {
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
+  res12Tag.classList.remove("open");
 });
 
 exitRes5Tag.addEventListener("click", () => {
@@ -162,6 +167,7 @@ toggleRes6Tag.addEventListener("click", () => {
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
+  res12Tag.classList.remove("open");
 });
 
 exitRes6Tag.addEventListener("click", () => {
@@ -185,6 +191,7 @@ toggleRes7Tag.addEventListener("click", () => {
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
+  res12Tag.classList.remove("open");
 });
 
 exitRes7Tag.addEventListener("click", () => {
@@ -208,6 +215,7 @@ toggleRes8Tag.addEventListener("click", () => {
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
+  res12Tag.classList.remove("open");
 });
 
 exitRes8Tag.addEventListener("click", () => {
@@ -231,6 +239,7 @@ toggleRes9Tag.addEventListener("click", () => {
   res8Tag.classList.remove("open");
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
+  res12Tag.classList.remove("open");
 });
 
 exitRes9Tag.addEventListener("click", () => {
@@ -254,6 +263,7 @@ toggleRes10Tag.addEventListener("click", () => {
   res8Tag.classList.remove("open");
   res9Tag.classList.remove("open");
   res11Tag.classList.remove("open");
+  res12Tag.classList.remove("open");
 });
 
 exitRes10Tag.addEventListener("click", () => {
@@ -277,10 +287,35 @@ toggleRes11Tag.addEventListener("click", () => {
   res8Tag.classList.remove("open");
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
+  res12Tag.classList.remove("open");
 });
 
 exitRes11Tag.addEventListener("click", () => {
   res11Tag.classList.remove("open");
+});
+
+// Research 12 (Residency at BANFF)
+const toggleRes12Tag = document.querySelector("button.toggle-res-12");
+const exitRes12Tag = document.querySelector("div.toggle-res-12");
+const res12Tag = document.querySelector(".res-12");
+
+toggleRes12Tag.addEventListener("click", () => {
+  res12Tag.classList.toggle("open");
+  res1Tag.classList.remove("open");
+  res2Tag.classList.remove("open");
+  res3Tag.classList.remove("open");
+  res4Tag.classList.remove("open");
+  res5Tag.classList.remove("open");
+  res6Tag.classList.remove("open");
+  res7Tag.classList.remove("open");
+  res8Tag.classList.remove("open");
+  res9Tag.classList.remove("open");
+  res10Tag.classList.remove("open");
+  res11Tag.classList.remove("open");
+});
+
+exitRes12Tag.addEventListener("click", () => {
+  res12Tag.classList.remove("open");
 });
 
 // ARCHIVES
@@ -318,6 +353,9 @@ toggleArc1Tag.addEventListener("click", () => {
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
   arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
 });
 
 exitArc1Tag.addEventListener("click", () => {
@@ -343,6 +381,9 @@ toggleArc2Tag.addEventListener("click", () => {
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
   arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
 });
 
 exitArc2Tag.addEventListener("click", () => {
@@ -368,6 +409,9 @@ toggleArc3Tag.addEventListener("click", () => {
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
   arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
 });
 
 exitArc3Tag.addEventListener("click", () => {
@@ -393,6 +437,9 @@ toggleArc4Tag.addEventListener("click", () => {
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
   arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
 });
 
 exitArc4Tag.addEventListener("click", () => {
@@ -418,6 +465,9 @@ toggleArc5Tag.addEventListener("click", () => {
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
   arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
 });
 
 exitArc5Tag.addEventListener("click", () => {
@@ -443,6 +493,9 @@ toggleArc6Tag.addEventListener("click", () => {
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
   arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
 });
 
 exitArc6Tag.addEventListener("click", () => {
@@ -468,6 +521,9 @@ toggleArc7Tag.addEventListener("click", () => {
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
   arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
 });
 
 exitArc7Tag.addEventListener("click", () => {
@@ -493,6 +549,9 @@ toggleArc8Tag.addEventListener("click", () => {
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
   arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
 });
 
 exitArc8Tag.addEventListener("click", () => {
@@ -517,6 +576,9 @@ toggleArc9Tag.addEventListener("click", () => {
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
   arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
 });
 
 exitArc9Tag.addEventListener("click", () => {
@@ -541,6 +603,9 @@ toggleArc10Tag.addEventListener("click", () => {
   arc9Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
   arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
 });
 
 exitArc10Tag.addEventListener("click", () => {
@@ -565,6 +630,9 @@ toggleArc11Tag.addEventListener("click", () => {
   arc9Tag.classList.remove("open");
   arc10Tag.classList.remove("open");
   arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
 });
 
 exitArc11Tag.addEventListener("click", () => {
@@ -589,10 +657,94 @@ toggleArc12Tag.addEventListener("click", () => {
   arc9Tag.classList.remove("open");
   arc10Tag.classList.remove("open");
   arc11Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
 });
 
 exitArc12Tag.addEventListener("click", () => {
   arc12Tag.classList.remove("open");
+});
+
+// Archive 13 (Group exhibiton at Lismore Regional Gallery)
+const toggleArc13Tag = document.querySelector("button.toggle-arc-13");
+const exitArc13Tag = document.querySelector("div.toggle-arc-13");
+const arc13Tag = document.querySelector(".arc-13");
+
+toggleArc13Tag.addEventListener("click", () => {
+  arc13Tag.classList.toggle("open");
+  arc1Tag.classList.remove("open");
+  arc2Tag.classList.remove("open");
+  arc3Tag.classList.remove("open");
+  arc4Tag.classList.remove("open");
+  arc5Tag.classList.remove("open");
+  arc6Tag.classList.remove("open");
+  arc7Tag.classList.remove("open");
+  arc8Tag.classList.remove("open");
+  arc9Tag.classList.remove("open");
+  arc10Tag.classList.remove("open");
+  arc11Tag.classList.remove("open");
+  arc12Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
+});
+
+exitArc13Tag.addEventListener("click", () => {
+  arc13Tag.classList.remove("open");
+});
+
+// Archive 14 (Ancient Geometries: overview)
+const toggleArc14Tag = document.querySelector("button.toggle-arc-14");
+const exitArc14Tag = document.querySelector("div.toggle-arc-14");
+const arc14Tag = document.querySelector(".arc-14");
+
+toggleArc14Tag.addEventListener("click", () => {
+  arc14Tag.classList.toggle("open");
+  arc1Tag.classList.remove("open");
+  arc2Tag.classList.remove("open");
+  arc3Tag.classList.remove("open");
+  arc4Tag.classList.remove("open");
+  arc5Tag.classList.remove("open");
+  arc6Tag.classList.remove("open");
+  arc7Tag.classList.remove("open");
+  arc8Tag.classList.remove("open");
+  arc9Tag.classList.remove("open");
+  arc10Tag.classList.remove("open");
+  arc11Tag.classList.remove("open");
+  arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
+});
+
+exitArc14Tag.addEventListener("click", () => {
+  arc14Tag.classList.remove("open");
+});
+
+// Archive 15 (Group exhibition at West Space)
+const toggleArc15Tag = document.querySelector("button.toggle-arc-15");
+const exitArc15Tag = document.querySelector("div.toggle-arc-15");
+const arc15Tag = document.querySelector(".arc-15");
+
+toggleArc15Tag.addEventListener("click", () => {
+  arc15Tag.classList.toggle("open");
+  arc1Tag.classList.remove("open");
+  arc2Tag.classList.remove("open");
+  arc3Tag.classList.remove("open");
+  arc4Tag.classList.remove("open");
+  arc5Tag.classList.remove("open");
+  arc6Tag.classList.remove("open");
+  arc7Tag.classList.remove("open");
+  arc8Tag.classList.remove("open");
+  arc9Tag.classList.remove("open");
+  arc10Tag.classList.remove("open");
+  arc11Tag.classList.remove("open");
+  arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+});
+
+exitArc15Tag.addEventListener("click", () => {
+  arc15Tag.classList.remove("open");
 });
 
 // PUBLICATIONS
