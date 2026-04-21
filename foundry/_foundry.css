@@ -1,16 +1,16 @@
 @font-face {
   font-family: Rep-Tee-Rom-Cas_Condensed;
-  src: url(foundry/Rep-Tee-Rom-Cas_Condensed.woff);
+  src: url(Rep-Tee-Rom-Cas_Condensed.woff);
 }
 
 @font-face {
   font-family: Tafatolu Masani;
-  src: url(foundry/TafatoluTrial-Masani.woff);
+  src: url(TafatoluTrial-Masani.woff);
 }
 
 @font-face {
   font-family: Tafatolu Tele;
-  src: url(foundry/TafatoluTrial-Tele.woff);
+  src: url(TafatoluTrial-Tele.woff);
 }
 
 .tafatolu-masani {
