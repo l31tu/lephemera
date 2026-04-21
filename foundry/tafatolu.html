@@ -1,0 +1,380 @@
+<!doctype html>
+<!-- Website by: Leitu Bonnici | leitubonnici.com -->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../base.css" type="text/css" />
+    <link rel="stylesheet" href="_main.css" type="text/css" />
+    <link rel="stylesheet" href="_typefaces.css" type="text/css" />
+
+    <title>Tafatolu</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="text-spaced">
+      <div class="container">
+        <div>
+          <h1><a href="#" class="text-spaced">Le Phem Era Foundry</a></h1>
+        </div>
+      </div>
+
+      <h1>
+        <a href="#" class="text-spaced">Purchase</a>
+      </h1>
+    </header>
+
+    <!-- **PAGE CONTENT** -->
+    <div class="wrap">
+      <div class="banner-section">
+        <img src="" alt="Title Banner" />
+      </div>
+
+      <!-- Info Section -->
+      <div class="info-section">
+        <div class="info-heading">
+          <h2>Information</h2>
+        </div>
+
+        <div class="info-right">
+          <div class="info-para">
+            <p>
+              Tafatolu is designed for individual characters to be used in isolation as graphic elements, with each letter illustrating a contained story that is open to multiple interpretations. <span class="no-wrap">The typeface</span> was born of note taking through arrangements of symbols, rather than <span class="no-wrap">with words. </span>
+            </p>
+          </div>
+
+          <div class="info-accordions">
+            <div class="accordion">
+              <div class="accordion-header" onclick="toggleAccordion(this)">
+                <span>Continue reading</span>
+                <div class="accordion-toggle">+</div>
+              </div>
+              <div class="accordion-body">
+                Tafatolu can be understood as ‘triangle(s)’ in gagana Sāmoa. 
+                The balanced shapes and intuitive compositions are designed to convey a feeling of Samoanness. The visual sensibility builds on a history of symbols as scripts that spans thousands of years, used in such practices as <span class="no-wrap">tatau (tattoo).</span>
+              </div>
+            </div>
+
+            <div class="accordion">
+              <div class="accordion-header" onclick="toggleAccordion(this)">
+                <span>Credits</span>
+                <div class="accordion-toggle">+</div>
+              </div>
+              <div class="accordion-body">
+                <div class="credits">
+                  <div class="credits-item">
+                    <span class="credits-label">Release</span>
+                    <span class="credits-value">2026</span>
+                  </div>
+                  <div class="credits-item">
+                    <span class="credits-label">Design and Production</span>
+                    <span class="credits-value">Leitu Bonnici</span>
+                  </div>
+                  <div class="credits-item">
+                    <span class="credits-label">Version</span>
+                    <span class="credits-value">1.000</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion">
+              <div class="accordion-header" onclick="toggleAccordion(this)">
+                <span>Supported languages</span>
+                <div class="accordion-toggle">+</div>
+              </div>
+              <div class="accordion-body">
+                <div class="credits">
+                  <div class="credits-item">
+                    <span class="credits-label">Oceanian</span>
+                    <span class="credits-value">Text. Any missing languages or glyphs will be added upon request.</span>
+                  </div>
+                  <div class="credits-item">
+                    <span class="credits-label">First Peoples</span>
+                    <span class="credits-value">Text. Any missing languages or glyphs will be added upon request.</span>
+                  </div>
+                  <div class="credits-item">
+                    <span class="credits-label">European</span>
+                    <span class="credits-value">English, Maltese and more.</span>
+                  </div>
+                  <div class="credits-item">
+                    <span class="credits-label">Other</span>
+                    <span class="credits-value">Additional languages or glyphs can be added upon request.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion">
+              <div class="accordion-header" onclick="toggleAccordion(this)">
+                <span>Trial fonts</span>
+                <div class="accordion-toggle">+</div>
+              </div>
+              <div class="accordion-body">
+                Send an email to leitubonnici(at)gmail(dot)com to request trial fonts.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Info Section -->
+
+      <!-- TYPE SPECIMENS -->
+<div class="stages">
+  <!-- TYPE CHECKER LARGE -->
+  <!-- Toolbar -->
+  <div class="stage-outer">
+    <div class="toolbar">
+      <div class="option">
+        <select name="typeface">
+          <option value="Tafatolu Masani">Tafatolu Masani</option>
+          <option value="Tafatolu Tele">Tafatolu Tele</option>
+        </select>
+      </div>
+
+      <div class="t-sep"></div>
+
+      <div class="option">
+        <label>Size <span class="typesize-output">160px</span></label>
+        <input type="range" name="typesize" min="10" max="400" value="160" />
+      </div>
+
+      <div class="t-sep"></div>
+
+      <div class="option">
+        <label>Leading <span class="lineheight-output">1</span></label>
+        <input
+          type="range"
+          name="lineheight"
+          min="0.7"
+          max="2.5"
+          value="1"
+          step="0.1"
+        />
+      </div>
+
+      <div class="t-sep"></div>
+
+      <div class="option">
+        <label>Kerning<span class="kerning-output">1</span></label>
+        <input
+          type="range"
+          name="kerning"
+          min="-0.2"
+          max="0.5"
+          value="0.1"
+          step="0.01"
+        />
+      </div>
+    </div>
+
+    <!-- Editable Text -->
+    <div class="stage-inner">
+      <div contenteditable="true" spellcheck="false" class="output lg tafatolu-masani">YOU CAN EDIT THIS</div>
+    </div>
+  </div>
+  <!-- End TYPE CHECKER LARGE -->
+
+  <!-- TYPE CHECKER SMALL -->
+  <!-- Toolbar -->
+  <div class="stage-outer">
+    <div class="toolbar">
+      <div class="option">
+        <select name="typeface">
+          <option value="Tafatolu Masani">Tafatolu Masani</option>
+          <option value="Tafatolu Tele">Tafatolu Tele</option>
+        </select>
+      </div>
+
+      <div class="t-sep"></div>
+
+      <div class="option">
+        <label>Size <span class="typesize-output">20px</span></label>
+        <input type="range" name="typesize" min="10" max="60" value="20" />
+      </div>
+
+      <div class="t-sep"></div>
+
+      <div class="option">
+        <label>Leading <span class="lineheight-output">1.2</span></label>
+        <input
+          type="range"
+          name="lineheight"
+          min="0.7"
+          max="2.5"
+          value="1.2"
+          step="0.1"
+        />
+      </div>
+
+      <div class="t-sep"></div>
+
+      <div class="option">
+        <label>Kerning<span class="kerning-output">1</span></label>
+        <input
+          type="range"
+          name="kerning"
+          min="-0.2"
+          max="0.5"
+          value="0.1"
+          step="0.01"
+        />
+      </div>
+    </div>
+
+    <!-- Editable Text -->
+    <div class="stage-inner">
+      <div contenteditable="true" spellcheck="false" class="output sm tafatolu-masani">
+        So tatauing is part of everything else that is the people, the ‘āiga, the village, the community, the environment, the atua, the cosmos. It is a way of life that relates the tufuga tātatau to the person being tataued and their community and history and beliefs to do with service, courage, masculinity, femininity, gender, identity, sexuality, beauty, symmetry, balance, aptness, and other art forms and the future because a tatau or a malu is for the rest of your life and when you die your children will inherit its reputation and stories, your stories, stories about you and your relationships. The tatau and the malu are not just beautiful decoration, they are scripts/texts/testimonies to do with relationships, order, form and so on.  And when they were threatened with extinction by colonialism, Sāmoa was one of the few places where tatauing refused to die. Tatau became defiant texts/scripts of nationalism and identity. Much of the indigenous was never colonised, tamed or erased. And much that we now consider Indigenous and post-colonial are colonial constructs (e.g. the Church).
+      </div>
+    </div>
+  </div>
+  <!-- End TYPE CHECKER SMALL -->
+
+  <!-- TYPE CHECKER MEDIUM -->
+  <!-- Toolbar -->
+  <div class="stage-outer">
+    <div class="toolbar">
+      <div class="option">
+        <select name="typeface">
+          <option value="Tafatolu Masani">Tafatolu Masani</option>
+          <option value="Tafatolu Tele">Tafatolu Tele</option>
+        </select>
+      </div>
+
+      <div class="t-sep"></div>
+
+      <div class="option">
+        <label>Size <span class="typesize-output">80px</span></label>
+        <input type="range" name="typesize" min="10" max="160" value="80" />
+      </div>
+
+      <div class="t-sep"></div>
+
+      <div class="option">
+        <label>Leading <span class="lineheight-output">1.1</span></label>
+        <input
+          type="range"
+          name="lineheight"
+          min="0.7"
+          max="2.5"
+          value="1.1"
+          step="0.1"
+        />
+      </div>
+
+      <div class="t-sep"></div>
+
+      <div class="option">
+        <label>Kerning<span class="kerning-output">1</span></label>
+        <input
+          type="range"
+          name="kerning"
+          min="-0.2"
+          max="0.5"
+          value="0.1"
+          step="0.01"
+        />
+      </div>
+    </div>
+
+    <!-- Editable Text -->
+    <div class="stage-inner">
+      <div contenteditable="true" spellcheck="false" class="output md tafatolu-masani">
+        TATAUING THE POST-COLONIAL BODY BY ALBERT WENDT
+      </div>
+    </div>
+  </div>
+  <!-- End TYPE CHECKER MEDIUM -->
+</div>
+<!-- End TYPE SPECIMENS -->
+
+      <!-- Preview Section -->
+      <div id="picker-outer">
+    <div id="preview-panel">
+      <img id="char-preview-img" src="" alt="">
+      <div id="char-label"></div>
+      <div id="style-switcher"></div>
+    </div>
+    <div id="grid-panel">
+      <div id="char-sections"></div>
+    </div>
+  </div>
+      <!-- End Preview Section -->
+    <!-- **END PAGE CONTENT** -->
+
+    <!-- BUY -->
+    <div id="buy" class="modalSlideLeft">
+      <div class="modalSlideLeft-content">
+        <a href="#" class="close">&times;</a>
+      </div>
+    </div>
+
+    <!-- TYPEFACES -->
+    <div id="typefaces" class="modalSlideUp">
+      <div class="modalSlideUp-content">
+        <a href="#" class="close">&times;</a>
+        <!-- Rep-Tee-Rom-Cas Condensed-->
+        <div class="typeface-container tc-p" href="#">
+          <div>
+            <h2>Rep-Tee-Rom-Cas Condensed</h2>
+          </div>
+        </div>
+        <!-- Rep-Ak-Gro-Uni Light -->
+        <div class="typeface-container tc-p" href="#">
+          <div>
+            <h2>Rep-Ak-Gro-Uni Light</h2>
+          </div>
+        </div>
+        <!-- Unnamed Typeface -->
+        <div class="typeface-container tc-p" href="#">
+          <div>
+            <h2>Unnamed Typeface</h2>
+          </div>
+          <div>
+            <p class="text-sm">Unnamed Typeface Regular, Unnamed Typeface Grid</p>
+          </div>
+        </div>
+        <!-- Tafatolu -->
+        <div class="typeface-container tc-p" href="#">
+          <div>
+            <h2 class="tafatolu-masani">Tafatolu</h2>
+          </div>
+          <div>
+            <p class="text-sm">Tafatolu Masani, Tafatolu Tele</p>
+          </div>
+        </div>
+        <!-- Coming Soon -->
+        <div class="typeface-container tc-cs" href="#">
+          <div>
+            <h2>Coming soon...</h2>
+          </div>
+          <div>
+            <p class="text-sm">Design Bitmap, Roundsquarestripe, Scrollstripe</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- End Typefaces -->
+
+    <!-- COPYRIGHT -->
+    <div class="copyright">
+      <p>Copyright &copy; <span class="year"></span>. All Rights Reserved.</p>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="text-spaced">
+      <div class="footer-nav-left">
+        <a href="#typefaces">Typefaces</a>
+      </div>
+      <div class="footer-nav-right">
+        <a href="https://lephemera.com" target="”_blank”">Le Phem Era</a>
+      </div>
+    </footer>
+
+    <script src="tafatolu.js"></script>
+  </body>
+</html>

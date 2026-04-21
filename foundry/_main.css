@@ -1,0 +1,739 @@
+@font-face {
+  font-family: Rep-Tee-Rom-Cas_Condensed;
+  src: url(Rep-Tee-Rom-Cas_Condensed.woff);
+}
+
+@font-face {
+  font-family: Tafatolu Masani;
+  src: url(TafatoluTrial-Masani.woff);
+}
+
+@font-face {
+  font-family: Tafatolu Tele;
+  src: url(TafatoluTrial-Tele.woff);
+}
+
+.tafatolu-masani {
+  font-family:
+    Tafatolu Masani,
+    sans-serif;
+}
+
+.tafatolu-tele {
+  font-family:
+    Tafatolu Tele,
+    sans-serif;
+}
+
+/* PAGE */
+.wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Rep-Tee-Rom-Cas_Condensed, serif;
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: 1.4;
+  line-height: 1.15;
+  color: #000;
+  background-color: #fff;
+}
+
+a {
+  color: darkgrey;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+a:hover {
+  color: cyan;
+}
+
+header,
+footer {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+header {
+  top: 0;
+  left: 0;
+  padding: 18px 18px 0 18px;
+}
+
+footer {
+  bottom: 18px;
+  padding: 0 18px 0 18px;
+}
+
+footer footer-nav-left {
+  float: left;
+}
+
+footer footer-nav-right {
+  float: right;
+}
+
+::selection {
+  background: magenta;
+  color: #fff;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.text-sm {
+  font-size: 20px;
+}
+
+.text-indent {
+  text-indent: 36px;
+}
+
+.text-link {
+  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px; /* Note: text-underline-offset is not part of the shorthand */
+}
+
+.text-spaced {
+  letter-spacing: 0.1em;
+}
+
+/* MODALS */
+
+/* POPUPS */
+.modalPopup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 200ms ease-in;
+  -moz-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
+  pointer-events: none;
+}
+
+.modalPopup:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modalPopup > div {
+  width: 80%;
+  position: relative;
+  margin: 10% auto;
+  padding: 18px 18px 18px 18px;
+  background: #fff;
+
+  color: darkgrey;
+}
+
+.modalPopup a {
+  color: darkgrey;
+}
+
+.modalPopup a:hover {
+  color: cyan;
+}
+
+/* SLIDES */
+.modalSlideLeft,
+.modalSlideUp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0; /* Initially hidden */
+  pointer-events: none; /* Prevents interaction when hidden */
+  transition: opacity 1s ease;
+  display: flex;
+  justify-content: center;
+  z-index: 99999;
+}
+
+.modalSlideLeft-content,
+.modalSlideUp-content {
+  background-color: #fff;
+  padding: 18px;
+  height: 100vh;
+  overflow-y: scroll;
+  bottom: 0;
+  /* Initial position for slide-in from the top */
+  transition: transform 1s ease;
+  position: relative;
+
+  color: #000;
+}
+
+.modalSlideLeft-content {
+  width: 50vw;
+}
+
+.modalSlideUp-content {
+  width: 100vw;
+}
+
+.modalSlideLeft-content {
+  transform: translateX(+50vw);
+}
+
+.modalSlideUp-content {
+  transform: translateY(+100vh);
+}
+
+.modalSlideLeft:target,
+.modalSlideUp:target {
+  opacity: 1; /* Makes modal visible */
+  pointer-events: all; /* Allows interaction */
+}
+
+.modalSlideLeft:target .modalSlideLeft-content {
+  transform: translateX(25vw); /* Slides into view */
+}
+
+.modalSlideUp:target .modalSlideUp-content {
+  transform: translateY(0); /* Slides into view */
+}
+
+.close {
+  color: darkgrey;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: cyan;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Banner */
+.banner-section {
+  width: 100%;
+  overflow: hidden;
+  height: 75vh;
+  background-color: #000;
+}
+.banner-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.info-section {
+  display: flex;
+  align-items: stretch;
+  border-bottom: none;
+}
+.info-heading {
+  width: 25%;
+  flex-shrink: 0;
+  padding: 18px;
+  display: flex;
+  align-items: flex-start;
+}
+.info-heading h2 {
+  font-size: 40px;
+}
+
+.info-right {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+}
+
+.info-para {
+  width: 33.333%;
+  flex-shrink: 0;
+  padding: 18px;
+  display: flex;
+  align-items: flex-start;
+}
+.info-para p {
+  font-size: 20px;
+}
+
+.info-accordions {
+  flex: 1;
+  padding: 0 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* TYPEFACES */
+.typeface-container {
+  width: calc(100% - 36px);
+  border: 1px solid darkgrey;
+  border-radius: 2px;
+  padding: 18px;
+  margin: 0 0 18px 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25vw 0.5vw;
+}
+
+.typeface-container:last-child {
+  margin: 0;
+}
+
+.typeface-container > * {
+  flex: 1 1 100vw;
+}
+
+.typeface-container div {
+  flex: 1;
+  text-align: left;
+}
+
+.typeface-container:hover {
+  cursor: pointer;
+  transition: background-color 0.3s ease-in;
+}
+
+.tc-p:hover {
+  background-color: yellow;
+}
+
+.tc-cs:hover {
+  background-color: cyan;
+}
+
+/* Accordions */
+.accordion {
+  border-bottom: 0.5px solid lightgrey;
+  transition: background 0.1s;
+}
+.accordion:hover {
+  background-color: yellow;
+}
+.accordion:first-child {
+  border-top: 0.5px solid lightgrey;
+  margin-top: 18px;
+}
+.accordion:last-child {
+  border-bottom: none;
+}
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  cursor: pointer;
+  user-select: none;
+  gap: 18px;
+}
+.accordion-header span {
+  font-size: 20px;
+  color: grey;
+}
+.accordion-toggle {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  line-height: 1;
+  color: darkgrey;
+}
+.accordion-body {
+  font-size: 20px;
+  max-height: 0;
+  overflow: hidden;
+}
+.accordion-body.open {
+  max-height: 400px;
+  padding: 0 18px 18px 18px;
+}
+
+.credits {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.credits-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.credits-item .credits-label {
+  font-size: 20px;
+  color: grey;
+}
+.credits-item .credits-value {
+  font-size: 20px;
+}
+
+/* TYPE SPECIMENS */
+
+span.kerning-output,
+span.lineheight-output {
+  display: none;
+}
+
+.stages {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: calc(100vw - 32px);
+  margin: 0 auto;
+}
+
+.stage-outer {
+  width: 100%;
+  position: relative;
+
+  border-top: 0.5px solid lightgrey;
+}
+
+.stage-outer:last-child {
+  border-bottom: 0.5px solid lightgrey;
+}
+
+.toolbar {
+  position: absolute;
+  top: -0.5px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 0.5px solid lightgrey;
+  border-radius: 0px 0px 2px 2px;
+  padding: 9px 18px;
+  align-items: center;
+  gap: 9px;
+  white-space: nowrap;
+  z-index: 5;
+  display: none;
+
+  font-size: 20px;
+}
+
+.visible {
+  display: flex;
+}
+
+.stage-inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: text;
+  position: relative;
+  padding: 32px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: grey;
+  width: 160px;
+}
+
+select {
+  border: 0 !important; /*Removes border*/
+  -webkit-appearance-: none; /*Removes default chrome and safari style*/
+  -moz-appearance-: none; /* Removes Default Firefox style*/
+  background: #fff;
+  width: 200px; /*Width of select dropdown to give space for arrow image*/
+  text-indent: 0.01px; /* Removes default arrow from firefox*/
+  text-overflow: ""; /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+  color: grey;
+  border-radius: 2px;
+  padding: 3px;
+  box-shadow: inset 0 0 1px darkgray;
+}
+
+.output {
+  width: 100%;
+  padding: 32px 0;
+}
+
+[contenteditable="true"]:active,
+[contenteditable="true"]:focus {
+  border: none;
+  outline: none;
+}
+
+.lg,
+.md {
+  text-align: center;
+}
+
+.lg {
+  font-size: 160px;
+}
+
+.md {
+  font-size: 80px;
+}
+
+.sm {
+  font-size: 20px;
+  text-align: left;
+  column-count: 2;
+  column-gap: 18px;
+}
+
+.t-sep {
+  width: 0.5px;
+  height: 18px;
+  background: lightgrey;
+  flex-shrink: 0;
+}
+
+/*** RANGES ***/
+
+/** Baseline, reset styles **/
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Removes default focus */
+input[type="range"]:focus {
+  outline: none;
+}
+
+/** Chrome, Safari, Opera and Edge Chromium styles **/
+/* slider track */
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: lightgrey;
+  height: 1px;
+}
+
+/* slider thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -4px; /* Centers thumb on the track */
+  background-color: lightgrey;
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+}
+
+input[type="range"]:focus::-webkit-slider-thumb {
+  outline: 3px solid lightgrey;
+  outline-offset: 0.125rem;
+}
+
+/** Firefox styles **/
+/* slider track */
+input[type="range"]::-moz-range-track {
+  background-color: lightgrey;
+  border-radius: 0%;
+  height: 1px;
+}
+
+/* slider thumb */
+input[type="range"]::-moz-range-thumb {
+  background-color: lightgrey;
+  border: none; /*Removes extra border that FF applies*/
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+}
+
+input[type="range"]:focus::-moz-range-thumb {
+  outline: 3px solid lightgrey;
+  outline-offset: 0.125rem;
+}
+
+/* Picker */
+#picker-outer {
+  display: flex;
+  align-items: flex-start;
+}
+
+#preview-panel {
+  width: 50%;
+  flex-shrink: 0;
+  border-right: 0.5px solid lightgrey;
+  position: sticky;
+  top: 18px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#char-preview-img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  image-rendering: crisp-edges;
+}
+#char-label {
+  font-size: 20px;
+  color: grey;
+}
+
+#grid-panel {
+  width: 50%;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* Style switcher */
+#style-switcher {
+  display: flex;
+  gap: 18px;
+  margin-top: 18px;
+}
+.style-btn {
+  padding: 9px 18px;
+  border-radius: 2px;
+  border: 0.5px solid lightgrey;
+  background-color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+.style-btn:hover {
+  background: yellow;
+}
+.style-btn.active {
+  background: cyan;
+  border-color: cyan;
+}
+.style-btn.tafatolu-masani,
+.style-btn.tafatolu-tele {
+  font-family: Rep-Tee-Rom-Cas_Condensed, serif;
+}
+
+/* Character grid */
+.section-label {
+  font-size: 20px;
+  padding: 18px 0 18px;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.15);
+  color: grey;
+}
+.section-label.first {
+  border-top: none;
+  padding-top: 0;
+}
+.char-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 2px;
+  margin-bottom: 18px;
+}
+.cell {
+  aspect-ratio: 1;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 0.5px solid lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  transition:
+    background 0.08s,
+    transform 0.08s;
+  overflow: hidden;
+  padding: 2px;
+}
+.cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  pointer-events: none;
+}
+.cell:hover {
+  background: #fff;
+  transform: scale(1.15);
+  z-index: 1;
+  position: relative;
+}
+.cell.selected {
+  border-color: cyan;
+  background: cyan;
+}
+
+/* ── Responsive: 1000px and below ─────────────────────────────────────────── */
+@media (max-width: 1200px) {
+  .toolbar {
+    font-size: 10px;
+  }
+  select {
+    width: 120px;
+  }
+  .accordion:last-child {
+    border-bottom: 0.5px solid lightgrey;
+    margin-bottom: 18px;
+  }
+}
+
+/* ── Responsive: 800px and below ─────────────────────────────────────────── */
+@media (max-width: 1000px) {
+  /* Info section: all three columns stack */
+  .info-section {
+    flex-direction: column;
+  }
+  .info-heading {
+    width: 100%;
+    border-right: none;
+  }
+  .info-right {
+    width: 100%;
+    flex-direction: column;
+  }
+  .info-para {
+    width: 100%;
+    border-right: none;
+  }
+  .info-accordions {
+    width: 100%;
+    padding: 0 24px;
+  }
+  .accordion:first-child {
+    margin-top: 16px;
+  }
+  .accordion:last-child {
+    border-bottom: none;
+  }
+
+  /* Picker: hide preview panel, grid takes full width */
+  #preview-panel {
+    display: none;
+  }
+  #grid-panel {
+    width: 100%;
+  }
+
+  /* Copyright */
+  .copyright {
+    padding: 18px 0 108px 0;
+  }
+
+  /* Toolbar */
+  .toolbar {
+    width: 100%;
+  }
+}
