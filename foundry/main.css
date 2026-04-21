@@ -692,6 +692,10 @@ input[type="range"]:focus::-moz-range-thumb {
 
 /* ── Responsive: 800px and below ─────────────────────────────────────────── */
 @media (max-width: 1000px) {
+  header,
+  footer {
+    font-size: 20px;
+  }
   /* Info section: all three columns stack */
   .info-section {
     flex-direction: column;
