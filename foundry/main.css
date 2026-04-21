@@ -696,6 +696,10 @@ input[type="range"]:focus::-moz-range-thumb {
   footer {
     font-size: 20px;
   }
+  .sm {
+    column-count: 1;
+  }
+  
   /* Info section: all three columns stack */
   .info-section {
     flex-direction: column;
@@ -729,6 +733,10 @@ input[type="range"]:focus::-moz-range-thumb {
   }
   #grid-panel {
     width: 100%;
+  }
+
+  .char-grid {
+    grid-template-columns: repeat(6, 1fr);
   }
 
   /* Copyright */
