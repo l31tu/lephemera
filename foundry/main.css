@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: Ak-Gro-Uni_Light;
+  src: url(../Rep-Ak-Gro_Uni_Light.woff);
+}
+
+@font-face {
   font-family: Tafatolu Masani;
   src: url(TafatoluTrial-Masani.woff);
 }
@@ -11,6 +16,10 @@
 @font-face {
   font-family: Tafatolu Tele;
   src: url(TafatoluTrial-Tele.woff);
+}
+
+.ak-gro-uni-light {
+  font-family: Ak-Gro-Uni_Light, sans-serif;
 }
 
 .tafatolu-masani {
@@ -228,13 +237,20 @@ footer footer-nav-right {
   width: 100%;
   overflow: hidden;
   height: 75vh;
-  background-color: #000;
+  background-color: blue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.banner-section img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+.banner-section h1 {
+  flex: 0;
+  color: #fff;
+  font-family:
+    Tafatolu Masani,
+    sans-serif;
+  font-size: 160px;
+  line-height: 1.5;
 }
 
 .info-section {
@@ -676,8 +692,18 @@ input[type="range"]:focus::-moz-range-thumb {
   background: cyan;
 }
 
-/* ── Responsive: 1000px and below ─────────────────────────────────────────── */
+/* ── Responsive: 1300px and below ─────────────────────────────────────────── */
+@media (max-width: 1400px) {
+  .banner-section h1 {
+    font-size: 120px;
+  }
+}
+
+/* ── Responsive: 1200px and below ─────────────────────────────────────────── */
 @media (max-width: 1200px) {
+  .banner-section h1 {
+    font-size: 100px;
+  }
   .toolbar {
     font-size: 10px;
   }
@@ -690,8 +716,18 @@ input[type="range"]:focus::-moz-range-thumb {
   }
 }
 
-/* ── Responsive: 800px and below ─────────────────────────────────────────── */
+/* ── Responsive: 1000px and below ─────────────────────────────────────────── */
 @media (max-width: 1000px) {
+  .banner-section h1 {
+    font-size: 80px;
+  }
+}
+
+/* ── Responsive: 800px and below ─────────────────────────────────────────── */
+@media (max-width: 800px) {
+  .banner-section h1 {
+    font-size: 60px;
+  }
   header,
   footer {
     font-size: 20px;
@@ -699,7 +735,7 @@ input[type="range"]:focus::-moz-range-thumb {
   .sm {
     column-count: 1;
   }
-  
+
   /* Info section: all three columns stack */
   .info-section {
     flex-direction: column;
@@ -747,5 +783,12 @@ input[type="range"]:focus::-moz-range-thumb {
   /* Toolbar */
   .toolbar {
     width: 100%;
+  }
+}
+
+/* ── Responsive: 700px and below ─────────────────────────────────────────── */
+@media (max-width: 700px) {
+  .banner-section h1 {
+    font-size: 40px;
   }
 }
