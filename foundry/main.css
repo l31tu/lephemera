@@ -422,7 +422,7 @@ footer footer-nav-right {
   overflow: hidden;
 }
 .accordion-body.open {
-  max-height: 400px;
+  max-height: 100%;
   padding: 0 18px 18px 18px;
 }
 
