@@ -48,6 +48,7 @@ toggleRes1Tag.addEventListener("click", () => {
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
   res12Tag.classList.remove("open");
+  res13Tag.classList.remove("open");
 });
 
 exitRes1Tag.addEventListener("click", () => {
@@ -72,6 +73,7 @@ toggleRes2Tag.addEventListener("click", () => {
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
   res12Tag.classList.remove("open");
+  res13Tag.classList.remove("open");
 });
 
 exitRes2Tag.addEventListener("click", () => {
@@ -96,6 +98,7 @@ toggleRes3Tag.addEventListener("click", () => {
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
   res12Tag.classList.remove("open");
+  res13Tag.classList.remove("open");
 });
 
 exitRes3Tag.addEventListener("click", () => {
@@ -120,6 +123,7 @@ toggleRes4Tag.addEventListener("click", () => {
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
   res12Tag.classList.remove("open");
+  res13Tag.classList.remove("open");
 });
 
 exitRes4Tag.addEventListener("click", () => {
@@ -144,6 +148,7 @@ toggleRes5Tag.addEventListener("click", () => {
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
   res12Tag.classList.remove("open");
+  res13Tag.classList.remove("open");
 });
 
 exitRes5Tag.addEventListener("click", () => {
@@ -168,6 +173,7 @@ toggleRes6Tag.addEventListener("click", () => {
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
   res12Tag.classList.remove("open");
+  res13Tag.classList.remove("open");
 });
 
 exitRes6Tag.addEventListener("click", () => {
@@ -192,6 +198,7 @@ toggleRes7Tag.addEventListener("click", () => {
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
   res12Tag.classList.remove("open");
+  res13Tag.classList.remove("open");
 });
 
 exitRes7Tag.addEventListener("click", () => {
@@ -216,6 +223,7 @@ toggleRes8Tag.addEventListener("click", () => {
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
   res12Tag.classList.remove("open");
+  res13Tag.classList.remove("open");
 });
 
 exitRes8Tag.addEventListener("click", () => {
@@ -240,6 +248,7 @@ toggleRes9Tag.addEventListener("click", () => {
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
   res12Tag.classList.remove("open");
+  res13Tag.classList.remove("open");
 });
 
 exitRes9Tag.addEventListener("click", () => {
@@ -264,6 +273,7 @@ toggleRes10Tag.addEventListener("click", () => {
   res9Tag.classList.remove("open");
   res11Tag.classList.remove("open");
   res12Tag.classList.remove("open");
+  res13Tag.classList.remove("open");
 });
 
 exitRes10Tag.addEventListener("click", () => {
@@ -288,6 +298,7 @@ toggleRes11Tag.addEventListener("click", () => {
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
   res12Tag.classList.remove("open");
+  res13Tag.classList.remove("open");
 });
 
 exitRes11Tag.addEventListener("click", () => {
@@ -312,10 +323,36 @@ toggleRes12Tag.addEventListener("click", () => {
   res9Tag.classList.remove("open");
   res10Tag.classList.remove("open");
   res11Tag.classList.remove("open");
+  res13Tag.classList.remove("open");
 });
 
 exitRes12Tag.addEventListener("click", () => {
   res12Tag.classList.remove("open");
+});
+
+// Research 13 (COUSIN Film Symposium)
+const toggleRes13Tag = document.querySelector("button.toggle-res-13");
+const exitRes13Tag = document.querySelector("div.toggle-res-13");
+const res13Tag = document.querySelector(".res-13");
+
+toggleRes13Tag.addEventListener("click", () => {
+  res13Tag.classList.toggle("open");
+  res1Tag.classList.remove("open");
+  res2Tag.classList.remove("open");
+  res3Tag.classList.remove("open");
+  res4Tag.classList.remove("open");
+  res5Tag.classList.remove("open");
+  res6Tag.classList.remove("open");
+  res7Tag.classList.remove("open");
+  res8Tag.classList.remove("open");
+  res9Tag.classList.remove("open");
+  res10Tag.classList.remove("open");
+  res11Tag.classList.remove("open");
+  res12Tag.classList.remove("open");
+});
+
+exitRes13Tag.addEventListener("click", () => {
+  res13Tag.classList.remove("open");
 });
 
 // ARCHIVES
@@ -356,6 +393,7 @@ toggleArc1Tag.addEventListener("click", () => {
   arc13Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc1Tag.addEventListener("click", () => {
@@ -384,6 +422,7 @@ toggleArc2Tag.addEventListener("click", () => {
   arc13Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc2Tag.addEventListener("click", () => {
@@ -412,6 +451,7 @@ toggleArc3Tag.addEventListener("click", () => {
   arc13Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc3Tag.addEventListener("click", () => {
@@ -440,6 +480,7 @@ toggleArc4Tag.addEventListener("click", () => {
   arc13Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc4Tag.addEventListener("click", () => {
@@ -468,6 +509,7 @@ toggleArc5Tag.addEventListener("click", () => {
   arc13Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc5Tag.addEventListener("click", () => {
@@ -496,6 +538,7 @@ toggleArc6Tag.addEventListener("click", () => {
   arc13Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc6Tag.addEventListener("click", () => {
@@ -524,6 +567,7 @@ toggleArc7Tag.addEventListener("click", () => {
   arc13Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc7Tag.addEventListener("click", () => {
@@ -552,6 +596,7 @@ toggleArc8Tag.addEventListener("click", () => {
   arc13Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc8Tag.addEventListener("click", () => {
@@ -579,6 +624,7 @@ toggleArc9Tag.addEventListener("click", () => {
   arc13Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc9Tag.addEventListener("click", () => {
@@ -606,6 +652,7 @@ toggleArc10Tag.addEventListener("click", () => {
   arc13Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc10Tag.addEventListener("click", () => {
@@ -633,6 +680,7 @@ toggleArc11Tag.addEventListener("click", () => {
   arc13Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc11Tag.addEventListener("click", () => {
@@ -660,6 +708,7 @@ toggleArc12Tag.addEventListener("click", () => {
   arc13Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc12Tag.addEventListener("click", () => {
@@ -687,6 +736,7 @@ toggleArc13Tag.addEventListener("click", () => {
   arc12Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc13Tag.addEventListener("click", () => {
@@ -714,6 +764,7 @@ toggleArc14Tag.addEventListener("click", () => {
   arc12Tag.classList.remove("open");
   arc13Tag.classList.remove("open");
   arc15Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc14Tag.addEventListener("click", () => {
@@ -741,10 +792,39 @@ toggleArc15Tag.addEventListener("click", () => {
   arc12Tag.classList.remove("open");
   arc13Tag.classList.remove("open");
   arc14Tag.classList.remove("open");
+  arc16Tag.classList.remove("open");
 });
 
 exitArc15Tag.addEventListener("click", () => {
   arc15Tag.classList.remove("open");
+});
+
+// Archive 16 (Text for Runway Journal)
+const toggleArc16Tag = document.querySelector("button.toggle-arc-16");
+const exitArc16Tag = document.querySelector("div.toggle-arc-16");
+const arc16Tag = document.querySelector(".arc-16");
+
+toggleArc16Tag.addEventListener("click", () => {
+  arc16Tag.classList.toggle("open");
+  arc1Tag.classList.remove("open");
+  arc2Tag.classList.remove("open");
+  arc3Tag.classList.remove("open");
+  arc4Tag.classList.remove("open");
+  arc5Tag.classList.remove("open");
+  arc6Tag.classList.remove("open");
+  arc7Tag.classList.remove("open");
+  arc8Tag.classList.remove("open");
+  arc9Tag.classList.remove("open");
+  arc10Tag.classList.remove("open");
+  arc11Tag.classList.remove("open");
+  arc12Tag.classList.remove("open");
+  arc13Tag.classList.remove("open");
+  arc14Tag.classList.remove("open");
+  arc15Tag.classList.remove("open");
+});
+
+exitArc16Tag.addEventListener("click", () => {
+  arc16Tag.classList.remove("open");
 });
 
 // PUBLICATIONS
