@@ -8,12 +8,6 @@ toggleInfoTag.addEventListener("click", () => {
   pubsTag.classList.remove("open");
   archTag.classList.remove("open");
   resTag.classList.remove("open");
-
-  window.goatcounter.count({
-    path: "click-information",
-    title: "Click Information",
-    event: true,
-  });
 });
 
 exitTag.addEventListener("click", () => {
@@ -1773,6 +1767,13 @@ exitTfm1Tag.addEventListener("click", () => {
 // ANALYTICS
 
 // Main
+$("#information").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-information",
+    title: "Click Information",
+    event: true,
+  });
+});
 
 $("#research").on("click", function (e) {
   window.goatcounter.count({
@@ -1807,6 +1808,13 @@ $("#instagram").on("click", function (e) {
 });
 
 // Research Tab
+$("#res-hpb").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-hpb",
+    title: "Click Research > Hyper-personalised Bookshelves",
+    event: true,
+  });
+});
 
 // Archiving Tab
 
@@ -1815,11 +1823,15 @@ $("#instagram").on("click", function (e) {
 // Return Count
 window.goatcounter.count({
   path: function (p) {
+    // Tabs
     return "click-information-" + p;
     return "click-research-" + p;
     return "click-archiving-" + p;
     return "click-publishing-" + p;
     return "click-instagram-" + p;
+
+    // Research
+    return "click-res-hpb-" + p;
   },
   event: true,
 });
