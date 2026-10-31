@@ -230,7 +230,7 @@ exitRes8Tag.addEventListener("click", () => {
   res8Tag.classList.remove("open");
 });
 
-// Research 9 (Art Book Fairs)
+// Research 9 (African Art Book Fair 2024)
 const toggleRes9Tag = document.querySelector("button.toggle-res-9");
 const exitRes9Tag = document.querySelector("div.toggle-res-9");
 const res9Tag = document.querySelector(".res-9");
@@ -1816,6 +1816,112 @@ $("#res-hpb").on("click", function (e) {
   });
 });
 
+$("#res-cdrtg").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-cdrtg",
+    title: "Click Research > Creative Development Residency at Testing Grounds",
+    event: true,
+  });
+});
+
+$("#res-48htpftg").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-48htpftg",
+    title:
+      "Click Research > 48 Hours to Premier Film Residency at Testing Grounds",
+    event: true,
+  });
+});
+
+$("#res-tpg").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-tpg",
+    title: "Click Research > Residency at Tree Paper Gallery",
+    event: true,
+  });
+});
+
+$("#res-cfpa").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-cfpa",
+    title: "Click Research > Residency at the Centre for Projection Art",
+    event: true,
+  });
+});
+
+$("#res-qpc").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-qpc",
+    title: "Click Research > Quarry Pedagogies Camp",
+    event: true,
+  });
+});
+
+$("#res-tpatfr").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-tpatfr",
+    title: "Click Research > Tautai Pacific Arts Trust FALE-ship Residency",
+    event: true,
+  });
+});
+
+$("#res-mp").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-mp",
+    title: "Click Research > Masters Program",
+    event: true,
+  });
+});
+
+$("#res-mp").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-mp",
+    title: "Click Research > Masters Program",
+    event: true,
+  });
+});
+
+$("#res-aabf24").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-aabf24",
+    title: "Click Research > African Art Book Fair 2024",
+    event: true,
+  });
+});
+
+$("#res-rh").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-rh",
+    title: "Click Research > Residence at Habitat",
+    event: true,
+  });
+});
+
+$("#res-iiacrfp").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-iiacrfp",
+    title:
+      "Click Research > Confluence: International Indigenous Art Criticism Residency by Forge Project",
+    event: true,
+  });
+});
+
+$("#res-rbc").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-rbc",
+    title: "Click Research > Residency at Banff Centre",
+    event: true,
+  });
+});
+
+$("#res-cfs").on("click", function (e) {
+  window.goatcounter.count({
+    path: "click-res-cfs",
+    title: "Click Research > COUSIN Film Symposium",
+    event: true,
+  });
+});
+
 // Archiving Tab
 
 // Publishing Tab
@@ -1832,6 +1938,18 @@ window.goatcounter.count({
 
     // Research
     return "click-res-hpb-" + p;
+    return "click-res-cdrtg-" + p;
+    return "click-res-48htpftg-" + p;
+    return "click-res-tpg-" + p;
+    return "click-res-cfpa-" + p;
+    return "click-res-qpc-" + p;
+    return "click-res-tpatfr-" + p;
+    return "click-res-mp-" + p;
+    return "click-res-aabf24-" + p;
+    return "click-res-rh-" + p;
+    return "click-res-iiacrfp-" + p;
+    return "click-res-rbc-" + p;
+    return "click-res-cfs-" + p;
   },
   event: true,
 });
