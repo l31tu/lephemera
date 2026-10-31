@@ -4,9 +4,9 @@
 
 const appPrices = {
   "Print/Desktop": {
-    1: 70,
-    "2-5": 120,
-    "6-10": 175,
+    1: 80,
+    "2-5": 150,
+    "6-10": 200,
     "11-25": 320,
     "26-50": 450,
     "51-75": 520,
@@ -18,9 +18,9 @@ const appPrices = {
     "1001+": null,
   },
   Embedding: {
-    1: 70,
-    "2-5": 120,
-    "6-10": 175,
+    1: 80,
+    "2-5": 150,
+    "6-10": 200,
     "11-25": 320,
     "26-50": 450,
     "51-75": 520,
@@ -32,9 +32,9 @@ const appPrices = {
     "1001+": null,
   },
   "Social Media": {
-    1: 70,
-    "2-5": 120,
-    "6-10": 175,
+    1: 80,
+    "2-5": 150,
+    "6-10": 200,
     "11-25": 320,
     "26-50": 450,
     "51-75": 520,
@@ -46,9 +46,9 @@ const appPrices = {
     "1001+": null,
   },
   Video: {
-    1: 70,
-    "2-5": 120,
-    "6-10": 175,
+    1: 80,
+    "2-5": 150,
+    "6-10": 200,
     "11-25": 320,
     "26-50": 450,
     "51-75": 520,
@@ -104,10 +104,10 @@ const appPrices = {
 };
 
 const fontIdMap = {
-  "Rep-Tee-Rom-Cas Condensed": "font1",
-  "Rep-Ak-Gro-Uni Light": "font2",
-  "Unnamed Typeface": "font3",
-  Tafatolu: "font4",
+  "Unnamed Typeface": "font1",
+  // "Ak-Gro-Uni": "font2",
+  // Tafatolu: "font3",
+  // "Tee-Rom-Cas": "font4",
 };
 
 // State
@@ -194,6 +194,15 @@ document.querySelectorAll(".pill").forEach((pill) => {
         .forEach((p) => p.classList.remove("active"));
       this.classList.add("active");
       state.license = value;
+
+      const licenseNote = document.getElementById("note-license");
+      if (licenseNote) {
+        if (value === "client") {
+          licenseNote.classList.add("visible");
+        } else {
+          licenseNote.classList.remove("visible");
+        }
+      }
     } else if (group === "orgsize") {
       document
         .querySelectorAll('[data-group="orgsize"]')
