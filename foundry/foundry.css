@@ -4,18 +4,36 @@
 }
 
 @font-face {
+  font-family: Unnamed_Typeface;
+  src: url(UnnamedTypeface-Regular.woff);
+}
+
+@font-face {
+  font-family: Unnamed_Typeface_Grid;
+  src: url(UnnamedTypeface-Grid.woff);
+}
+
+@font-face {
   font-family: Ak-Gro-Uni_Light;
   src: url(../Rep-Ak-Gro_Uni_Light.woff);
 }
 
 @font-face {
-  font-family: Tafatolu Masani;
+  font-family: Tafatolu_Masani;
   src: url(TafatoluTrial-Masani.woff);
 }
 
 @font-face {
-  font-family: Tafatolu Tele;
+  font-family: Tafatolu_Tele;
   src: url(TafatoluTrial-Tele.woff);
+}
+
+.unnamed-typeface {
+  font-family: Unnamed_Typeface, sans-serif;
+}
+
+.unnamed-typeface-grid {
+  font-family: Unnamed_Typeface_Grid, sans-serif;
 }
 
 .ak-gro-uni-light {
@@ -23,15 +41,11 @@
 }
 
 .tafatolu-masani {
-  font-family:
-    Tafatolu Masani,
-    sans-serif;
+  font-family: Tafatolu_Masani, sans-serif;
 }
 
 .tafatolu-tele {
-  font-family:
-    Tafatolu Tele,
-    sans-serif;
+  font-family: Tafatolu_Tele, sans-serif;
 }
 
 body {
