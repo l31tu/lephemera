@@ -275,7 +275,7 @@ footer footer-nav-right {
 
 /* TYPEFACES */
 .typeface-container {
-  width: calc(100% - 36px);
+  width: calc(100% - 38px);
   border: 1px solid darkgrey;
   border-radius: 2px;
   padding: 18px;
