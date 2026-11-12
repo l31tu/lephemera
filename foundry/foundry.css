@@ -1,6 +1,11 @@
 @font-face {
-  font-family: Rep-Tee-Rom-Cas_Condensed;
-  src: url(Rep-Tee-Rom-Cas_Condensed.woff);
+  font-family: Tee-Rom-Cas_Condensed;
+  src: url(Tee-Rom-Cas_Condensed.woff);
+}
+
+@font-face {
+  font-family: Ak-Gro-Uni_Light;
+  src: url(../Rep-Ak-Gro_Uni_Light.woff);
 }
 
 @font-face {
@@ -11,6 +16,10 @@
 @font-face {
   font-family: Tafatolu Tele;
   src: url(TafatoluTrial-Tele.woff);
+}
+
+.ak-gro-uni-light {
+  font-family: Ak-Gro-Uni_Light, sans-serif;
 }
 
 .tafatolu-masani {
@@ -26,7 +35,7 @@
 }
 
 body {
-  font-family: Rep-Tee-Rom-Cas_Condensed, serif;
+  font-family: Tee-Rom-Cas_Condensed, serif;
   font-weight: 300;
   font-size: 40px;
   letter-spacing: 1.4;
@@ -126,6 +135,22 @@ footer footer-nav-right {
 
 .container div:hover {
   height: calc(50vh - 18px);
+}
+
+/* Message */
+.message {
+  width: 100vw;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message h1 {
+  flex: 0;
+  color: #fff;
+  font-size: 160px;
+  line-height: 1.5;
 }
 
 /* MODALS */
@@ -239,6 +264,7 @@ footer footer-nav-right {
   float: right;
   font-size: 40px;
   font-weight: bold;
+  margin: 0 0 18px 18px;
 }
 
 .close:hover {
@@ -356,10 +382,14 @@ footer footer-nav-right {
 /* Application notes */
 
 .app-notes {
-  margin-top: 18px;
+  display: none;
+}
+
+.app-notes:has(.app-note.visible) {
   display: flex;
   flex-direction: column;
   gap: 9px;
+  margin-top: 18px;
 }
 
 .app-note {
